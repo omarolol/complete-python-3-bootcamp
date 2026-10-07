@@ -1,0 +1,302 @@
+# PART NINE - The liberation of Paris, August 1944
+
+== liberation
+## Part Nine — The Bells
+In August 1944 Paris rises.
+
+First the railwaymen strike, on the tenth. Then, on the fifteenth, the police: the same police who arrested the Lewins, who filled the buses in July 1942, who stood guard in a cordon around the Vel d'Hiv. They walk out of their stations and take off their képis and occupy the Prefecture on the Île de la Cité and raise the tricolour over it. There will be a great deal of talk later about the heroism of the Paris police in August 1944. It will be true, and it will also be very convenient.
+
+On the nineteenth the Resistance calls an insurrection. The FFI come out into the streets with their armbands and their pistols and a few rifles and the weapons taken from the police stations. They put up barricades: paving stones dug out of the street with pickaxes, overturned cars, trees, a tram, a piano, the iron gratings from round the trees, sandbags, bedsteads, a pissoir. Within three days there are four hundred barricades in Paris. There is one at the end of the rue de la Roquette, built across the street from the Café des Sports. Old Ferrand supervises it from his chair with his stick, and is the happiest you have ever seen him.
+
+The Germans still hold the city with twenty thousand men, tanks, artillery. There is shooting all day: German lorries racing through the streets with soldiers firing from the back, FFI snipers on the rooftops, a tank firing into a building on the boulevard Voltaire, the dead lying in the streets under sheets with candles beside them and flowers.
+
+On the evening of the twentieth, there is a knock at the door of the flat. A soft knock. Three times.
+
+It is Kurt.
+
+-> kurt_door
+
+== kurt_door
+? kurt_rejected : You have not seen him for two years. Not since the café on the rue Soufflot, when you put money on the table and walked out.
+
+He is in civilian clothes, a suit that doesn't fit, too short in the sleeves. He has shaved off his moustache. He is carrying his stick and a small bag. His face is grey.
+
+"My unit is pulling out," he says. "Tonight. East. To the Rhine. Or they're going to fight here, to the end, in the streets, nobody knows. The general's been ordered to blow up the bridges. To blow up Paris. Notre-Dame. The Opéra. Everything." He laughs, a terrible little laugh. "I'm not going, Emil. I'm not going to the Rhine and I'm not going to blow up Notre-Dame. I've finished. I took off my uniform in a toilet in the Gare de l'Est and put it in a bin."
+
+He looks past you into the flat, at Madeleine, at Josette in the kitchen doorway.
+
+? kurt_rejected : "I know you don't want me here," he says. "I know what you said. I'd go somewhere else. I don't know anywhere else."
+
+"If they catch me in uniform, I'm a prisoner. If they catch me out of it, I'm a deserter, and the French shoot me, or the SS hang me. Either way." He holds on to the door frame. "I don't know what to do. Tell me what to do. You were always the one who knew."
+
+? kurt_saved_emil : He came to the rue des Saussaies for you with a forged order and a stick. You owe him your hands, your life, everything.
+
+* Hide him. In the coal hole under the workshop, where you hid the Lewins. -> kurt_hide @ set:kurt_hidden
+* Tell him to surrender to the FFI at the town hall tomorrow. He'll be a prisoner of war, and safe. -> kurt_surrender
+* Send him away. You have children. You cannot have a German deserter in your cellar on the day of the liberation. -> kurt_away @ hope-1
+
+== kurt_hide
+You take him down to the workshop and move the drying rack and lift the trapdoor, and he goes down the ladder into the black, with a candle and a blanket and a bottle of water and a loaf.
+
+"Like Mother's cellar," he says from the dark. "During the inflation. When the bailiffs came. Do you remember?"
+
+You remember. You were eighteen and he was thirteen and you sat in your mother's coal cellar on the Grindelallee all afternoon, the two of you, playing cards by candlelight, while men in bowler hats carried away the piano upstairs.
+
+You close the trapdoor. You drag the rack across. You go up to the flat and sit down at the kitchen table, and Madeleine looks at you, and you both know what will happen if anyone finds a German in the cellar this week, in this city, with the barricades up and the dead in the streets.
+
+-> barricade
+
+== kurt_surrender
+"Go to the town hall in the morning," you say. "Tell them who you are. They're taking prisoners. There's a convention, Kurt. Geneva. They have to treat you properly. You'll be in a camp for a year and then you'll go home to Hilde and Peter."
+
+He nods slowly. "Yes," he says. "Yes. A prisoner. That's the right way. That's correct." He almost smiles. "I've always liked to do things correctly."
+
+You let him sleep on the kitchen floor. In the morning he shaves with your razor, and washes his face, and puts on his ill-fitting suit, and you walk with him to the town hall of the eleventh arrondissement on the place Léon-Blum, where the FFI have their headquarters. There are crowds. There are men with armbands and rifles. There is a tricolour as big as a house on the front of the building.
+
+At the door, he turns and holds out his hand, very formally, as if you are business acquaintances.
+
+"Thank you, Emil."
+
+He goes in.
+
+@ set:kurt_surrendered
+-> barricade
+
+== kurt_away
+"I can't, Kurt. Not here. Not with the children. If they find you here, they'll kill all of us. You have to go."
+
+He looks at you. Then he nods, slowly, as if this is what he expected all along.
+
+"Yes," he says. "You're right. Of course. You're right." He picks up his bag. "I'll try to get to the Bois de Boulogne. There'll be units there, still. I'll find somebody."
+
+He goes down the stairs. At the bottom he stops, and looks up, the way Rivka did in July 1942, and you think he's going to say something. Then he goes.
+
+@ set:kurt_sent_away
+-> barricade
+
+== barricade
+## The Barricade
+For five days, Paris fights.
+
+You cannot fight. Your right hand still won't close. But there is plenty to do with one hand. You carry paving stones to the barricade at the end of the street with your left arm, one at a time, and Josette carries them with you, two hands, staggering, until Madeleine sees and drags her home. You help Ferrand fill wine bottles with petrol from a stolen German lorry, and stuff rags into their necks. Madeleine nurses in a first-aid post in the basement of the school on the rue Keller: a boy of fifteen with his arm off at the elbow, a German soldier with a stomach wound whom nobody wants to treat, whom she treats.
+
+? !pujol_hostile : Madame Pujol makes soup for the barricade, in a vast pot on a fire in the courtyard. She makes it out of everything: the last potatoes, the last swedes, a cabbage, and a ham bone she has been hiding since 1941. She ladles it out to the FFI boys with a face like thunder. "Eat," she says. "Eat, you idiots, you'll get yourselves killed on an empty stomach."
+? pujol_hostile : Madame Pujol stays in her lodge with the door shut. She has a portrait of Marshal Pétain on her wall which she has had since 1940. On the twenty-first, the FFI boys from the barricade come in and take it down and smash it on the cobbles, while she watches through the window.
+
+On the twenty-second a German tank comes down the boulevard Voltaire and fires into the barricade at the corner of the rue de la Roquette. Ferrand is killed. He is in his chair with his stick, directing the boys, and the shell lands ten metres in front of him, and then he is gone, and the chair is gone, and there is just his stick lying in the road. You carry him to the café with three FFI boys, and lay him on the zinc counter where he drank for twenty-five years, and the patron covers him with a tricolour.
+
+Late on the evening of the twenty-fourth you hear the bells.
+
+-> bells
+
+== bells
+They start at Notre-Dame. The great bell, the bourdon, Emmanuel, which has been silent since 1940. You hear it across the whole city, deep and slow, from the Île de la Cité, and then Saint-Paul joins it, and then Sainte-Marguerite at the end of your street, and then every church in Paris, hundreds of bells, all at once, at half past nine on a summer evening, so loud that the windows rattle.
+
+The first French tanks of General Leclerc's 2nd Armoured Division have reached the Hôtel de Ville.
+
+Everybody comes out. The whole building, the whole street, the whole city. Into the courtyards, the streets, on to the balconies, everyone crying, everyone singing, strangers kissing each other. Josette is on your shoulders. Madeleine is holding your arm so hard it hurts. Somebody has a bottle of champagne they have been saving since 1939 and it goes round the whole courtyard, one mouthful each.
+
+? pierrot : Pierrot is frightened of the bells. He thinks they mean aeroplanes. You hold him on your lap on the steps and tell him what they mean, over and over, until he understands, and then he is laughing, eight years old, laughing with tears on his face.
+? parents_safe : Isaac Lewin stands in the middle of the courtyard with Rivka, in the dark, with his arms around her, both of them crying. They have not been outside in daylight for two years. Isaac lifts his face up to the bells as if it is raining.
+
+The next day, the twenty-fifth, the German commander, General von Choltitz, who did not blow up the bridges or Notre-Dame or the Opéra, signs the surrender in the billiard room of the Prefecture of Police, and then again at the Gare Montparnasse.
+
+On the twenty-sixth, de Gaulle walks down the Champs-Élysées.
+
+-> mob
+
+== mob
+## The Twenty-Sixth of August
+You go to the Champs-Élysées with Madeleine and Josette, with two million other people. You see de Gaulle, very tall, very far away, walking down the middle of the avenue with his arms raised, with the Arc de Triomphe behind him and the crowd roaring. Then, at the place de la Concorde, there is shooting from the rooftops, Germans or militiamen still holding out, or nobody knows who, and the crowd throws itself flat on the cobbles, and you lie on top of Josette with your arm over her head, again, like June 1940.
+
+On the way home, at the Bastille, it happens.
+
+You are tired. You are thirsty. You are happy. You are holding Josette's hand in the crowd and you turn to Madeleine and say something, a joke, about Ferrand, about how he would have hated de Gaulle, and you say it a little too loudly, in your accent, the r from the back of the throat.
+
+A man next to you, a big man in a vest with an FFI armband and a rifle, turns round.
+
+"Boche," he says.
+
+Then he says it louder. "Boche! There's a Boche here! A Boche!" And people turn round. A woman. Two boys. A man with a bandage around his head. More.
+
+You know this crowd. You have seen it in the stadium at Colombes, at the Vel d'Hiv, in the clearing in the Limousin. It is not anybody's crowd. It is just the shape a crowd takes. Somebody hits you on the back of the head. Somebody pulls Josette's hand out of yours. Somebody gets hold of your collar.
+
+-> [parents_safe] mob_isaac
+-> [jeannot_maquis | resistance & !lucien_arrested] mob_ffi
+-> [!pujol_hostile] mob_pujol
+-> mob_madeleine
+
+== mob_isaac
+@ hope+2
+A voice behind the crowd, an enormous voice, roaring in Yiddish-accented French: "Leave him! Leave him alone! LEAVE HIM!"
+
+Isaac Lewin, who came to the Bastille to see de Gaulle with Rivka, who has been in a coal cellar and behind a press and inside four walls for two years, pushes through the crowd like a ship through ice, and gets between you and the man with the rifle, and spreads his arms out.
+
+"This man hid my family!" he shouts. "In his own cellar! From the police! From the Germans! This man is a German, yes, and he's a better Frenchman than you, you, all of you!" He pulls open his jacket. The yellow star is still sewn on the inside of it, where he moved it in 1942. "You want to beat somebody? Where were you in July '42? Where were you?"
+
+The crowd goes very quiet. The man with the rifle lets go of your collar. Somebody gives Josette back to Madeleine. People turn away, and walk off, and talk about something else, and in a minute it is as if it never happened.
+
+Isaac is shaking. You hold him up.
+
+-> tondue
+
+== mob_ffi
+@ health-1
+A young man in a beret with an FFI armband and a Sten gun on his back shoulders through the crowd, and gets his hand on the big man's rifle, and pulls it down.
+
+? jeannot_maquis : It is Jeannot, back from the Limousin with the FFI column that came up to Paris, brown and bearded and terrifying. "This man's one of ours!" he shouts. "This man made our papers! He was in the rue des Saussaies! Look at his hand! Look at his hand, you idiots!"
+? !jeannot_maquis : It is a boy from Lucien's network, one of the ones who used to collect the papers from the workshop on a bicycle. "This man's one of ours!" he shouts. "This man made our papers! He was in the rue des Saussaies! Look at his hand!"
+
+They look at your hand. The two fingers that set crooked.
+
+The crowd changes its mind as fast as it made it up. Suddenly people are slapping you on the back. A woman kisses you. The big man with the rifle wants to shake your hand, and is offended when you won't, and then you do. You find you have a split lip and a loose tooth.
+
+-> tondue
+
+== mob_pujol
+@ health-2
+They have you on the ground. Somebody is kicking you. You have your arms over your head. You can hear Josette screaming.
+
+Then a voice. An old woman's voice, a voice like a rusty hinge, that you know.
+
+"Get off him! Get off him, you animals! Get off!"
+
+It is Madame Pujol. She is beating the big man round the head with her handbag. "I know him! I've known him eleven years! He lives in my building! He's a bookbinder! He hid the Jews! Who are you? I don't know you! Where were you in '42, eh? Hiding under your bed?"
+
+You will never understand Madame Pujol.
+
+The crowd breaks up, embarrassed. The big man walks away rubbing his head. Madame Pujol helps you up, holding your arm in her hard little hand, and brushes the dust off your coat, briskly, as if you were a doormat.
+
+"Idiot," she says. "Talking German on the day of the liberation. Idiot."
+
+-> tondue
+
+== mob_madeleine
+@ set:in_mob health-4
+They have you on the ground. They are kicking you. You have your arms over your head. You can hear Josette screaming, and somebody laughing.
+
+Then Madeleine is on top of you. She has thrown herself down across you, the way she threw herself on Josette in the ditch on the road south of Étampes in June 1940, and she is screaming at them. "He's my husband! He's French! He's my husband! He was in their camps! He was tortured by the Gestapo! Look at his hand! Look at his hand! Kill me too then, kill me, go on!"
+
+A boot hits her on the shoulder. Then nobody kicks anymore.
+
+A gendarme comes, eventually, and the crowd breaks up and drifts away to look at something else, and the gendarme helps Madeleine up, and looks down at you, lying on the cobbles of the place de la Bastille with your face in a puddle of your own blood.
+
+"Better get him off the street, Madame," he says. "Today's not a good day to be a Boche."
+
+-> tondue
+
+== tondue
+## The Shaving
+On the twenty-eighth there is a crowd in the courtyard of number 64.
+
+You hear it from the flat, where you are lying on the bed with your ribs strapped. Shouting. Laughter. A woman screaming. You get up and go to the window.
+
+It is Simone Ribot. Simone from the second floor, whose husband was the reservist who left in September 1939 with his cardboard suitcase and was taken prisoner in June 1940, and has been in a camp in Pomerania for four years. Simone, who was twenty-six in 1940, with two small children and no money, and who, in 1942, began to be visited in the evenings by a German quartermaster sergeant who brought tins of meat and coal and chocolate for the children. The whole building knew. Nobody said anything, for two years. Everybody ate the chocolate.
+
+They have dragged her out into the courtyard. Six or seven men with FFI armbands, none of whom you have ever seen before. And women. Women from the street, from the queues. They have put her on a chair by the dry fountain, and one of them has a pair of hair clippers, and he is shaving her head, roughly, so that it bleeds, while the others hold her arms, and the crowd jeers. Her hair is falling on the cobbles. Somebody has painted a swastika on her forehead with lipstick. Her children, four and six, are standing at the bottom of the stairs, holding hands, watching.
+
+This is happening all over France this week. Twenty thousand women. In village squares, in front of town halls, in courtyards. Shaved, stripped, painted, paraded through the streets. Many of the men who do it have never been in the Resistance in their lives.
+
+* Go down. Stop it. -> tondue_stop @ health-1 set:simone_defended
+* Stay at the window. You have been beaten enough this week. -> tondue_watch @ hope-1
+
+== tondue_stop
+You go down the stairs in your shirt with your ribs strapped, holding the banister. You walk into the middle of the courtyard. You do not know what you are going to say.
+
+"Enough," you say. In French. With your accent.
+
+They turn round. A man with the clippers looks at you and laughs. "Look at this! The Boche wants to defend his Boche whore!"
+
+"She has two children," you say. "Look at them. Look at them. Her husband is a prisoner. She had nothing. She was feeding them." You look round the courtyard, at the faces you know, at the windows. "We all ate the chocolate. All of us. I saw you eat it, Madame Duval. And you."
+
+? !pujol_hostile : Madame Pujol comes out of her lodge, and walks across the courtyard, and stands next to you, with her arms crossed, saying nothing at all, staring at them.
+
+? parents_safe : Then Isaac comes down the stairs, and stands on your other side.
+
+Nobody says anything for a while. Then the man with the clippers spits on the cobbles, and turns off the clippers, and they go, all of them, still laughing, but less. Half of Simone's head is shaved. She sits on the chair and doesn't move.
+
+Madeleine comes down and puts a headscarf over her head and takes her up to her flat, and the children follow, still holding hands.
+
+Simone's husband comes home from Pomerania in May 1945. He has heard everything, of course, by then; people write letters. He goes up the stairs to the second floor, and the door closes, and nobody in the building knows what is said. They stay married. They have another child in 1947. She wears a headscarf until her hair grows back, and after that, for the rest of her life, she wears it short.
+
+-> kurt_fate
+
+== tondue_watch
+You stay at the window.
+
+They finish shaving her. They make her stand up and parade her round the courtyard, and then out into the street, with her children running after her, towards the town hall, where there are other women, and a man with a drum.
+
+Simone's husband comes home from Pomerania in May 1945. He has heard everything, of course, by then; people write letters. He goes up the stairs to the second floor, and the door closes, and nobody in the building knows what is said. Two months later Simone takes the children and goes to live with her sister in Rouen.
+
+Her hair is on the cobbles of the courtyard for a week, until it rains.
+
+-> kurt_fate
+
+== kurt_fate
+## Kurt
+-> [kurt_hidden & pujol_hostile] kurt_found
+-> [kurt_hidden] kurt_prisoner
+-> [kurt_surrendered] kurt_mairie
+-> kurt_gone
+
+== kurt_found
+@ hope-2 set:kurt_pow
+They come for Kurt on the twenty-ninth. Four FFI men with rifles, and Madame Pujol, in her black dress, at the door of the workshop. "The coal hole," she says. "Under the rack. He thinks I don't know. Eleven years."
+
+They drag him up the ladder. They beat him in the courtyard, in front of everybody, the way they beat you at the Bastille. You try to stop them and somebody hits you with a rifle butt and you go down.
+
+"He's my brother!" you shout from the cobbles. "He deserted! He took off his uniform! He refused to fight!"
+
+"Then he's a Boche coward instead of a Boche soldier," one of them says.
+
+They take him away in a lorry. You go after him, to the town hall, to the Prefecture, to the American military police, for three days. On the fourth you find him, alive, with a broken arm and his face swollen shut, in a prisoner-of-war cage behind the Gare du Nord, among two thousand German soldiers.
+
+He has been beaten, but he is alive. He is a prisoner of war. He will be in a camp in France for three years, working in a coal mine in the Nord, and will go home to Hamburg in 1947, to Hilde and Peter, who are living in a single room in a block that survived the firestorm.
+
+He waves at you through the wire with his good hand.
+
+-> return_1945
+
+== kurt_prisoner
+@ set:kurt_pow hope+1
+Kurt stays in the coal hole for nine days. You take him down food at night, and a bucket, and sit with him in the dark and play cards by candlelight, the way you did in your mother's cellar in 1923.
+
+On the thirtieth, when the shooting has stopped and the American army is passing through Paris on its way east, you walk him out of the courtyard at five in the morning, in his bad suit, and across the city to the Gare de l'Est, where there is an American military police post. You do the talking. In English, which you speak badly. A tall black sergeant from Alabama listens to the whole story, and looks at Kurt for a long time, and then at you, and says, "OK, buddy. He's a POW. I got him. Nobody's going to hurt him on my watch."
+
+Kurt holds out his hand to you, very formally, the way he would have at the town hall.
+
+"Thank you, Emil."
+
+You don't take it. You hold him instead, in the street, in front of the American sergeant, who looks away politely.
+
+He will be in a prisoner-of-war camp in France for two years, working on a farm in the Beauce, where the farmer's wife will feed him so well he puts on twenty kilos. He will go home to Hamburg in 1946, to Hilde and Peter, who are living in a single room in a block that survived the firestorm.
+
+-> return_1945
+
+== kurt_mairie
+@ hope-4 set:kurt_dead
+You go to the town hall on the evening of the twenty-first to find out what happened to him.
+
+Nobody knows. Nobody remembers. A German? There were a lot of Germans. Prisoners were taken to the Prefecture, to the barracks at Reuilly, to the Vel d'Hiv, of all places. A young man with an armband and no idea of anything sends you to a sergeant who sends you to a captain who sends you away.
+
+You find out on the twenty-third, from a cleaning woman at the town hall who saw it. A German in a civilian suit came in on the morning of the twenty-first with his hands up. A German with a stick. He said he wanted to surrender. He said it in French. He said it correctly. The young men at the door had just come from the barricade at the place de la République, where two of their friends had been killed by a German tank an hour before. They took him into the courtyard at the back.
+
+"They didn't even ask him anything," the cleaning woman says. "I'm sorry, Monsieur. He had a photograph in his pocket of a little boy in a sailor suit. I kept it. I didn't know who to give it to."
+
+She gives you the photograph. A fat little boy on a beach at Travemünde.
+
+You told him there was a convention. You told him Geneva. You told him he would be safe.
+
+-> return_1945
+
+== kurt_gone
+@ set:kurt_dead hope-2
+You never see Kurt again.
+
+You find out what happened to him in 1947, in a letter from Hilde, his widow, in Hamburg, who has found your address through the Red Cross. The German army, she writes, has informed her that Obergefreiter Kurt Brandt was killed in action in Paris, near the École Militaire, on the twenty-fifth of August 1944, in the fighting against the French 2nd Armoured Division. He is buried in the German military cemetery at Champigny-Saint-André, in the Eure.
+
+He must have found a unit, after all. In the Bois de Boulogne, or somewhere. He must have put on someone else's uniform. He must have picked up a rifle.
+
+Hilde writes that she has a photograph of you, from 1932, two brothers in front of the Michel church in Hamburg, in their Sunday suits, and that she will send it, and does, and that Peter, who is eight now, asks about his uncle in Paris. She writes that she hopes you are well. She writes, at the end, that she wore the fur coat Kurt sent her from Kiev every winter until 1945, when she sold it to a Russian officer for a sack of potatoes.
+
+-> return_1945

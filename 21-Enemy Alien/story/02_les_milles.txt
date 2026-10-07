@@ -1,0 +1,294 @@
+# PART TWO - Camp des Milles, October 1939 - August 1940
+
+== milles
+## Part Two — The Brickworks
+The sun, when the blinds are finally torn off, is real. After two days on the train you step down at a little station among vineyards and white rock and a sky so blue it hurts, and there is the smell of thyme, and cicadas, and for one ridiculous moment half the men from the train are laughing.
+
+Then they march you two kilometres down a road to the camp.
+
+Les Milles was a tile and brick factory until a few months ago. It is a huge building of red brick, three storeys high, with a tall chimney and loading yards and kilns, and everything inside it, everything, is covered with a fine red dust: the floors, the walls, the wooden drying racks, the old machinery, the beams. Within an hour it is in your hair and your nostrils and the creases of your hands. Within a week it is in your lungs. When men cough here, they cough red.
+
+There are about two thousand of you. You sleep on the floors of the upper storeys, in rows, on straw that is changed when someone remembers, among the drying racks where the tiles used to dry. The roof leaks. The rats are as large as cats and entirely unafraid. There are twelve latrine buckets for the whole of the second floor.
+
+-> milles_2
+
+== milles_2
+And yet, within a month, you will discover that Les Milles has the best university in France.
+
+There are, among the two thousand, four Nobel prize nominees, two dozen painters including some whose canvases hang in New York, novelists, a famous Berlin cabaret singer, three orchestral conductors, mathematicians, rabbis, the former editor of a great Frankfurt newspaper, and a professor of Sanskrit. In the evenings, in the old kiln rooms, there are lectures. Lindner gives one on Dürer, standing on an upturned crate. The cabaret singer performs in a corner of the yard. Someone starts a newspaper, written out by hand. Felix finds two cellists and a viola player and they rehearse Haydn in the brick-drying tunnel, because the acoustics are like a church.
+
+You bind books. That is to say: someone has a broken Bible, someone has a novel coming apart, someone has a sheaf of loose poems he wrote on the train. With a needle bought from a guard, some thread, a sheet of tile-factory cardboard and glue boiled from fish bones, you make them whole again. It becomes your trade inside the wire. People pay you in cigarettes, which are money here.
+
+@ money+20
+-> milles_letters
+
+== milles_letters
+The first letter from Madeleine arrives at the end of October. It has been opened by the censor and parts of it are blacked out with thick ink. Through the black bars you can read that Josette has started school properly, that she is learning to read, that the sock rabbit has been named Monsieur Lapin, that there are queues for sugar, that Madame Pujol has [black bar] and that Lucien sends [black bar] and that she loves you and is [black bar] the Ministry and is writing to everyone, every deputy, the Archbishop, the President of the League of the Rights of Man.
+
+She wants to know how you are. She asks it four times.
+
+You have a sheet of paper and an envelope and an hour before the post is collected. Around you men are writing too, bent over their knees, and some of them are crying with complete absence of embarrassment.
+
+* Write the truth: the dust, the rats, the cold that is coming, the fact that you do not know whether you will ever be released. -> letters_truth @ set:letter_honest
+* Write a cheerful letter: the sun, the lectures, the music, the food that is "not too bad." -> letters_lie
+
+== letters_truth
+@ hope-1
+You write it all. The dust, the rats, the latrines, the thin soup, the men who cough red. That nobody tells you anything. That a commission is supposed to come and examine cases and that nobody has seen it. That you are frightened.
+
+At the end you write: "I'm telling you because I could never lie to you anyway and you would know. Keep this letter away from Josette. Tell her Papa is in the sun and is not afraid."
+
+The censor blacks out four lines: the ones about the latrines. Apparently the latrines are a military secret.
+
+Madeleine's next letter arrives in November. "Thank you for not lying to me," she writes. "Now I know what to say to them." And she has been saying it, it turns out: to a deputy for the Seine, to a journalist at Le Populaire, to a priest at Sainte-Marguerite, to anybody who will listen. In her small, angry schoolteacher's handwriting she has become a nuisance to the French state.
+
+-> milles_winter
+
+== letters_lie
+@ hope+1
+You write about the sun. About Lindner's lecture on Dürer and the cabaret singer and Felix's Haydn quartet in the brick tunnel. You write that the food is "not too bad." You draw the camp chimney in the margin with smoke coming out like a question mark, and a little rabbit for Josette.
+
+It makes you feel better to write it. For half an hour while you write it you live in the camp you are describing.
+
+Madeleine's next letter is full of relief. "I was so frightened," she writes. "Now I can sleep." She also writes that the woman from the Ministry told her that the cases of men with French wives would be "considered favourably in time," and that she has decided to be patient.
+
+-> milles_winter
+
+== milles_winter
+The winter comes down from the Alps on a wind called the mistral, which blows for three days at a time and makes the whole brick building moan like an organ. There is no heating. You sleep in all your clothes with the blue blanket and two sheets of newspaper and still wake with your feet dead.
+
+In December the dysentery starts.
+
+It goes through the second floor like a fire through straw. Men lie on the floor in their own filth because they cannot get to the buckets in time. The camp has one doctor, a French army doctor who is kind and has nothing: no medicine, no clean water, no beds. The internees who are doctors, and there are dozens, Berlin specialists, professors, are not permitted to practise. They practise anyway, in whispers, with nothing.
+
+Felix gets it in the second week. In four days he goes from thin to skeletal. His lips crack. He cannot keep down water. He lies on his straw with the violin case by his head and asks you, quite calmly, to see that it goes to his mother in Vienna if anything happens.
+
+There is a guard, a corporal from Marseille named Tonin, who is known to sell things. Bismuth tablets, a little opium tincture, clean water by the bottle. His prices are famous.
+
+? felix_friend : Felix looks at you, and you remember the night at Colombes when he ate your bread with his eyes closed.
+
+* Buy medicine from Tonin with your money. -> winter_buy @ money-100 set:felix_saved
+* Give Felix your blanket and your rations of bread and nurse him yourself. -> winter_nurse @ health-2 food-1 set:felix_saved
+* You can't help him. You have your own family to survive for. Stay away from the sick. -> winter_away
+
+== winter_buy
+Tonin wants a hundred francs for a bottle of bismuth and a little paregoric. It is most of what you have. He counts it twice, holding it up to the light as though it might be forged, then gives you the bottles wrapped in a page of Le Petit Marseillais.
+
+"For the violinist?" he says. "Pity. He plays nice. I hear him from the guardroom."
+
+You and Lindner take turns spooning water and medicine into Felix through the night. On the third day his fever breaks. On the fifth he sits up and asks what day it is. On the eighth he plays four bars of Haydn, very badly, and puts the violin down and laughs until he cries.
+
+Twenty-three men on the second floor die in December and January. Felix is not one of them.
+
+-> milles_commission
+
+== winter_nurse
+You give him your blanket. You give him your bread, soaked in water to make it soft. You carry the bucket. You clean him. You take turns with Lindner through the long freezing nights, and you lie next to him so that your body heat will keep him alive, the way soldiers do.
+
+It nearly kills you. In the second week you get it yourself, a lighter case, and for three days you are the one lying on the straw while Felix, barely able to stand, carries your bucket.
+
+You both live. Twenty-three men on the second floor die in December and January. Neither of you is one of them. Afterwards Felix calls you "brother," without any irony, in front of everybody, and nobody laughs.
+
+-> milles_commission
+
+== winter_away
+@ unset:felix_alive set:felix_dead hope-2
+You move your straw to the other end of the floor, near the windows, where the air is cleaner. You tell yourself it is reasonable. You tell yourself that Josette needs a father and not a dead hero.
+
+Felix Adler dies on the twenty-first of December 1939, at about four in the morning, of dehydration, in the brick dust, aged nineteen. Lindner is with him. Afterwards Lindner sits with his back against a drying rack for a long time, not drawing.
+
+They bury Felix in the village cemetery at Les Milles, in a corner for strangers. Six men are allowed to go. The army does not provide a rabbi, so a rabbi from among the internees, who was rabbi of a large Berlin synagogue, says Kaddish in his overcoat.
+
+The violin is supposed to go to his mother in Vienna. Nobody knows how to send it. In the end the cabaret singer takes it and keeps it, and in February, on the anniversary of something, plays it badly in the yard, and three hundred men stand in the cold and listen to a Viennese song they all know.
+
+Lindner never mentions your straw by the windows. He does not have to.
+
+-> milles_commission
+
+== milles_commission
+## The Commission
+In February 1940 a commission finally comes to sort out the internees. Three Frenchmen in a requisitioned office by the gate: a captain, a magistrate in a black coat, and a young man from the Interior Ministry with a fountain pen, who does the questioning. The rumours are that men with French wives, men with French children, men with sons in the French army and men over fifty may be released, if they are "loyal."
+
+You wait in a corridor for six hours. Then you sit on a chair in front of the three men, and the young man reads your file, and stops at a line, and frowns.
+
+? hid : "It says here you failed to report to Colombes," he says. "That you were arrested in hiding. Why would a loyal refugee hide from the French authorities, Monsieur Brandt?"
+? !hid : "It says here you were politically active in Germany," he says. "Social Democrat. And in Paris? Are you in contact with the Communist Party? Your file mentions a printer in Belleville."
+
+You understand that the young man is not your enemy. He is just a young man with a file, and the file is your enemy.
+
+* Explain everything honestly, with dignity: who you are, why you fled, why you love France. -> commission_dignity
+* Beg. Tell them about your daughter. Show them the drawing. -> commission_beg
+* Offer to join the Foreign Legion to prove your loyalty. -> commission_legion
+
+== commission_dignity
+You speak for ten minutes in your best French. The magistrate seems moved. The captain looks at his watch. The young man writes on the file for a long time.
+
+? letter_honest : At the end the magistrate says, "Your wife has been very active, Monsieur Brandt. We've had letters from a deputy and from the League of the Rights of Man about you. Very active." He almost smiles. "Favourable consideration, I think."
+
+"You'll be informed," says the young man.
+
+-> commission_after
+
+== commission_beg
+You tell them about Josette. You take the drawing out of your breast pocket and unfold it on the table, PAPA DON'T BE AFRAID, and the captain looks at it and looks away, and the magistrate takes off his glasses and cleans them.
+
+"I have a daughter as well," the young man says quietly, and writes something on the file.
+
+"You'll be informed," he says.
+
+Afterwards, in the yard, you feel as though you have taken off your clothes in front of strangers. But Lindner, when you tell him, says, "Pride is for people who aren't in camps. Did they write something?"
+
+"Yes."
+
+"Then it worked."
+
+@ hope-1
+-> commission_after
+
+== commission_legion
+The captain looks up for the first time. "The Legion," he says. "Five years. You understand that you would go where they send you, Morocco, Syria? That your wife would not see you?"
+
+"If it gets me out of here."
+
+"It would get you out of here," he says, "and into a sandbag on the Somme. Monsieur, I have a hundred men a week who discover a passionate love for the Foreign Legion at this desk. The Legion does not want them, and frankly, neither do I." He makes a mark on your file. "You'll be informed."
+
+-> commission_after
+
+== commission_after
+You are not informed.
+
+In March, a few dozen men are released, mostly the old and the sick and those with sons in the army. In April, a few dozen more. The lists go up on the wall by the kitchen every Friday, and every Friday you read them twice and your name is not there. Lindner's name is not there either, although he is sixty-three and has a heart that misses beats and goes "like a drunk drummer," he says, if he climbs the stairs too quickly.
+
+? letter_honest : At the end of April, a letter comes from Madeleine saying that the Ministry has approved your release "in principle," that it needs only a signature in Marseille. She says it in capital letters. You read it forty times.
+
+And then, on the tenth of May 1940, the German army invades Holland, Belgium and Luxembourg, and nobody in France is released from anywhere ever again.
+
+-> milles_may
+
+== milles_may
+## May 1940
+The news comes in waves, each worse than the last. The Germans are in Holland. The Germans are in Belgium. The Germans have crossed the Meuse at Sedan, where the French said nothing could cross. The Germans are at the Channel. The British are trapped at Dunkirk. The Germans are at the Somme. The Germans are on the Seine.
+
+And in Les Milles, two thousand men who have spent their lives running from Hitler sit locked behind barbed wire in the south of France and listen to his army coming closer every day.
+
+The camp fills up. New internees arrive from all over France, men who were released last winter and rounded up again, men from Belgium and Holland, refugees of refugees. By the beginning of June there are three thousand five hundred men in the brickworks. You sleep shoulder to shoulder. The bread ration is cut. The commandant, who seems a decent man, has no orders, and no one in Paris answers his telephone because, very soon, there is nobody in Paris to answer it.
+
+The camp is full of Germans who know exactly what the Gestapo does with men like them. They have names on lists. Some of them have been in Dachau already and have the marks to show it.
+
+"If the Germans come here," Lindner says, "we are rats in a barrel."
+
+-> milles_lindner
+
+== milles_lindner
+Some men in the camp kill themselves in those weeks. One cuts his wrists in the latrines. One, a lawyer from Frankfurt who has been in Buchenwald, takes a bottle of veronal he has been saving, very calmly, and lies down on his straw with his hands folded and his spectacles in his breast pocket. They carry them out in the early morning while everybody pretends to sleep.
+
+Lindner does not kill himself. His heart does it for him.
+
+It happens on the eleventh of June, in the yard, in the afternoon, in the sun. He is sitting on a bench drawing the chimney, and he says, "Emil, I think I'll take a little rest," and puts down the pencil, and lies back on the bench as if to look at the sky, and is dead by the time the French doctor comes running across the yard.
+
+Among his things there is a sketchbook. Three hundred drawings of Colombes and of Les Milles: the guards, the latrines, the men in the straw, the cabaret singer, Felix with his violin, the rabbi in his overcoat, the lawyer with his spectacles, you, bent over a book with a needle in your hand. On the first page, in his small, dancing handwriting, it says: For Emil Brandt, who knows how to keep things from falling apart. Keep this. Someone will need to see it.
+
+@ set:sketchbook hope-1
+-> ghost_train
+
+== ghost_train
+## The Ghost Train
+On the twenty-second of June, the day France signs the armistice with Germany in the same railway carriage in the forest of Compiègne where Germany signed in 1918, the commandant of Les Milles does a brave and stupid and decent thing. He puts two thousand of his most endangered internees on a train, to send them to Bayonne, on the Atlantic coast, where there are supposed to be ships.
+
+You are on it. Of course you are on it.
+
+? felix_alive : Felix is beside you, his violin case between his knees.
+
+The train is made of cattle wagons this time, forty men in each, the doors locked. It is ninety degrees in the shade, and there is no shade. Each wagon has one bucket of water and one bucket for everything else. It takes two days to reach Bayonne. In the wagon a man from Cologne dies in the night, sitting up, and you ride with him for eleven hours before the guards let you lift him out.
+
+At Bayonne the train stops in a siding by the river. Through the slats you can see the town, the cathedral spires, the Adour, and beyond it the sea, and the smoke of a ship. People shout through the slats to railway workers. The railway workers shout back.
+
+There are ships, they say. At Saint-Jean-de-Luz, twenty kilometres away, the British are taking off Polish soldiers. Some civilians too. Maybe. The last ships, today and tomorrow.
+
+-> ghost_train_2
+
+== ghost_train_2
+And then a new rumour runs along the train: the Germans are already at Bayonne. They are coming down the road. Someone has seen motorcycles.
+
+It is not true. It will turn out that the Germans are still a day away. But the French officer in charge of the train believes it, and in a panic he gives the order to turn back. The engine is being uncoupled to move to the other end. For ten minutes, in the confusion, the doors of your wagon are open while the guards run up and down the train shouting.
+
+A railway worker in blue overalls, an old Basque with an enormous moustache, stands by the open door and says to nobody in particular, very quietly, "The road to Saint-Jean-de-Luz is that way. Forty minutes by lorry. My brother-in-law has a lorry."
+
+Your family is in Paris. Paris has been German since the fourteenth of June.
+
+* Jump down. Go to Saint-Jean-de-Luz. Get on a ship to England. -> port
+* Stay on the train. You will not go anywhere Madeleine and Josette cannot follow. -> nimes
+
+== port
+@ hope-2
+The lorry smells of fish. You lie under a tarpaulin with three other men from the train, and the Basque's brother-in-law drives like a man possessed, and an hour later you are standing on the quayside at Saint-Jean-de-Luz in a crowd of thousands: Polish soldiers in long greatcoats, British civilians with dogs, Czech airmen, Belgian families, a woman in a fur coat in the June heat. Out in the bay a liner is lying at anchor, the Arandora Star, with small boats going back and forth to it.
+
+A British officer with a list and a loudspeaker is shouting in English and bad French: soldiers first, British subjects next, then if there is room.
+
+There is room. Late in the evening there is room. A Polish sergeant who has decided you are Polish waves you into a fishing boat full of men, and the boat pulls away from the quay, and you sit in the bottom of it with Lindner's sketchbook inside your shirt and Josette's drawing in your breast pocket and look back at France.
+
+* Stay in the boat. -> ending_england
+* At the last moment, jump back on to the quay steps. You cannot do it. -> port_back
+
+== port_back
+@ health-1
+You are out of the boat before you know you have decided, scrambling up the slimy steps of the quay with somebody's boot on your hand, and the Polish sergeant shouting "Idiot! Idiot!" in Polish, which is the same word.
+
+You sit on the quay among the rope and fish boxes until it is dark and the ship has gone, and you do not know whether you are a coward or a husband.
+
+In the morning you walk back to Bayonne. The train is gone. A gendarme picks you up on the road outside the town, looks at your grey paper, and sighs, and puts you in a lorry with other stragglers, and two days later you are delivered, like a lost parcel, to the camp where the train ended up: Saint-Nicolas, near Nîmes.
+
+-> nimes_2
+
+== nimes
+The train goes back the way it came. Three more days. Two more dead. On the twenty-seventh of June it stops for good near Nîmes, and you are marched to a field of tents in a valley called Saint-Nicolas, where there is no dust, only sun, and flies, and the smell of the latrine trench, and a stream where you can wash.
+
+? felix_alive : Felix plays that first night, sitting outside the tent under the stars. A guard asks for "something French," so he plays the Marseillaise, very slowly, like a funeral march, and everybody, the guards and the internees, stands up.
+
+-> nimes_2
+
+== nimes_2
+## Article Nineteen
+In July you learn the terms of the armistice. The north and west of France is occupied by Germany. The south is "free," under a new government in the spa town of Vichy, headed by old Marshal Pétain, the hero of Verdun, who has told the French that they must accept defeat and be cleansed of their sins.
+
+And Article Nineteen. Someone has a newspaper with the text. It is passed from tent to tent and read aloud, again and again, until every man in Saint-Nicolas knows it by heart:
+
+"The French Government is obliged to surrender on demand all Germans named by the German Government in France, as well as in the French possessions, colonies, protectorate territories and mandates."
+
+Surrender on demand.
+
+In August, the Germans come to ask. A German commission, led by an official called Kundt, tours the camps of the south of France with lists. They are polite. They wear civilian clothes. They interview men in a tent by the gate, one at a time, offering repatriation to those who wish to "return home to the Reich." Some do, poor fools or real Nazis. Others are called in and asked questions, and their names are checked against the lists.
+
+Yours, you are fairly sure, is on a list. It was in the gazette in 1934.
+
+? felix_alive : "We go tonight," Felix says. "There's a gap in the wire by the stream. Everyone knows. The guards look the other way. They don't want to hand us over either."
+? !felix_alive : There is a gap in the wire by the stream. Everyone knows. Men go through it every night and the guards look the other way; they do not want to hand anyone over either.
+
+* Escape tonight, through the wire by the stream. -> escape
+* Stay and face the commission. Running makes you look guilty; with luck they won't recognise you. -> kundt
+
+== kundt
+You are called into the tent on the fourth day. There is a table, a jug of water, a German in a grey linen suit with a Party pin on the lapel, and a French officer who sits in the corner and looks at the tent wall and does not say anything at all for the whole interview.
+
+The German is about your age. He has a list in front of him and a pencil.
+
+"Brandt, Emil," he says, in a soft Bavarian voice. "From Hamburg. Bookbinder." He runs the pencil down the list. "Social Democrat, wasn't it? Not a Communist. That's something. Would you like to come home, Herr Brandt? The Reich is magnanimous to those who return. A trade like yours, there's always work."
+
+* Lie. Say you are not political, never were, you left for work and for love, and you have a French wife and child. -> kundt_lie
+* Tell him the truth: you would rather die than serve his Reich. -> ending_handed_over
+
+== kundt_lie
+@ hope-2
+You lie. You say you were never political. You say you left Germany for a woman, then for work, then because it seemed simplest. You say you know nothing about politics, nothing about the party, nothing. You say you have a French wife and a little girl in Paris, and that all you want is to go home to them.
+
+He looks at you for a long time, tapping the pencil. In the corner the French officer looks at the tent wall.
+
+"A Frenchwoman," the Bavarian says at last, as if it explains everything sad about you. He makes a small mark, not a cross, a tick. "You can go."
+
+You find out that night that he has selected four men from Saint-Nicolas for return to Germany. One is a Social Democrat deputy from the Reichstag whom you heard speak once in Hamburg in 1931. You never learn what happens to him. You can guess.
+
+You walk out of Saint-Nicolas in September with a release paper signed by a French colonel, because, it turns out, Madeleine's Ministry signature came through after all, in July, in Vichy, from a clerk who was moving the files south in a lorry. It just took six weeks to find you.
+
+You are free. You have to get back to Paris. And in between you and Paris there is the demarcation line, and on the other side of it, everywhere, there are Germans.
+
+-> homeward

@@ -1,0 +1,263 @@
+# PART ONE - Paris, September 1939
+
+== start
+## Part One — The Enemy Alien
+The glue pot has been simmering since six. You like this hour best: the workshop on the rue de la Roquette still cold, the courtyard grey, the smell of hot hide glue and old paper, and nobody yet awake to ask you anything.
+
+Your name is Emil Brandt. You are thirty-four years old. You are a bookbinder. Six years ago you were a bookbinder in Hamburg, in a cellar workshop off the Grindelallee, and you were also a member of the Social Democratic Party, which in the spring of 1933 became a dangerous thing to be. The SA came to the cellar on the second of May. They broke two of your fingers, the ones you still cannot fully close, and they took your younger brother Kurt away in a lorry for nine days. When Kurt came back he would not tell you what had happened. A week later you were on a train to Paris with one suitcase, a bone folder in your coat pocket and forty Reichsmarks sewn into the lining.
+
+In 1934 the Reich published your name in a list in the official gazette and took away your citizenship. You have a stamped grey paper from the Prefecture of Police that says you are a refugee and stateless, and you have to renew it every few months at a counter where the clerk always sighs as if you have done it to him personally.
+
+You also have Madeleine, who teaches at the girls' school on the rue Keller and who corrected your French grammar so often in the first year that you married her to make her stop. And you have Josette, who is six, and who is at this moment standing in the workshop doorway in her nightdress, holding a rabbit made of an old sock.
+
+"Papa. Is it the war today?"
+
+-> start_2
+
+== start_2
+It is Sunday, the third of September 1939. Two days ago the German army crossed into Poland. Since Friday the radio has talked of nothing else, and yesterday the men from the building who were reservists left with their little cardboard suitcases: Monsieur Ribot from the second floor, the baker's son, the young policeman who lived under the roof. Madeleine cried for the policeman, whom she did not even like.
+
+You put down the book you were working on. It is a copy of Heinrich Heine's poems that a Russian émigré brought in, with its spine split and the gatherings falling out like teeth. In Germany it would be burned. Here somebody wants it to last another hundred years.
+
+"Maybe," you tell Josette. "Maybe not. Grown-ups are deciding."
+
+"Sarah says if there's a war the Germans will come and put everybody in prison."
+
+Sarah Lewin is eight and lives on the third floor. Her father Isaac is a tailor from Łódź; her mother Rivka sews buttonholes at the kitchen table for a shop in the Sentier; there is also a baby, Moïse, who screams with remarkable lung power at night. The Lewins came from Poland in 1931 and have spent eight years telling everybody they are lucky. Sarah has decided that you, being German, are a sort of expert on Germans.
+
+"Sarah," you say, "is a very clever girl who knows nothing at all about it."
+
+* Pick Josette up and carry her up to her mother -> start_home
+* Tell Josette to get dressed: you will walk down to the café together to hear the news -> start_cafe
+
+== start_home
+@ hope+1
+Madeleine is at the stove in her old blue cardigan, heating yesterday's coffee, which is mostly chicory. She takes one look at your face and then at Josette's and says, "Nobody in this family is allowed to be frightened before breakfast. It's a rule."
+
+So you eat breakfast. Bread, a little butter, the end of the apricot jam her mother sent from Gien. Josette tells a long story about the sock rabbit's family. The window is open on the courtyard and from every window around it comes the same voice of the same radio announcer, as if the whole building is one big head thinking a single thought.
+
+Madeleine puts her hand on the back of your neck, where your hair is too long, and leaves it there.
+
+"Whatever happens," she says quietly, in German, which she speaks badly and only when she does not want Josette to understand, "you are French now. You understand me? You are ours."
+
+You do not tell her that it is not a thing the French state agrees with.
+
+-> radio
+
+== start_cafe
+@ set:cafe
+The Café des Sports on the corner is full by nine on a Sunday, which never happens. The men stand three deep at the zinc counter and nobody is drinking very much. Old Ferrand, who lost a leg at Verdun, sits at his usual table under the radio and tells anybody who comes near him that he has seen all this before, and that it ends with your name carved on a monument in a village square.
+
+You keep Josette on your knee and say little. In this café you are tolerated. They know you, they know you hate Hitler, they know you rebound Ferrand's prayer book for nothing. But they also know that when you speak, the r comes from the back of your throat in the wrong way, and today that sound makes people turn their heads.
+
+A young man you do not know looks at you for a long time. Then he says to the room, "There's a Boche in here."
+
+Ferrand bangs his stick on the floor. "That one's a Boche who got beaten up by other Boches. Sit down, idiot. Save it for the front."
+
+The young man sits down. Josette, who understood all of it, holds on to your sleeve with both hands until you leave.
+
+-> radio
+
+== radio
+At a quarter to twelve, British time, the radio says, Britain is at war with Germany. At five o'clock in the afternoon France follows.
+
+There are no cheers. You had expected cheers, maybe, or crying, but what happens in the courtyard of number 64 when the announcement comes is that everybody comes out on to the landings and stands there. Madame Pujol, the concierge, comes out of her lodge in her slippers and her black dress and stands under the plane tree with her arms crossed. Isaac Lewin stands on the third-floor landing holding Moïse. Rivka holds Sarah's hand. Upstairs somebody switches off a radio, and then the next, until the only sound is pigeons.
+
+Then Madame Pujol lifts her head and looks straight at you on the first-floor landing, and says, loud enough to be heard from every window:
+
+"And what are they going to do about him? He's a German, isn't he? A Boche living in this building, with a bomb in his cellar for all we know."
+
+Somebody laughs, uneasily. Nobody tells her to be quiet.
+
+* Answer her the same way. "My bombs are made of paper and glue, Madame. Go back to your lodge." -> radio_angry @ set:pujol_hostile hope+1
+* Answer calmly. "I left Germany because of the people we are fighting. I am on your side, Madame." -> radio_calm
+* Say nothing. Go inside and close the door. -> radio_silent @ hope-1
+
+== radio_angry
+For a moment the courtyard is very quiet. Then somebody on the fourth floor laughs properly, and Madame Pujol's face turns the colour of raw liver.
+
+"You'll see," she says. "We'll see who goes back to his lodge."
+
+She goes back to her lodge. The door slams so hard the glass rattles. Upstairs, Isaac Lewin catches your eye and shakes his head very slightly, the way you would at a child who has stepped on a dog's tail. Isaac has been in more countries than you and knows the value of a concierge.
+
+Madeleine says later, "She deserved it." Then, after a while, "But she sees everything, Emil. All the letters. Who comes and goes. You should not have."
+
+-> poster
+
+== radio_calm
+Madame Pujol sniffs. "That's what they all say," she says, but she says it with less conviction, and when Isaac Lewin calls down from the third floor, "He's right, Madame, I can testify, this one hates Hitler more than Stalin does," a few people laugh and the moment breaks.
+
+Later, as you pass her lodge, she says without looking up from her sewing, "My husband died at the Chemin des Dames. Gas. It took him eleven years to die of it. That's what Germans are to me, Monsieur Brandt."
+
+"I am sorry, Madame."
+
+"Yes," she says. "Well."
+
+-> poster
+
+== radio_silent
+You go inside and close the door and stand with your back to it. Madeleine looks at you. Josette looks at you. You have been in France six years. You thought by now that it would not hurt in exactly this way.
+
+Through the door you hear Madame Pujol say, "You see? He doesn't even deny it," and somebody laughs.
+
+Madeleine gets up and opens the door again and stands on the landing in her apron with her arms crossed, saying nothing at all, staring down at the concierge until the concierge goes back inside. Then she comes back in and closes the door herself.
+
+"There," she says. "Now we have both said nothing."
+
+-> poster
+
+== poster
+The poster goes up on the Tuesday, on the wall of the town hall of the eleventh arrondissement and on the fence of the Métro at Voltaire. White, with the tricolour at the top, the words too small to read without going close, so that people stand in a crowd around it reading over each other's shoulders.
+
+All nationals of the Greater German Reich, men between seventeen and fifty years of age, residing in the department of the Seine, are to report to the Stade Olympique de Colombes. They are to bring a blanket, eating utensils, and food for two days.
+
+The phrase "Greater German Reich" includes Austrians, since the Anschluss. It includes Czechs from the Sudetenland. It includes you, whom the Greater German Reich went to the trouble of declaring no longer its citizen. It includes every Jew who escaped Berlin or Vienna and every Communist who escaped Dachau. To the French Republic, now, all of you are one thing: enemy aliens.
+
+That night you and Madeleine sit at the kitchen table after Josette is asleep. The window is blacked out with blue paper. The single lamp makes a circle on the oilcloth.
+
+"Two days of food," Madeleine says. "So they mean two days."
+
+"Maybe."
+
+"They can't keep you. You were in their camps. Well, almost. You have papers that say you are a refugee. They'll look at the papers and send you home."
+
+"Maybe."
+
+"Stop saying maybe!" She stands up, sits down again. "Lucien says you could stay with him in Belleville. Nobody knows you there. Until it's sorted out. Until they understand."
+
+Lucien Marchal is a printer, a Communist, and the best friend you have in France. He would hide you without thinking twice. He would also, if the police came, fight them, which would be worse.
+
+* Report to Colombes. You are a refugee, not a criminal, and you will not hide from France. -> report
+* Hide at Lucien's until the situation becomes clearer. -> hide
+
+== hide
+@ set:hid
+Lucien's print shop is in a courtyard off the rue de Belleville, behind a dairy, and smells of ink, paraffin and the dairy's cats. He gives you the camp bed in the back room between a Minerva press and three thousand unsold posters for a 1937 workers' choir festival.
+
+"The Republic is shitting itself," he tells you, pouring red wine into two glasses that have previously held ink. "Daladier spent a year telling us Hitler could be reasoned with, so now he has to look tough. And who is tough to lock up? Some Viennese violinists. Some old Jewish ladies' sons. You. Very brave."
+
+For four days you sit in the back room and listen to the presses and to Lucien's apprentice, Jeannot, a red-haired boy of sixteen who whistles all of Charles Trenet badly. You sew sections of a ledger to keep your hands still. You think about Josette.
+
+On the fifth day Madeleine comes with a basket of clothes and a face that tells you everything before she speaks.
+
+-> hide_2
+
+== hide_2
+"Two policemen came this morning," she says. "With a list. Your name was on it. They asked me where you were and I said you had gone to Colombes like everybody else, and one of them, the old one, said, 'No, Madame, he hasn't, we've checked.'" She takes your hand. "Somebody told them you didn't go. They knew before they arrived."
+
+? pujol_hostile : You do not need to ask who. In the lodge by the courtyard gate, Madame Pujol has a window that looks at everybody's door.
+
+"They said..." Madeleine swallows. "They said if you don't present yourself, it will be considered a sign of hostile intent. They said the word 'spy.' They said I could be charged for helping you. They said it nicely. The old one even apologised."
+
+Lucien, who has been listening from the doorway, says, "Stay. They don't have enough police to look for every Austrian in Paris."
+
+* Go and turn yourself in. You cannot let them threaten Madeleine. -> hide_surrender
+* Stay hidden. Lucien is right. -> hide_raid
+
+== hide_surrender
+@ hope-1
+You walk to the police station on the rue de l'Orillon with Madeleine, and you hand over your grey paper, and the sergeant at the desk looks at it and looks at you and says, "Late, aren't we?" and writes something in a ledger in red ink.
+
+You do not know what the red ink means. You will find out later that it means you are classified as "suspect," a category that will follow you from one file to the next for years.
+
+They let you say goodbye. Madeleine has brought something folded small, which she pushes into your coat pocket. "From Josette," she says. "She made it yesterday. She said to give it to you when you go to the war."
+
+It is a drawing, in coloured pencil, of a man with a brown moustache and a bone folder in his hand. Beside him is a rabbit. Underneath, in letters of different sizes: PAPA DON'T BE AFRAID.
+
+@ set:drawing
+-> colombes
+
+== hide_raid
+@ health-1 hope-2
+They come at dawn on the ninth day, four of them, with Madame Pujol's information or somebody else's. You hear Lucien shouting at them in the courtyard, and the dairy's dog, and then the door of the back room opens and a young policeman with a moustache like a smear of soot is pointing a revolver at you while you sit up on the camp bed in your vest.
+
+They are not gentle. One of them hits you in the kidneys with a baton when you are slow on the stairs, not hard, just to make a point, and on the way to the van the young one keeps saying "Spy, eh? Little spy," as though trying it out. Lucien is arrested too, for an afternoon, and released with a warning that his name has been noted. Jeannot stands in the doorway of the dairy with milk all down his front, staring.
+
+At the police station the sergeant writes something on your file in red ink. You do not know what the red ink means. You will find out later that it means "suspect: evaded the order to report," a category that will follow you from one file to the next for years.
+
+Madeleine does not get to say goodbye. Three days later, at Colombes, a guard gives you an envelope that has been opened and resealed. Inside is a drawing in coloured pencil of a man with a brown moustache holding a bone folder, a rabbit beside him, and in letters of different sizes: PAPA DON'T BE AFRAID.
+
+@ set:drawing
+-> colombes_late
+
+== report
+On Thursday morning Madeleine walks with you as far as the Porte de Clichy. She has packed bread, a sausage, two hard-boiled eggs, cheese, apples, chocolate for emergencies, the blue blanket from the cupboard, a fork, a spoon, a tin mug, a towel, soap, a razor, two shirts, socks, and in the middle of the bag, folded small, a drawing.
+
+"From Josette," she says. "She made it last night. She said to give it to you when you go to the war."
+
+It is a man with a brown moustache holding a bone folder. Beside him is a rabbit. Underneath, in letters of different sizes: PAPA DON'T BE AFRAID.
+
+You fold it back up very carefully and put it in your breast pocket. You find that you cannot speak, so you kiss Madeleine instead, there on the pavement in front of a tobacconist's, and an old woman passing says "Ah, the war, it's starting again," and you are not sure whether she means the kiss.
+
+"Two days," Madeleine says.
+
+"Two days."
+
+@ set:drawing
+-> colombes
+
+== colombes_late
+@ hope-1
+By the time you arrive the stadium has been running for a week and has already acquired the smell of a place where too many men live without enough latrines. They put you in the section for "suspects," which is the eastern end, behind a line of wooden barriers, where the guards are a little rougher and the bread comes a little later. Nobody explains anything.
+
+-> colombes_2
+
+== colombes
+The Stade Olympique de Colombes was built for the 1924 Olympic Games. Harold Abrahams won the hundred metres here. You remember the newsreels. Now there are fifteen thousand men sitting on its stone terraces in the rain, sorted roughly by the letters of the alphabet, with their suitcases and blankets and paper parcels, while soldiers of the Republic with fixed bayonets stand on the running track and stare up at them.
+
+There is nowhere to sleep except the terraces. The first night it rains. You sit with the blue blanket over your head and listen to men coughing in eleven accents of German.
+
+-> colombes_2
+
+== colombes_2
+You learn the population of the stadium the way you learn a new city. Here, the Jews from Berlin and Vienna, doctors, furriers, a famous conductor who weeps all the time. There, the political refugees: Communists who quarrel with Socialists, Socialists who quarrel with each other, a Trotskyist who quarrels with everyone. A few Catholic priests who preached against Hitler. A handful of young men who are simply German students who happened to be studying in Paris. And here and there, sitting apart, men who are actual Nazis, commercial agents and loyal party members who were too slow to catch the last train home, and who look at the rest of you with open amusement.
+
+"You see the joke," says the man on the step below you, on the second day. "They have locked up Hitler's enemies with Hitler's friends, and they are very proud of themselves."
+
+He is about sixty, with a white beard stained yellow round the mouth by tobacco, a fisherman's sweater and a pencil behind his ear. He is drawing. On a page of a little notebook, in soft pencil, he has drawn the guard below you on the track: the slump of the shoulders, the rifle held as if it were an umbrella, a boy's face under the steel helmet.
+
+"Lindner," he says, holding out a hand black with graphite. "Professor. Formerly of the Academy of Arts in Berlin, until my paintings were found to be degenerate and hung in an exhibition in Munich so the public could laugh at them. Very good attendance. The best I ever had."
+
+-> colombes_felix
+
+== colombes_felix
+Beside Lindner is a boy who cannot be more than nineteen, very thin, with a big nose and big ears and a violin case he will not put down, even to sleep. He has no blanket, no food, nothing but the violin and the clothes he stands in, which are a suit for concerts.
+
+"Felix Adler," Lindner says. "From Vienna. He came straight from rehearsal. Very foolish. He thought they wanted his autograph."
+
+"I thought it would be one day," Felix says, without humour. His accent is pure Viennese, soft and sing-song. "They said two days of food. I didn't have food. I had a rehearsal. Brahms. The second sextet." He looks at the sky. "My mother is in Vienna still. She wouldn't come. She said they wouldn't hurt an old woman."
+
+It is the third day. The army has handed out no food at all yet. Your bag still holds the end of Madeleine's sausage, half the bread, the chocolate.
+
+@ set:felix_alive
+* Share your food with Felix. -> colombes_share @ food-1 set:felix_friend hope+1
+* Keep it. Nobody knows how long this will last. -> colombes_keep
+
+== colombes_share
+Felix eats the bread and sausage with his eyes closed, slowly, like a man in church. When he has finished he wipes his fingers carefully on a handkerchief before touching the violin case.
+
+"I'll pay you back," he says. "I'll play at your wedding."
+
+"I'm already married."
+
+"Then at your daughter's."
+
+Lindner, who has been watching, turns a page of his notebook, and draws the two of you sitting on the terrace. He tears out the page and gives it to you. You do not look like a man in a camp. You look like a man at a picnic.
+
+-> colombes_end
+
+== colombes_keep
+You eat your bread slowly at night, with the blanket over your head, like a schoolboy with a stolen sweet. You can hear Felix's stomach a metre away.
+
+On the fourth day the army brings bread, a loaf for every six men, and a soup that is mostly water with a smell of cabbage. Felix gets his ration and eats it standing up, and then he sits down on the terrace and takes out his violin, very quietly, and plays something you don't know, a slow movement, just loud enough for the six men around you to hear. Nobody stops him. A guard on the track below looks up, takes off his helmet, and listens with it held against his chest.
+
+You are ashamed about the sausage, and you will be for years.
+
+-> colombes_end
+
+== colombes_end
+You are at Colombes for eleven days. On the eleventh, the men from your section are marched out of the stadium in columns of four to the station at Bois-Colombes, where a train is waiting. Not cattle cars. Ordinary third-class carriages, with the blinds pulled down and nailed shut, and two soldiers in every compartment. Nobody tells you where you are going. A sergeant laughs and says "To the sun, gentlemen, to the sun."
+
+You manage to throw a postcard out of a gap in the blind at a level crossing outside Melun, addressed to Madeleine, saying ALIVE. GOING SOUTH. KISS J. You will never know whether it arrived.
+
+-> milles

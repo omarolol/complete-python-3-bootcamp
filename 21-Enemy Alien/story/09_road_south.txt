@@ -1,0 +1,354 @@
+# PART EIGHT - The road south, May - July 1944
+
+== south
+## Part Eight — The Plateau
+In April 1944 Annette Monod comes back.
+
+She is thinner and harder and she has cut her hair, and she sits in the kitchen without taking off her coat. "It's getting worse," she says. "Not better. Worse. They're losing, so they're hurrying. The Milice are going through the quarters house by house, with the Gestapo, looking for Jews, for réfractaires, for anybody. They're paying a hundred francs a head to informers. In March they took the children from the UGIF homes, the orphanages. Babies. They're taking babies out of orphanages, Monsieur Brandt."
+
+She looks at you.
+
+? sarah_safe | moise_safe : "It's time," she says. "The children have to go to the plateau. To Le Chambon. They'll be safer in the mountains than in a flat in the eleventh with a concierge downstairs. I'll arrange the place. But I need somebody to take them. A father, travelling with his children. It's the best cover there is. And you speak German, if there's a German control."
+? !sarah_safe & !moise_safe : "I have two children," she says. "Anna and Jakob Feldman. Seven and five. Their mother was taken in March, from a hiding place in the rue des Écouffes. Somebody wrote a letter. They were in a cupboard; the Milice didn't look. I've had them in a convent for three weeks and the Mother Superior says she can't keep them any longer. They have to go to the plateau. To Le Chambon. I need somebody to take them. A father, travelling with his children. It's the best cover there is. And you speak German."
+? !sarah_safe & !moise_safe : You think of a little girl on the stairs, in a pinafore with a yellow star. "Yes," you say, before Annette has finished.
+
+Madeleine says, "And if they stop you? With your hand, and your accent, and your file?"
+
+? kurt_helps : Kurt can help. You ask him, at the café on the avenue de la Motte-Picquet. He types you a Wehrmacht travel order, an official one, for a "German civilian employee of the military administration, travelling to Lyon on official business with dependants." He stamps it with the orderly room stamp, signs it with the drunk major's signature, which he can do in his sleep now. "If they look at it too hard, you're dead," he says. "But they won't. Nobody reads anything in this army anymore."
+
+-> south_train
+
+== south_train
+## The Train to Lyon
+You leave from the Gare de Lyon on the eighth of May, at seven in the morning, in a third-class compartment, with a suitcase and a basket of food and the children.
+
+? sarah_safe : Sarah, who is Suzanne Brun now, twelve years old, in a school coat and a beret, with her hair in two plaits, holding a book. She has been practising her Alsatian accent with you for a week, and it is very bad.
+? moise_safe : Moïse, four, who has never been outside in his life that he can remember, and who stands at the window of the compartment with both hands pressed flat against the glass, staring at the world. At a cow. At a river. At a horse. "Mil," he whispers, "Mil, what's that?" A church. A bridge. Clouds.
+? !sarah_safe & !moise_safe : Anna and Jakob Feldman, seven and five, who do not know you, who have been told by Annette that you are their uncle, and who sit side by side very straight, holding hands, and do not say one word all the way to Dijon.
+
+The train is very slow. The Resistance has been blowing up the railway lines, and the Allied aircraft have been bombing the bridges and the marshalling yards, so that the train stops for hours in the middle of fields while the line is repaired ahead. At Laroche-Migennes the station has been bombed and you walk two kilometres past the wreckage to another train. At Dijon, a carriage of German soldiers going south is attached to the back.
+
+At Chalon-sur-Saône, where the old demarcation line used to be, the train stops and there is a control.
+
+A Feldgendarme, a German military policeman, with the metal crescent hanging on a chain round his neck that the soldiers call the dog collar, comes along the corridor with a French policeman behind him, checking papers.
+
+-> south_control
+
+== south_control
+He opens the door of your compartment.
+
+In the compartment next to yours, a few minutes ago, they took somebody off the train. A man of about sixty, with a beard, travelling alone. You heard the shouting, the protests, "But my papers are in order," and you saw him led along the platform between two soldiers, without his hat, and nobody in your compartment looked up.
+
+The Feldgendarme holds out his hand. "Papiere."
+
+? moise_safe : Moïse sees the uniform and goes very still, the way you taught him. The way you practised in the flat. In ten seconds he has climbed down from the window and pressed himself against the wall under the seat, with his hands over his ears, his eyes shut, absolutely silent. It is what he has been trained to do when strangers come. It is exactly the wrong thing to do on a train.
+
+* Speak to him in German. A friendly man from Hamburg, travelling with his children. Be one of them. -> control_german
+* [kurt_helps] Hand him Kurt's Wehrmacht travel order. -> control_kurt
+* Hand over your papers in silence and pray. -> control_silent
+
+== control_german
+"Guten Tag, Herr Kamerad," you say, in your own voice, from the Grindelallee. "Long day, eh? Endless. These French trains."
+
+His eyebrows go up. "From Hamburg?"
+
+"Eimsbüttel," you lie. You have learned that from Stoltenberg. "Fruchtallee."
+
+"Ach! I'm from Altona!" He grins all over his face. He is about forty, with a moustache. He has photographs of children in his wallet, which he shows you: two boys in Hitler Youth uniforms. He is homesick. Did you hear about the bombing? Terrible. Terrible. His sister's flat. And your children? Your children, very nice. Very shy.
+
+? moise_safe : He bends down and looks at Moïse under the seat. "And this little man? Hiding from the Feldgendarme? Afraid of the dog collar, eh?" He laughs, and reaches into his pocket, and holds out a sweet wrapped in paper under the seat, and after a long time Moïse's small hand comes out and takes it.
+? sarah_safe : He looks at Sarah, at her plaits and her beret and her dark eyes, for a moment too long. Then he says, "Pretty. Like her mother, I expect." Sarah looks at him and says, in her terrible Alsatian accent, "Danke schön," and he laughs.
+
+He doesn't look at your papers at all. He gives them back, folded. "Gute Reise, Landsmann."
+
+When he's gone, you find that your shirt is soaked through, and that your broken hand is shaking so badly you have to sit on it.
+
+-> chambon
+
+== control_kurt
+He reads Kurt's travel order. Slowly. All of it. Then he reads it again. He looks at the stamp. He looks at the signature. He looks at you.
+
+Then he clicks his heels. "Verzeihung," he says. "Sorry to trouble you." He hands it back, and salutes, and goes, with the French policeman behind him, who looks at you with an expression of the purest contempt you have ever seen on a human face. To him you are a German civilian employee of the military administration, travelling on official business, with your children. You are the enemy, in a third-class compartment, eating his country's bread.
+
+You do not mind. You have never been so glad to be despised.
+
+-> chambon
+
+== control_silent
+@ hope-1
+You hand over the papers and say nothing. He reads them slowly. You watch his eyes.
+
+? moise_safe : He sees Moïse under the seat. "What's he doing?" he says in German, and then in bad French, "What does the child do?" You say, in French, "He's frightened of uniforms. His mother died in a bombing." The French policeman says something to him in German, quickly, and he shrugs.
+? !moise_safe : He looks at the children. He looks at you. He asks you something in German, quickly, a trick, to see if you understand it. You keep your face blank, as blank as you have ever kept it in your life, and the French policeman says something to him, quickly, and he shrugs.
+
+He gives the papers back. He goes.
+
+Afterwards, in the toilet at the end of the corridor, you are sick into the bowl, and then you go back and sit down and smile at the children, and give them bread and cheese.
+
+-> chambon
+
+== chambon
+## Le Chambon-sur-Lignon
+The little train from Saint-Étienne climbs up into the mountains for three hours, through pine forests and over gorges, past villages with grey stone churches, and comes out at last on to a high plateau of meadows and fir trees and wind, with the snow still lying in the shadows of the walls in May.
+
+Le Chambon-sur-Lignon is a village of Protestants, the descendants of the Huguenots who were hunted by the King's dragoons for a hundred years. They remember. They have hidden people since the war began, in farms, in boarding houses, in children's homes, in the presbytery, in the forest: Jews, refugees, réfractaires, anybody who knocked on the door. Thousands. Everybody in the village knows. Nobody in the village talks.
+
+You are met at the station by a woman of about sixty in a black dress and clogs, with a horse and cart, who calls herself Madame Héritier and doesn't ask your name. "They'll go to the farm at first," she says. "Then the school, when they're settled. They'll go to church on Sunday. They don't have to pray, but they have to sit in church. It looks better." She lifts the children into the cart. "They'll be all right with us. We've done this before. Two hundred and fifty years we've been doing this."
+
+-> chambon_goodbye
+
+== chambon_goodbye
+? sarah_safe : At the farm, in the yard, Sarah gets down from the cart and stands in front of you with her book held against her chest.
+? sarah_safe : "Monsieur Emil," she says. "Thank you." She says it very formally, like a girl at a prize-giving. Then she stops being formal, and she hugs you round the waist the way Josette used to when she was six, and says into your coat, "When they come back from Poland, Mama and Papa, tell them where I am. Promise." And you promise.
+? moise_safe : Moïse doesn't understand that you are leaving. He is in the barn with a calf, which he thinks is the most important thing that has ever happened. When you go in to say goodbye, he says, "Mil! Mil! It licked me!" and you kneel down in the straw and hold him, and he wriggles, wanting to get back to the calf. You let him.
+? !sarah_safe & !moise_safe : Anna and Jakob Feldman do not say goodbye. They do not know you. They get out of the cart holding hands and stand in the farmyard looking at the chickens, and Madame Héritier's granddaughter, a girl of about twelve, takes them by the hand and leads them into the kitchen, where there is a smell of bread, and they go without looking back. You are glad. It is better that way. It is better that they don't look back.
+
+You sleep that night in Madame Héritier's barn. In the morning she makes you eat: bread, eggs, a bowl of milk still warm from the cow, more food than you have seen on one table since 1939. She wraps the rest of the loaf and a cheese in a cloth for the road. Then you walk back to the station alone.
+
+@ food+3 health+1
+
+-> dday
+
+== dday
+## The Sixth of June
+You do not get home for two months.
+
+On the sixth of June, as you are trying to get a train north from Saint-Étienne, the radio in the station café, turned up very loud, says that the Allies have landed in Normandy. The café goes silent. Then a man stands on a chair and starts to sing the Marseillaise, and a German soldier at the counter puts down his beer very carefully and walks out, and nobody stops singing.
+
+On the seventh, every railway line in the centre of France is cut. The Resistance blows up everything that night: bridges, tunnels, junctions, signals, telegraph lines. The maquis come down out of the hills in the Limousin, in the Corrèze, in the Dordogne, with Sten guns dropped by English aircraft, and take over towns. They put up tricolours on the town halls. They think the liberation has come.
+
+It has not. Not yet. The Germans have an armoured division in the south, near Montauban, the SS division Das Reich, fifteen thousand men with tanks, and it has been ordered north to Normandy, through the Limousin, and to clear the roads as it goes.
+
+You go north by road. A lorry carrying potatoes to Clermont-Ferrand. A cart. Your feet. A gazogène van, the kind that runs on wood smoke, carrying wine. On the ninth you are in Tulle, in the Corrèze, and you arrive the morning after.
+
+-> tulle
+
+== tulle
+In Tulle the day before, the maquis had attacked the German garrison and taken the town, and the Das Reich division had come and taken it back.
+
+Then the Germans went from house to house and took all the men between sixteen and sixty, three thousand of them, and assembled them in the yard of the arms factory. They chose one hundred and twenty. Then they hanged them. From the balconies and the lamp posts and the trees along the avenue de la Gare, one after another, in the afternoon, with ropes from the factory, while the soldiers sat in the cafés and drank and played music on a gramophone. They ran out of rope after ninety-nine.
+
+The bodies have been taken down by the time you arrive. You see the ropes. Some are still tied to the balconies, cut short, swinging a little in the wind. You see a woman scrubbing the pavement under one balcony with a brush and a bucket. She does not look up.
+
+A hundred and forty-nine other men were sent to Dachau. Most of them will not come back.
+
+You walk out of Tulle without stopping. Nobody stops in Tulle. Two days later, travelling north-west on a farm cart towards Limoges, you hear a name for the first time, from a farmer at a crossroads, who says it to the carter and then crosses himself. Oradour.
+
+-> oradour
+
+== oradour
+## Oradour-sur-Glane
+You reach it on the afternoon of the eleventh of June 1944, the day after.
+
+It is a market town of about three hundred and fifty people, on a little river, among meadows, with a tramline to Limoges. It had a church, a school for girls and a school for boys, a post office, garages, cafés, a hotel, butchers, bakers, a cobbler, a doctor. On Saturday the tenth, a detachment of the Das Reich division drove into the town at two in the afternoon and told everybody to assemble on the fairground for an identity check. Everybody: the people of the town, the people from the farms around, the people who had come in for the tobacco ration, the children from the schools, the refugees from Lorraine and Spain, a few cyclists passing through.
+
+They divided them. The men to the barns and garages. The women and children to the church.
+
+In the barns, the men were shot with machine guns, in the legs first, and the barns set on fire with them inside.
+
+In the church, the soldiers brought in a box which gave off a choking smoke. When the women and children tried to get out of the doors and windows, the soldiers shot them. Then they set the church on fire with them inside. Two hundred and forty-seven women. Two hundred and five children.
+
+Six hundred and forty-three people in all. One woman got out of the church through a window behind the altar and lived. Five men got out of a barn.
+
+Then the soldiers burned the town and drove away.
+
+-> oradour_2
+
+== oradour_2
+When you arrive there are men from the villages around, from Saint-Junien and Limoges, and some gendarmes, and a doctor, and a few people from Oradour who were away in Limoges on Saturday and have come home. They are walking through the ruins very slowly. The ruins are still smoking. The roofs are gone, everywhere, so that you can look down from the street into the kitchens: the stoves, the sewing machines, the bedsteads, all burned black, twisted. A doctor's car in the street, burned down to its springs. The tramline.
+
+The smell is the thing that you will never forget, and never describe to anybody.
+
+You go into the church. You don't know why. It has no roof. The bell has fallen from the tower and melted on the floor into a black puddle of bronze. There are men in there with handkerchiefs over their faces, working. You see what they are doing. You see a pram, near the altar. It is burned down to its wire frame, and its wheels. You see what is in it.
+
+You sit down outside on the wall of the churchyard.
+
+A man comes and sits beside you. He is about seventy, with a bicycle. He came this morning, he says, from Saint-Junien, looking for his daughter and her two little boys, who lived here, over the post office. He has been looking all day. He hasn't found them. He hasn't found anybody he could recognise. He says, "My daughter's boys were six and three. The little one had red hair. Did you see a little one with red hair?"
+
+You did not.
+
+"They were Germans who did this," he says. "But they say there were Alsatians with them, too. Frenchmen. Our own. Forced into it, they say." He looks at you. "Where are you from, Monsieur? You have an accent."
+
+* Tell him the truth. "I'm German." -> oradour_truth
+* Tell him something else. "Alsace." -> oradour_lie
+
+== oradour_truth
+He looks at you for a long time. You wait for him to hit you. You would not stop him.
+
+He doesn't. He says, "And what are you doing here, then?" and you tell him: a bookbinder from Paris, a refugee, the children on the plateau, the road home. You don't know why you tell him. He listens to all of it.
+
+"Then you must remember this," he says. "You must tell them. In Germany, afterwards, when it's finished. You must tell them what they did here. In German. They won't believe it from us."
+
+* Promise. Then help the men from Saint-Junien carry the dead to the graves they are digging in the meadow. -> oradour_carry @ health-1 set:oradour_promise
+* Promise. Then take out your pencil and write it all down, every detail, while you can still see it. -> oradour_write @ set:oradour_promise set:testimony
+
+== oradour_lie
+He nods. He says, "Alsace. Poor devils. They say some of yours were in it. Forced. Boys." He shakes his head. "Well. God sees."
+
+He gets on his bicycle and rides off, slowly, into the ruins, to keep looking for a little boy with red hair.
+
+You sit on the wall for a long time.
+
+* Help the men from Saint-Junien carry the dead to the graves they are digging in the meadow. -> oradour_carry @ health-1
+* Take out your pencil and write it all down, every detail, while you can still see it. -> oradour_write @ set:testimony
+
+== oradour_carry
+You carry the dead until it is dark. The men from Saint-Junien do not ask who you are. They give you a handkerchief soaked in vinegar to tie over your face. They give you gloves. They give you, at nine o'clock in the evening, a mouthful of brandy from a bottle that is passed around the whole group, and you drink it, and you go on.
+
+The graves are in the meadow beside the cemetery. The dead go in wrapped in sheets from the houses that did not burn in the villages around.
+
+Afterwards you wash your hands in the river Glane, for a long time, and they do not come clean, and you go on washing them until the doctor from Saint-Junien comes and takes you by the arm and leads you away.
+
+-> maquis
+
+== oradour_write
+You sit on the wall of the churchyard and write. In the back of Lindner's sketchbook, the blank pages at the end, with a stub of pencil. Everything. The bell. The pram. The car. The tramline. The stove with a pot still on it. The old man with the bicycle and the little boy with red hair. The smell, which you try to describe and cannot. The names you see chalked on the doors by the men searching. The time. The date. The weather: fine, warm, a light wind from the west.
+
+You fill eleven pages, in small handwriting. You do not know why. You are not a writer. But Lindner said someone would need to see it.
+
+Twenty years later, those eleven pages will be read aloud by a schoolgirl at a memorial ceremony at Oradour, in French, and then by a schoolboy, in German.
+
+-> maquis
+
+== maquis
+## The Maquis
+They catch you the next morning on the road to Saint-Junien.
+
+Six of them, very young, in berets and leather jackets and bits of uniform, with Sten guns and a hunting rifle and armbands that say FFI, the French Forces of the Interior, and the cross of Lorraine. They come out of a wood on both sides of the road, and you put up your hands, and one of them, a boy of about sixteen with a Sten gun, asks you where you are going, and you answer him, and he hears your accent.
+
+After that it goes very fast.
+
+They tie your hands behind your back with wire. They walk you into the wood, two kilometres, to a camp in a clearing: tents made of parachute silk, a fire, a dozen more young men, a girl cooking. They are all in a state you recognise. You saw it in Les Milles, in the weeks in May 1940. They have been to Oradour, or they know people who were. They are angry in a way that has nowhere to go.
+
+They have another prisoner. He is sitting against a tree with his hands tied, in the field-grey uniform of the Waffen-SS, without a cap, with blood on his face. He is about seventeen.
+
+The leader of the group is a man of about thirty, with a moustache and a policeman's tunic, who looks at your papers and your hand and your face. "German," he says. "Spy. You were at Oradour. Looking at what your friends did. Taking notes?" He holds up Lindner's sketchbook, which they took from your bag. "Drawings. Of what? Positions?"
+
+"We shoot Germans," says the boy with the Sten gun. "After Oradour. That's the rule now."
+
+-> [jeannot_maquis] maquis_jeannot
+-> [resistance & !lucien_arrested] maquis_lucien
+-> maquis_plead
+
+== maquis_jeannot
+@ hope+2
+"Monsieur Emil?"
+
+A red-haired young man has come out of a tent, with a Sten gun on a strap over his shoulder and a pipe in his mouth, unshaven, burned brown by the sun, a different person entirely from the boy who whistled Charles Trenet. He stares at you. Then he starts to laugh.
+
+"Jeannot," you say.
+
+"Jean Thibault," he says, "born 1917. You made me." He turns to the leader. "Capitaine. This is the Boche who made my papers. He's ours. He's the best forger in Paris. He hid Jews. He hid me. Untie him, for God's sake."
+
+They untie you. The boy with the Sten gun is embarrassed and gives you a cigarette. Jeannot sits beside you by the fire and tells you about the maquis, the parachute drops, the English officer with the radio who drinks tea, and the night they blew up the viaduct. He has a girl, the one cooking. Her name is Paulette. He is going to marry her after the war.
+
+-> maquis_boy
+
+== maquis_lucien
+@ hope+2
+A big man comes out of a tent, in a beret, with a Sten gun on a strap and a moustache like a broom and ink on his fingers, still, after all this time, ink, and he stops dead and stares at you.
+
+"Emil," says Lucien Marchal. "You stupid Boche. What the hell are you doing in the Haute-Vienne?"
+
+He takes the wire off your wrists himself, and holds you against his chest so hard your ribs creak, and tells the leader, "This one is mine. He did our papers in Paris. He's the best forger in France. He kept his mouth shut in the rue des Saussaies. Look at his hand." The leader looks at your hand. He gives you back Lindner's sketchbook.
+
+That night you sit by the fire with Lucien and drink something he says is plum brandy, and he tells you about the escape, the train, the drop zone, the English officer with the radio who drinks tea, and you tell him about Le Chambon and Oradour, and he listens, and puts his big inky hand on the back of your neck, and leaves it there.
+
+-> maquis_boy
+
+== maquis_plead
+The leader looks at you, waiting. The boy with the Sten gun has already taken the safety catch off. Behind him, under the tree, the young SS soldier is watching you with wide eyes, as though you are a play.
+
+You have one chance to make them believe you.
+
+* [sketchbook] Ask them to look at the sketchbook properly. Les Milles. Colombes. The men in the straw. The rabbi. Oradour. -> maquis_sketchbook
+* [drawing] Show them Josette's drawing. PAPA DON'T BE AFRAID. Tell them about your daughter. -> maquis_drawing
+* Tell them who you are. A bookbinder, a refugee, a Social Democrat, interned by France, tortured by the Gestapo. -> maquis_words
+
+== maquis_sketchbook
+@ hope+1
+The leader turns the pages. Slowly at first, and then not slowly. The stadium at Colombes. Men asleep on straw in the brick dust. A guard on a running track with a boy's face. A rabbi saying Kaddish in his overcoat. A man with spectacles lying with his hands folded. A violinist.
+? testimony : And at the back, in pencil, eleven pages of small handwriting about Oradour, which he reads, and reads again, with his lips moving.
+
+He stops at the drawing of the internees at Les Milles. "Les Milles," he says. "Near Aix. The camp for the Boches. My brother-in-law was a guard there in '40." He looks up at you. "You were in it?"
+
+"Nine months."
+
+He looks at you for a long time. Then he takes out a knife and cuts the wire on your wrists.
+
+"Ernst Lindner," he says, looking at the signature. "I don't know him." He gives you back the sketchbook. "Keep it safe."
+
+-> maquis_boy
+
+== maquis_drawing
+You can't reach it with your hands tied. You tell the leader where it is, in your breast pocket, and he takes it out and unfolds it. A man with a brown moustache and a bone folder. A rabbit. PAPA DON'T BE AFRAID. The letters blurred by the river, by the bath in the rue des Saussaies, by five years of being folded and unfolded.
+
+He looks at it for a long time. He has a wedding ring.
+
+? hope>=4 : "How old is she?" he says. "Ten," you say. "Eleven in September." He folds it up again, very carefully, along the old folds, and puts it back in your pocket himself. Then he cuts the wire on your wrists. "Go home to her, Boche," he says, not unkindly.
+? hope<4 : "How old is she?" he says, and you open your mouth to answer and find that you can't, that there is nothing left in you to answer with, that after Tulle and Oradour you have nothing left at all, and you just look at him, and he looks at you, and something in his face closes. He gives the drawing to the boy with the Sten gun. "Give it to the priest in Saint-Junien," he says. "He'll see it gets to her."
+
+-> [hope>=4] maquis_boy
+-> ending_shot_maquis
+
+== maquis_words
+You tell them. All of it. Hamburg, the SA, the two broken fingers. Colombes, Les Milles, the brick dust. Occupied Paris. The Lewins. The rue des Saussaies. The plateau. You talk for ten minutes.
+
+? resistance | hope>=6 : The leader listens. At the end he says, "Who was your contact in Paris? In the network?" and you tell him a name, a code name, Lucien's, and he goes into a tent where there is a radio, and comes back an hour later, and cuts your wire himself. "London has heard of you," he says. "Or of somebody like you. That'll do."
+? !resistance & hope<6 : The leader listens. At the end he shrugs. "Every German we catch has a story," he says. "Every one of them hated Hitler. Every one of them was a Social Democrat." He nods to the boy with the Sten gun.
+
+-> [resistance | hope>=6] maquis_boy
+-> ending_shot_maquis
+
+== maquis_boy
+The SS soldier under the tree has been listening to all of it. When the others go to eat, he says to you, very quietly, in German, "Please."
+
+He has an accent you know. Alsatian. Not the Alsatian of a bookbinder from Colmar in a forged identity card, but the real thing, thick, from the villages.
+
+His name is Joseph. He is seventeen. He is from a village near Sélestat. In February the Germans, who annexed Alsace in 1940, called up his year group into the Waffen-SS, all of them, by force. His father said if he ran they would send the whole family to a camp in Silesia. He has been a soldier for four months. He was not at Oradour, he says. His company was at Tulle. He says he didn't hang anybody. He says he stood guard. He says he only kept order.
+
+He is crying. "They'll shoot me. They're going to shoot me tomorrow. They said. Please. Tell them. I'm French. I'm from Alsace. I'm French. I didn't want to. Tell them."
+
+You know what Kurt would say. You know what the woman at the ravine said. You know what the old man on the bicycle at Oradour said, looking for a boy with red hair.
+
+The leader comes back from the fire. "We're shooting him at dawn," he says to you. "The SS. You can watch if you like. A German should watch."
+
+* Plead for the boy. He is seventeen. Let him be tried, after the war, by a court. -> boy_plead @ set:pleaded_boy
+* Say nothing. After Oradour, after Tulle, after the pram in the church, you have nothing to say for him. -> boy_silent
+
+== boy_plead
+You plead for him. You talk to the leader, and then to all of them, around the fire. You talk about the malgré-nous, the "despite-ourselves," the Alsatians conscripted by force. You talk about courts. About the Republic. About what will make them different from the men who came to Oradour.
+
+? jeannot_maquis : Jeannot backs you, loudly, banging the side of a tin mug with a spoon. Then the girl who cooks, Paulette. Then, after an hour, others.
+? !jeannot_maquis & resistance & !lucien_arrested : Lucien backs you, loudly, banging the side of a tin mug with a spoon, in the voice he used to use at union meetings. Then, after an hour, others.
+? !jeannot_maquis & !resistance | !jeannot_maquis & lucien_arrested : Nobody backs you for a long time. Then the girl who cooks says, without turning round from her pot, "My cousin was taken like that. From Mulhouse. He's on the Russian front. He's eighteen." And after that it is different.
+
+In the end, the leader says that the boy will be handed over to the FFI headquarters in Limoges as a prisoner of war, and that the court can decide, after the war. "If he's lying," he says to you, "and he was at Oradour, then you'll have saved a murderer. Can you live with that?"
+
+You don't know. You tell him so.
+
+Joseph Kieffer is handed over in Limoges a week later. In 1953 a military court in Bordeaux will try twenty-one men who were at Oradour, fourteen of them Alsatians. Joseph is not among them. He goes home to his village near Sélestat in 1946 and becomes a carpenter. Every year, on the tenth of June, he sends a wreath to Oradour, with no name on the card.
+
+-> return_north
+
+== boy_silent
+@ hope-2
+You say nothing. You sit by the fire and look at the flames.
+
+In the morning, at first light, they take him to the edge of the clearing. He is calling for his mother, in Alsatian. They shoot him against a beech tree. Two of them, the boy with the Sten gun and another. It takes two bursts.
+
+Afterwards the girl who cooks goes and kneels by him and closes his eyes and takes his identity disc and his paybook and puts them in her pocket. "For his mother," she says to you, as though you had asked. "He was from near Sélestat. My cousin was taken like that. From Mulhouse."
+
+You will never know if he was at Oradour. Nobody will. In 1953 a military court in Bordeaux will try twenty-one men who were, fourteen of them Alsatians, forced into the SS like him, and the trial will tear France in half.
+
+-> return_north
+
+== return_north
+You get back to Paris on the fourteenth of July 1944. It takes you a month, on foot, by cart, on a bicycle somebody in the maquis gives you, through a France that is coming apart. You go round the fighting in Normandy, a long way round. You see American aircraft in the sky every day now, hundreds of them, in shining formations, and German columns on the roads, moving only at night, with branches tied to their lorries for camouflage. You see a German convoy strafed on a road near Chartres: lorries burning, horses dead in the ditches, a soldier walking away from it with his face burned, not seeing anything, and the French people in the village watching from their windows and doing nothing.
+
+You walk into the courtyard of number 64 in the evening.
+
+? pierrot : Pierrot sees you first, and screams, the way Josette screamed in 1940, and runs at you.
+? !pierrot : Josette sees you first, from the window, and then she is coming down the stairs, and she is not a child any more, she is nearly eleven and tall and grave, but she comes across the courtyard faster and faster, and the last few metres she runs.
+
+-> liberation

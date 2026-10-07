@@ -1,0 +1,279 @@
+# PART TEN - 1945: the return, and the epilogue
+
+== return_1945
+## Part Ten — The Lutetia
+The war does not end when Paris is liberated. It goes on for another eight months, somewhere else, to the east, and Paris is cold and hungry through another winter, the winter of 1944, with no coal again and the bread ration cut again, and the Americans everywhere in the streets with their chewing gum and their cigarettes, which are money now instead of German marks.
+
+? felix_alive : In December a letter comes for you, forwarded three times, with American stamps. It is from Felix. He got out. Varian Fry got him a visa in the spring of 1941; he crossed the Pyrenees on foot with his violin on his back, and sailed from Lisbon to New York. He plays in the orchestra of a cinema in Brooklyn, between the newsreel and the feature. He is married, to a girl from Cleveland who plays the harp. "I owe you a wedding," he writes. "Josette's. I'm still coming. Tell her to choose a husband who likes Haydn." He writes nothing about his mother in Vienna. At the bottom, in a different ink, as if he added it later, he writes: "Theresienstadt, they think. Then nobody knows."
+
+? sarah_safe | moise_safe : In March, Annette Monod brings the children back from the plateau.
+? sarah_safe : Sarah is thirteen and a half, and taller than Madeleine, and speaks French with the accent of the Haute-Loire, and has a Protestant hymn book that she reads in bed.
+? moise_safe : Moïse is five and doesn't remember Paris, or the flat, or the Lewins. He remembers the calf. He asks when he can go back to the calf.
+
+In April the camps in Germany begin to be opened.
+
+The photographs come first, in the newspapers, from Buchenwald, from Bergen-Belsen, from Dachau. Nobody believes them. Then they have to.
+
+Then the trains start to come back, and the lorries, and the aeroplanes, with the deportees. They are brought to the Hotel Lutetia, on the boulevard Raspail, a big Art Nouveau hotel on the left bank that was the headquarters of German military intelligence for four years, and which is now a reception centre. Deportees are registered, deloused, examined, fed, given a little money and a ration card and a bed. Their names are read out over loudspeakers. Their names are posted on lists in the hall.
+
+And outside the Lutetia, on the boulevard, every day, from morning to night, there is a crowd of people holding up photographs.
+
+-> lutetia
+
+== lutetia
+You go every day, in April and May.
+
+? !parents_safe & sarah_safe : You take Sarah. She insists. She makes a sign herself, from a piece of binder's board from the workshop, with her best handwriting: LEWIN Isaac and Rivka, 64 rue de la Roquette, Paris 11e, taken 16-7-1942, Vel d'Hiv, Pithiviers. YOUR DAUGHTER SARAH IS WAITING. She stands on the pavement of the boulevard Raspail every day after school, holding it up, for six weeks.
+? !parents_safe & !sarah_safe : You make a sign yourself, from a piece of binder's board from the workshop: LEWIN Isaac, Rivka, Sarah, Moïse, 64 rue de la Roquette, Paris 11e, taken 16-7-1942. You hold it up on the pavement of the boulevard Raspail, among the others, every day for six weeks, because there is nobody else left to hold it up.
+? parents_safe : You go because Isaac goes. Isaac is looking for his brother, from Łódź, and his cousin from Montreuil, and the Grinbergs from number 60, and the Kaplans with their canary, and the woman with the baby from across the street, and everybody else.
+? lucien_arrested : And you go for Lucien, who was taken to Buchenwald in January 1944. You don't know if he is alive.
+
+The people who come out of the Lutetia do not look like people. They are skeletons, in striped clothes, or in odd clothes from the Red Cross, with their heads shaved and their eyes enormous. They walk very slowly, like old men, even the young ones. Some of them are carried. Some of them come out and stand on the pavement and look at the crowd of photographs and cannot speak. Some of them are recognised, and there is screaming, and people fall into each other's arms on the pavement and the crowd closes round them. Most of them are not.
+
+The crowd holds up the photographs. Have you seen him? Have you seen her? Auschwitz? Buchenwald? Ravensbrück? Do you know? Did you see?
+
+-> lutetia_2
+
+== lutetia_2
+On the fifth day a woman stops in front of your sign.
+
+She is perhaps forty, perhaps seventy, there is no way of knowing. She has a headscarf over her shaved head. On her left forearm, below the sleeve of a Red Cross coat, there is a blue number, tattooed.
+
+She reads the sign. She reads it very slowly, as if reading is something she has to remember how to do.
+
+"Pithiviers," she says. "The convoy from Pithiviers. In August 1942." Her French has a Polish accent like Rivka's. "I was on the convoy of the thirty-first of July. From Pithiviers. With the mothers. They had taken our children from us in the camp. In Auschwitz they made a selection on the platform. Right, left. Young women who could work, to the right. To the camp. Everybody else, to the left. To the showers, they said." She looks at the sign. "Nobody who went to the left came back. They were dead in an hour. The same day. The children who came after, in August, without us, they all went left. All of them. Every child. The same day."
+
+? sarah_safe : Sarah is standing beside you with the sign. She heard it. You watch her hear it. She doesn't move.
+
+The woman looks at you. "I'm sorry," she says. "Somebody should tell you. Nobody tells anybody. You stand here for weeks. I'm sorry. Don't stand here any more."
+
+She walks away down the boulevard Raspail, very slowly.
+
+? !parents_safe & sarah_safe : Sarah stands there for another hour, with the sign. You do not try to make her go home. Then she puts the sign down on the pavement, very carefully, face up, and takes your hand, and you walk home together, across the river, all the way, without speaking, and she does not cry until you get to the courtyard of number 64. Then she does.
+? !parents_safe & !sarah_safe : You put the sign down on the pavement, face up, and leave it there, and walk home.
+? parents_safe : Isaac stands beside you with his photographs. His brother. His cousin. The Grinbergs. The Kaplans. He looks at them for a long time. Then he puts them back in his pocket, carefully, one by one, and you walk home.
+
+Of the thirteen thousand people arrested in the Vel d'Hiv roundup, fewer than a hundred come back. Of the four thousand children, none.
+
+-> [lucien_arrested] lucien_return
+-> victory
+
+== lucien_return
+## Lucien
+Lucien comes back on the twenty-ninth of April.
+
+You don't recognise him. He recognises you. A skeleton in a striped jacket and an American army greatcoat, with a shaved head and no teeth at the front, comes out of the doors of the Lutetia leaning on a nurse and stops dead on the steps and says "Emil," in a voice like paper tearing, and you look and look and it is Lucien, Lucien who weighed a hundred kilos, who now weighs forty-one.
+
+Buchenwald. Then a subcamp called Dora, where they built the V2 rockets in tunnels under a mountain, and men died at the rate of a hundred a day. Then a death march in April, west, ahead of the Russians, and an open railway wagon, and the Americans.
+
+You take him home. Madeleine puts him in your bed. He sleeps for two days. When he wakes up he asks for wine and Madeleine gives him milk and he drinks it and cries.
+
+On the fourth day, sitting up in the bed with his hands round a bowl of soup, he says, "I know you were in the rue des Saussaies. Stoltenberg told me. He liked to tell us who'd been in. He said you were very brave." He smiles with no front teeth. "Were you?"
+
+You gave them his name. You said it to the floor of a cell. They already had it. They took him two days before. It made no difference. It made all the difference.
+
+* Tell him the truth. You gave them his name. -> lucien_confess
+* Say nothing. Let him keep it. -> lucien_silent @ set:never_told
+
+== lucien_confess
+You tell him. All of it. The bath. The third day. Stoltenberg saying, You'd only be confirming. You saying it to the floor. The print shop with the paper seal. The dairy woman spitting.
+
+He listens with the bowl of soup going cold in his hands. When you have finished, he puts the bowl down on the bedside table, very carefully, with both hands, because his hands shake.
+
+"Emil," he says. "In Buchenwald, there was a block elder, a German Communist, a comrade, been in the camps since 1933. A hero. He saved hundreds of men. He put their names on the lists for the good work details instead of the transports. And to do that he had to put other names on the transports, to make up the numbers. Every week. He chose. Every week he chose who would die so that someone else could live." He looks at you. "Everybody gave something. Everybody. The only people who didn't give anything are the people who weren't asked."
+
+He holds out his hand. It is a bundle of sticks. You take it.
+
+"You stupid Boche," he says. "You confirmed it. I'd already given them my own name, the first day, when they asked me what it was."
+
+@ hope+2
+-> victory
+
+== lucien_silent
+You don't tell him.
+
+"Not brave," you say. "Stubborn. A binder's thing."
+
+He laughs, and coughs, and the soup spills. You mop it up. He goes back to sleep.
+
+He lives another nineteen years, and you never tell him. Some years, on his birthday, at the dinner in the café on the rue de Belleville, with his wife and his children and the men from the print shop and the old comrades, he makes a speech, and in the speech, every year, he says that his friend Emil Brandt, the Boche, the best forger in Paris, was the bravest man he knew, because he kept his mouth shut in the rue des Saussaies. Every year you raise your glass.
+
+-> victory
+
+== victory
+## The Eighth of May
+On the eighth of May 1945, at three o'clock in the afternoon, the bells ring again, all over Paris, and General de Gaulle on the radio says that the war is won.
+
+There are crowds on the Champs-Élysées again, and on the place de la Concorde, and dancing in every street. There are American soldiers on the roofs of jeeps, kissing girls. There is a man in the rue de la Roquette playing an accordion on a chair in the middle of the street, and everybody in the building comes down to dance in the courtyard, around the dry fountain.
+
+You do not dance. You sit on the steps of number 64 with your hand that does not close, and you watch.
+
+? sarah_safe : Sarah dances with Josette. They're fourteen and twelve. They dance badly, holding each other round the waist, laughing.
+? moise_safe : Moïse is asleep on your lap, five years old, heavy and warm.
+? pierrot : Pierrot is on the roof of the workshop, with two other boys, throwing paper planes into the courtyard. He is not frightened of planes any more.
+? parents_safe : Isaac dances with Rivka. Very slowly, in the middle of the courtyard, to a waltz from the accordion, as if they were twenty years old in Łódź.
+? !pujol_hostile : Madame Pujol dances with nobody. She sits outside her lodge in a chair with a glass of wine. She raises it to you, just slightly, across the courtyard.
+? pujol_hostile : Madame Pujol does not come out of her lodge. They say she is going to live with a niece in Clermont-Ferrand.
+
+Madeleine comes and sits beside you on the step and puts her head on your shoulder.
+
+"What are you thinking about?" she says.
+
+You are thinking about a ravine with birch trees. About a pram in a church. About a girl in a pinafore on the stairs. About a woman in a yellow dress lying in the road with her arms out. About a man in a cardigan from Eimsbüttel with a pot of geraniums. About Lindner on a bench in the sun, taking a little rest. About your brother.
+
+? oradour_promise : About a promise you made to an old man on a bicycle, on the wall of a churchyard, to tell them, in Germany, in German.
+
+"Nothing," you say. "Everything. I don't know."
+
+"Me neither," says Madeleine. "Let's just sit."
+
+So you sit.
+
+-> [sarah_safe | moise_safe | parents_safe] ending_kept
+-> ending_lost
+
+== ending_kept
+## Epilogue — What Was Kept
+-> epilogue
+
+== ending_lost
+## Epilogue — What Was Lost
+-> epilogue
+
+== epilogue
+You live a long time. Longer than you expected; longer, some days, than you would have chosen.
+
+You go back to work. You learn to sew with your left hand, and with the two good fingers of your right. It takes you two years. Your work is never quite as fine again. You do not tell your customers why, and they do not ask. In 1949 you become a French citizen, at last, in a ceremony at the Prefecture of Police, where the clerk who used to sigh at you shakes your hand, and does not sigh.
+
+? oradour_promise : In 1955 you keep your promise. You take the train to Hamburg, for the first time in twenty-two years, to a city that is half ruins and half cranes, and you stand in front of a class of sixteen-year-olds at a Gymnasium in Eimsbüttel, and you tell them, in German, about Oradour-sur-Glane. They are very polite. They do not believe you. A boy at the back puts up his hand and says that his father was in the Das Reich division and that it was a battle against partisans. You go back every year until 1970. By the end, they believe you.
+? testimony : The eleven pages you wrote on the churchyard wall at Oradour are read into the record at the military court in Bordeaux in 1953. A journalist from Le Monde asks you to give them to the Oradour memorial. You do.
+
+Madeleine teaches at the girls' school on the rue Keller until 1965. She is a headmistress by then. She never wears blue again; she says it reminds her of the blackout paper on the windows. She dies in 1981, in her sleep, with her hand on your chest.
+
+? !sarah_safe & !moise_safe & !parents_safe : Josette grows up. She becomes a nurse. She marries a doctor from Lyon and has three daughters. She is kind to you, always. She visits every Sunday. But there is a door in her that stays closed to you, all her life, and you know which morning it closed on. In 2005, when the Wall of Names is unveiled at the Shoah Memorial in the Marais, seventy-six thousand names of the Jews deported from France, she takes her granddaughters to find two of them, Lewin, Sarah, 1931, and Lewin, Moïse, 1939, and they touch the names with their fingers. Then she rings you, and you talk for an hour, for the first time in sixty years, about Sarah.
+? sarah_safe | moise_safe | parents_safe : Josette grows up. She becomes a nurse. She marries a doctor from Lyon and has three daughters. She still has the sock rabbit; it is grey and has no eyes and sits on a shelf in her bedroom in Lyon until her death.
+? josette_star : She still has the paper star as well, in the drawer with the rabbit. Her granddaughter finds it in 2019 and gives it to the Shoah Memorial, where it is in a glass case, with a label: Paper star, made in 1942 by a nine-year-old non-Jewish girl, in solidarity with her friend.
+
+? sarah_safe & !parents_safe : Sarah Lewin lives with you until she is twenty. Then she goes to the Sorbonne, and becomes a historian, and spends her life on one subject: the arrests of Jews in France, the files, the lists, the police, the convoys. She is the one who finds the convoy numbers for her parents in the archives, in 1978, and brings you the photocopy. In July 1995 she is standing in the crowd in front of the site of the Vélodrome d'Hiver, which was demolished in 1959, when President Jacques Chirac says, for the first time, that France, the French state, committed the irreparable, that it delivered those it was supposed to protect to their executioners. She is sixty-three. She rings you afterwards. She is crying. "They said it," she says. "Fifty-three years. They finally said it." You are ninety. You listen to her cry down the telephone and you do not say anything, and that is right.
+? sarah_safe & parents_safe : Sarah Lewin becomes a historian. She spends her life on one subject: the arrests of Jews in France, the files, the lists, the police, the convoys. Her parents live to see her made a professor. In July 1995, when President Chirac says for the first time that the French state delivered the Jews of France to their executioners, Isaac is dead, but Rivka is ninety-one, and is in the crowd, in a wheelchair, with Sarah pushing it.
+? moise_safe & !parents_safe : Moïse Lewin goes back to the plateau at Le Chambon every summer of his childhood. In 1957 he emigrates to Israel and becomes an engineer. He has a wooden horse on his desk all his life, although it is not the one his father carved. That one is lost. In 1990 he gets the people of Le Chambon recognised, as a whole village, as Righteous Among the Nations, the honour Israel gives to non-Jews who risked their lives to save Jews. He also puts forward two other names. Madeleine Brandt. Emil Brandt. You go to Jerusalem to plant a tree.
+? moise_safe & parents_safe : Moïse Lewin grows up in the flat on the third floor, above the tailor's shop his father reopens in 1945. He becomes an engineer. In 1990 he puts forward your name and Madeleine's to Yad Vashem, to be recognised as Righteous Among the Nations. You go to Jerusalem to plant a tree. Isaac goes with you. He is ninety. He cries the whole time.
+? parents_safe & !moise_safe & !sarah_safe : Isaac Lewin reopens the tailor's shop on the rue de la Roquette in 1945. He has to go to court to get it back from the man who was given it in 1941. It takes him three years.
+? grabbed_sarah : Sarah never forgets the hand that came out of the door on the stairs. When she is old she writes about it, in the one book she ever writes that is not about archives: about a door open a crack, and an eye behind it, and a hand.
+? warned_isaac & parents_safe : Isaac tells everybody, for the rest of his life, that the German downstairs warned him about the lists in 1940 and he didn't listen. "And then he hid me anyway," he says. "That's a German for you. Stubborn."
+? !sarah_safe & !moise_safe & !parents_safe : Isaac Lewin, Rivka Lewin, Sarah Lewin and Moïse Lewin did not come back. Their names are on the Wall of Names. Their flat on the third floor is lived in by a family from Brittany, who are very nice.
+
+? pierrot : Pierrot Maréchal never finds his family. He grows up in your box room, and is your son, and becomes a pilot for Air France, which makes Madeleine laugh until she cries. He flies the Paris–New York route for thirty years. He is not frightened of aeroplanes.
+
+? felix_alive : Felix Adler plays at Josette's wedding in 1956, in the Café des Sports, after flying from New York. It is the Haydn. He has kept his promise.
+? felix_dead : Felix Adler's grave is in the village cemetery at Les Milles, in a corner. In 2012 the brickworks becomes a memorial, the only French internment camp still intact. You are not alive to see it. But Josette is. She gives them Lindner's sketchbook.
+? felix_alive : In 2012 the brickworks at Les Milles becomes a memorial, the only French internment camp still intact. Josette gives them Lindner's sketchbook.
+? sold_sketch : It has one page missing. Sleepers, c. 1939. Nobody knows where it is.
+
+? lucien_arrested & never_told : Lucien Marchal dies in 1964 of the lungs he brought back from the tunnels at Dora. At his funeral you are asked to speak, as his oldest friend, the bravest man he knew. You do. You do not say what you should say. You never do.
+? lucien_arrested & !never_told : Lucien Marchal dies in 1964 of the lungs he brought back from the tunnels at Dora. At his funeral you are asked to speak, as his oldest friend. You tell the truth. You tell them everything about the rue des Saussaies. Afterwards nobody says anything to you. Then his widow comes and takes your arm, and walks you to the car.
+? !lucien_arrested : Lucien Marchal comes back from the Limousin with a medal and a limp and a reputation. He is a Communist town councillor in Belleville for twenty years and prints election posters for the Party, and is expelled from it in 1956 for saying in public what he thinks about Hungary.
+
+? jeannot_maquis : Jeannot marries Paulette from the maquis in 1945. They run a print shop in Limoges. Every year, on the tenth of June, they go to Oradour.
+? jeannot_dead : Jeannot's name is on no memorial at all, because he died as a labourer in Germany, which is not a thing France has a word for. His mother goes to the Gare de l'Est every day in 1945 to meet the trains of returning workers, for a year.
+
+? kurt_pow : Kurt Brandt lives until 1983, in Hamburg, a clerk with the harbour authority. He never speaks about the Ukraine to anybody but you. Every summer from 1950, he comes to Paris for a week, without Hilde, and you sit in a café on the rue Soufflot and drink calvados and do not talk about it. In 1968 a prosecutor from Ludwigsburg, investigating the shootings in the Ukraine, writes to him asking whether he witnessed anything as a member of his company in September 1941. He sits at his kitchen table with the letter for a week. Then he writes back and tells them everything.
+? kurt_dead : Kurt Brandt is buried in the German war cemetery at Champigny-Saint-André, in the Eure, west of Paris, under a stone cross, among nearly twenty thousand other German soldiers. Every year on the twenty-fifth of August, while Paris celebrates its liberation, you go there with flowers. Nobody else does.
+
+? hahn_job : Doctor Albrecht Hahn is arrested by the Americans in 1945, and released in 1947. In 1951 he becomes deputy director of a university library in West Germany. Three hundred thousand of the books from the depot are never found. In 1960, for your fifty-fifth birthday, a parcel comes from Germany: a first edition of the West-Eastern Divan, 1819, in a binding you recognise. There is no note.
+? reinach_book : In 1947 a young man of seventeen with a school cap comes into the workshop. He says his name is Daniel Kahn-Morel. He survived the war hidden in a Catholic boarding school in the Tarn under a false name. His grandfather and his parents did not. He has been going round every bookbinder in Paris, because a woman at the depot remembered that the binder with the Hamburg accent had taken something. You take the Jules Verne down from the shelf behind the account books. He opens it. The letter is still inside. Mon cher Grand-Père. He reads it standing up in the workshop, and you go into the back room so that he can be alone.
+? simone_defended : Simone Ribot's hair grows back. She sends you a card every New Year until she dies. It never says anything except Bonne année. It is enough.
+? dug_monique : In 1974 a woman of thirty-seven, walking with a stick, comes into the workshop with a book to be rebound and asks if you are the man who dug at Billancourt. She does not remember you. She remembers a voice talking to her through the bricks, asking her name. Her name is Monique. You rebind her book for nothing.
+
+? pleaded_boy : In 1964 a parcel comes from a village near Sélestat: a small box of oak, beautifully made, dovetailed by hand, for keeping books in. Inside there is a card. For Herr Brandt, who spoke for me. J. K.
+? sarah_drawing : Above your workbench, until the day you close the workshop, there is a drawing pinned to the wall: a man with a brown moustache and a yellow star, and a little girl with another star, holding hands.
+
+You die in 1998, at ninety-three, in the flat on the rue de la Roquette, in the bed where Josette slept between you and Madeleine on the first night in October 1940. In the drawer of the bedside table, folded so many times it is falling apart along the folds, they find a drawing in coloured pencil of a man with a brown moustache holding a bone folder, with a rabbit beside him.
+
+PAPA DON'T BE AFRAID.
+
+END
+
+# --- early and alternative endings -------------------------------------------
+
+== ending_england
+## Ending — The Other Shore
+The fishing boat reaches the liner. Somebody hauls you up a rope ladder. The Arandora Star sails at midnight with three thousand Polish soldiers and two hundred civilians, and you stand at the rail at the stern and watch the lights of Saint-Jean-de-Luz go out one by one.
+
+In England they intern you again, of course. You are a German. They take you off the ship at Liverpool. A week later the Arandora Star sails again, for Canada, carrying German and Italian internees, and is torpedoed off Ireland; eight hundred of them drown. You are not on it, by the luck of a list. Within a fortnight you are in a camp of tents on an unfinished housing estate at Huyton, near Liverpool, and then on the Isle of Man, behind barbed wire, in a seaside boarding house with the windows painted over, with a thousand other Germans and Austrians, many of them Jews, many of them men you knew from Les Milles. You laugh about it, the way Lindner taught you. Rats in a barrel, but an English barrel, with tea.
+
+They let you out in 1941. You work in a bindery in Oxford, repairing the books of the Bodleian Library. You write to Madeleine through the Red Cross, twenty-five words at a time, once a month. Some of the letters arrive.
+
+In 1945 you go back to Paris. Madeleine is there. Josette is there, twelve years old, and does not recognise you, and is polite to you, like a guest. Madeleine is kind. Madeleine has been alone for five years, through all of it, the hunger and the stars and the buses and the bells, and you were in Oxford, repairing books. You try. Both of you try, for three years. Then you go back to England, alone.
+
+You live. That was the choice. You live, and you are safe, and you never forgive yourself for it, and you never know, as long as you live, whether you were right.
+
+END
+
+== ending_handed_over
+## Ending — Surrender on Demand
+"I would rather die," you say, "than go home to your Reich."
+
+The German from Munich smiles. "That can be arranged," he says, quite pleasantly, and makes a cross on his list.
+
+The French officer in the corner of the tent looks at the canvas wall. He does not say anything. He has his orders. Article Nineteen.
+
+They hand you over at the demarcation line at Moulins in September 1940, with six other men from the camps of the south, in a lorry with a French driver and two French gendarmes who do not look at you, to two men in leather coats who do. You are taken to Paris, then Berlin, to the Gestapo headquarters on the Prinz-Albrecht-Strasse. Then to the concentration camp at Sachsenhausen, north of Berlin, where you are given a red triangle, for politicals, and a number.
+
+You die there on the ninth of February 1942, of pneumonia and starvation and the beatings, in the infirmary block, aged thirty-six. Your number is entered in a ledger by a prisoner clerk with good handwriting. The camp administration sends a printed form to your last known address in Germany, informing your relatives of your death from heart failure and offering them your ashes for a fee of three Reichsmarks. Your last known address in Germany is your mother's flat in Hamburg. Your mother has been dead since 1938.
+
+Madeleine never finds out what happened to you. In 1947 the Red Cross tells her you were "transferred to the German authorities in September 1940." That is all. She keeps writing letters until 1960.
+
+You were brave. You told the truth. Nobody heard it but a man from Munich and a French officer looking at a wall.
+
+END
+
+== ending_deported
+## Ending — Night and Fog
+Stoltenberg looks at you across the desk with the geraniums and says, "Well, Herr Brandt. You're a stubborn Hamburger. I respect that. It won't help you, but I respect it."
+
+You are not shot. You are sent to the transit camp at Compiègne, and in January 1944, in a cattle wagon, a hundred men to a wagon, to Germany. Nacht und Nebel, the order is called. Night and Fog: prisoners who disappear without trace, so that their families never know.
+
+The train goes to the concentration camp at Neuengamme. Neuengamme is twenty kilometres from the centre of Hamburg. From the brickworks where the prisoners work, on clear days, you can see the spires of your city. The Michel church. The cranes of the harbour. It is a brickworks. Of course it is a brickworks. You laugh when you see it, the first day, standing in the snow in your striped clothes, and the Kapo beats you for laughing.
+
+In April 1945, as the British army approaches, the SS evacuate the camp. Nine thousand prisoners are marched to the port of Lübeck and loaded on to ships, the Cap Arcona and the Thielbek, old liners, in the bay. On the third of May, five days before the end of the war, British aircraft, who do not know who is on board, bomb and sink them.
+
+You are on the Cap Arcona. You are on the deck when the rockets hit. The water is very cold, the way the Allier was cold. You think of the Heine on your workbench with its split spine, that you never finished. You think of a drawing in coloured pencil. You are not afraid.
+
+Seven thousand prisoners die in the bay of Lübeck that afternoon. Your body washes up on the beach at Neustadt in June, with hundreds of others. They are buried there in mass graves. In 1946 the French government writes to Madeleine to tell her you are "presumed dead in deportation."
+
+Lucien comes to see her. He was never arrested. You never gave them his name.
+
+END
+
+== ending_shot_maquis
+## Ending — The Beech Tree
+They shoot you at dawn, against a beech tree, at the edge of the clearing, next to the boy from the SS.
+
+It is not anyone's fault. Not exactly. It is the war. It is Oradour. It is Tulle. It is the rope still tied to the balconies, and the pram in the church, and twenty young men in a wood who have seen too much in a week and have nowhere to put it. You had a German accent, and German papers, and a book of drawings of guards and camps, and you were found on the road from Oradour the day after the massacre. You would have shot you too.
+
+The girl who cooks takes your papers and the drawing from your breast pocket and gives them to the priest at Saint-Junien. The priest sends them to Paris in September, after the liberation, with a letter that says that a German civilian named Brandt was "executed in error by a unit of the FFI on the twelfth of June 1944 in the context of the events of Oradour," and that he is very sorry.
+
+Madeleine has the drawing framed. It hangs in the workshop, over the bench, where the light is good, until she sells the workshop in 1960.
+
+Josette visits the clearing in 1984, with her husband. There is nothing there. Just beech trees, and the wind.
+
+END
+
+== ending_health
+## Ending — The Slow Kind
+? in_mob : You die of the beating at the Bastille. Not that day. Four days later, in the bed in the flat on the rue de la Roquette, of the bleeding inside that nobody could see, on the thirtieth of August 1944, with the bells still ringing for the liberation and the flags still hanging in the street. A German, killed by Frenchmen, on the week Paris was freed. It is not a death that will be put on any memorial.
+? !in_mob : It is not a bomb that kills you, or a bullet. It is the other kind of war: the slow kind. The hunger, the cold, the coughing that started in the brick dust and never went away, the winters without coal, the years of too little of everything. Your body simply runs out of the things it needs to go on. It happens to hundreds of thousands of people in Europe in these years, quietly, in beds and in queues and in camps, and nobody counts them as casualties of the war, although that is what they are.
+
+Madeleine is with you at the end. She holds your broken hand.
+
+You think of Josette at six in a nightdress in the workshop doorway with a sock rabbit, asking if it was the war today. You think: yes. It was the war. It was the war every day.
+
+The drawing is in the breast pocket of the jacket they bury you in. PAPA DON'T BE AFRAID. Madeleine put it there herself.
+
+END
+
+== afterword
+History note. Enemy Alien is fiction: Emil, Madeleine, the Lewins, Felix, Lindner, Kurt, Lucien, Hahn, Stoltenberg and everyone else in it are invented. But almost everything that happens to them happened to real people. The internment of German and Austrian refugees at Colombes and the Camp des Milles in 1939, the "ghost train" to Bayonne, Article 19 of the armistice, the exodus of June 1940, the roundup of Jewish men in the 11th arrondissement in August 1941, the shooting of hostages, the yellow star, the Vel d'Hiv roundup of 16-17 July 1942 and the separation of the children at Pithiviers and Beaune-la-Rolande, the bombing of Boulogne-Billancourt on 4 April 1943, the STO, the firestorm in Hamburg, the rescuers of Le Chambon-sur-Lignon, the hangings at Tulle and the massacre at Oradour-sur-Glane, the liberation of Paris, the shaving of women, the returning deportees at the Hotel Lutetia: all of these are real, and the numbers given in the story are the historical ones as far as they are known.
+
+If you want to know more, the Camp des Milles memorial, the Mémorial de la Shoah in Paris, the Centre de la mémoire at Oradour-sur-Glane, and the Lieu de Mémoire at Le Chambon-sur-Lignon all tell these stories far better than a game can.

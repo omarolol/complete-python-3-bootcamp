@@ -1,0 +1,329 @@
+# PART FOUR - The Occupation, October 1940 - December 1941
+
+== occupation
+## Part Four — Berlin Time
+Within a week you understand that you have come home to a city where you do not legally exist.
+
+To eat, in occupied Paris, you need a ration card. To get a ration card you need an identity card. To get an identity card, as a foreigner, you need to present yourself at the Prefecture of Police, where, since the autumn, the files of all foreigners have been open to the German security services, who sit in an office on the third floor and drink coffee and read them. Your file says: Brandt, Emil. Born Hamburg 1905. Stateless (expatriated by the Reich, 1934). Social Democrat. Interned 1939. And in red ink: Suspect.
+
+"Or," says Lucien, at the kitchen table, over a bottle of something brown he has brought that he says is calvados, "you could be somebody else."
+
+He has a friend at the town hall of the twentieth arrondissement who has blank identity cards, real ones, with real stamps. With the right name, the right birthplace, you would not need to explain the accent. "Alsace," he says. "Half the Alsatians in Paris speak French like a cow chewing gravel. You'll be Émile Brun, of Colmar. Born 1905. Bookbinder. Married. Very boring. A hundred francs for my friend, for his trouble."
+
+Madeleine looks at you. "If they catch you with false papers, it's prison. Or worse."
+
+"If they read his real file," Lucien says, "it's worse anyway."
+
+* Become Émile Brun of Colmar. Pay Lucien's friend for false papers. -> occ_false @ money-100 set:false_papers
+* Register honestly under your own name. You have done nothing wrong, and you will not start your life here with a lie. -> occ_register @ set:registered
+* Do neither. Stay out of every file and live without a card, on Madeleine's rations. -> occ_nopapers @ set:no_papers
+
+== occ_false
+Lucien's friend at the town hall is a fat, nervous man called Bonnefoy, with a moustache dyed too black, who meets you in the back of a church and gives you a grey card in a brown envelope without saying a word, and leaves by the side door.
+
+Émile Brun. Born the eighteenth of March 1905 in Colmar, Haut-Rhin. Profession: bookbinder. Your own photograph, taken at a booth at the Gare de l'Est, looking alarmed.
+
+You practise the signature at night until it looks like your own. You learn the streets of Colmar from an old Baedeker in the workshop. You memorise the name of a school, a church, a baker. You teach Josette, carefully, that if anyone ever asks, Papa comes from Alsace. She looks at you with her mother's eyes and says, "But Papa, that's a lie," and you have to explain to a seven-year-old why her father must lie, and the explanation does not come out well.
+
+-> occ_statut
+
+== occ_register
+@ hope+1
+You go to the Prefecture and stand for six hours in the queue for foreigners, among Poles and Russians and Spaniards and Hungarians, holding your grey paper and your release from Saint-Nicolas, and when you get to the counter the clerk is the same clerk who used to sigh at you in 1938. He sighs at you now. Some things are permanent.
+
+He takes your papers into a back office. He is gone for forty minutes. When he comes back he gives you an identity card for foreigners and a ration card and says, without looking at you, "They copied your file upstairs. The Germans. They copy all of them. I thought you'd want to know."
+
+You walk home with the card in your pocket feeling as if it is warm. It has your own name on it. It is also, you understand, a map to your door.
+
+-> occ_statut
+
+== occ_nopapers
+@ food-1
+You stay out of every file. You do not exist. For a while it is even easy. You work in the workshop and you do not go out except at dusk, and you eat from Madeleine's rations and Josette's, which are already not enough for two people, let alone three.
+
+? pierrot : Or four, now, with Pierrot.
+
+Madeleine gets thin. You get thinner. You feel it in the evenings, a hollowness, a light-headed slowness that gets worse as the winter comes.
+
+-> occ_statut
+
+== occ_statut
+## The Census
+On the twenty-seventh of September 1940 the German military command issues an ordinance: every Jew in the occupied zone must register at the police station of their district. Shortly afterwards, without even being asked, the Vichy government publishes its own law, the Statut des Juifs: Jews excluded from the civil service, from the army, from teaching, from the press, from the cinema.
+
+The queues at the police station on the rue de l'Orillon go round the block in October. You see them every morning on your way to buy bread: old men in good coats with medals from 1914, women with prams, students, rabbis, families with children, all of them waiting patiently in the rain to put their names on a list for the French police, who have prepared the forms beautifully. There are separate files, colour-coded, by name, by nationality, by street, by profession. It is the best list of Jews anybody has ever made in France.
+
+Isaac Lewin comes down to the workshop the night before he goes. He sits on the stool by the press, turning his hat in his hands.
+
+"I'm going tomorrow," he says. "With Rivka. And the children too, they want the children on the list. You think I shouldn't."
+
+? registered : You do not know what you think. You, who have just put your own name on a list.
+
+* Tell him not to go. Lists like this are how it started in Germany. -> statut_warn @ set:warned_isaac
+* Tell him you don't know. It's his family and his decision. -> statut_quiet
+
+== statut_warn
+"Isaac. In Germany it started with lists. First lists, then signs, then the shops. Then they come for you in the night, and they already have the address, because you gave it to them yourself."
+
+He listens. He does not interrupt. When you are finished he puts his hat on his knee and smooths it.
+
+"Emil," he says. "In Łódź when I was a boy, the Cossacks came without lists. They didn't need lists. They found us with their noses." He shrugs. "This is France. The country of the Rights of Man. Dreyfus. Zola. If I don't register, I'm illegal. Then they can do anything. If I register, I'm a legal person, with papers, a tailor with a shop, a family, a résident. Legal people have rights here." He stands up. "You worry too much. It's a German habit."
+
+He goes the next morning, with Rivka and Sarah and the baby, and stands in line in the rain for four hours, and comes back with a stamp on his identity card. It says JUIF in red capitals.
+
+He shows it to you as if it is nothing. Sarah shows you hers too. She is proud of it. Nobody else in her class has one.
+
+-> occ_winter
+
+== statut_quiet
+"I don't know, Isaac."
+
+He nods. "Nobody knows. That's the trouble." He stands, puts his hat on. "I'll go. It's the law."
+
+He goes the next morning, with Rivka and Sarah and the baby, and stands in line in the rain for four hours, and comes back with a stamp on his identity card. It says JUIF in red capitals. He shows it to you as if it is nothing. Sarah shows you hers too. She is proud of it. Nobody else in her class has one.
+
+-> occ_winter
+
+== occ_winter
+## The Winter of 1940
+That winter is the coldest in Paris for fifty years. The Seine freezes at the edges. There is no coal. The Germans have taken the coal, and the trains to carry it, and the men to dig it are prisoners in Germany. In the flat, the water in the jug by the bed is frozen in the mornings, and Josette goes to school in two coats and gloves with the fingers cut off, and comes home with chilblains on her hands that crack and bleed.
+
+There is no food. That is to say, there is food, for the Germans, and for those who can pay for the black market, and for those with relatives in the country. For everybody else there is a ration card, and a ration card in the winter of 1940 means about twelve hundred calories a day, and the shops do not always have enough to honour even that. Madeleine queues for three hours for four hundred grams of meat and gets to the front when there is none left. She queues for potatoes. There are no potatoes. There are swedes, rutabagas, the turnips that farmers used to feed to cattle, and Jerusalem artichokes, and Paris learns a hundred ways to cook them, and all of them taste of rutabaga.
+
+People keep rabbits in their bathrooms. People keep hens on their balconies. The pigeons in the Luxembourg gardens disappear. So, in some quarters, do the cats.
+
+In the workshop the glue freezes in the pot.
+
+* Buy on the black market. A man at the Café des Sports can get butter, meat, eggs, at five times the price. -> winter40_black @ money-120 food+3
+* Sell one of Lindner's drawings. A gallery on the rue de Seine buys "degenerate art" quietly, for German officers with modern tastes. -> winter40_sketch
+* Endure it. Everyone else is. -> winter40_endure
+
+== winter40_black
+@ hope+1
+The man at the Café des Sports is called Dédé and wears a camel-hair coat and two rings. He meets you in the toilets, where he keeps a suitcase, and sells you a kilo of butter, half a ham, two dozen eggs, a sack of potatoes and a bag of real coffee, and smiles at you with a gold tooth.
+
+"Where does it come from?" you ask.
+
+"From people who have it," Dédé says, "to people who can pay. That's what a market is, Monsieur."
+
+That night, Madeleine fries potatoes in butter and the smell fills the stairwell. Josette eats so fast she is sick, and then eats again. You give some potatoes and some eggs to Rivka for Sarah and the baby, and Isaac comes down and kisses your hand, which embarrasses you both terribly.
+
+You are not proud of where the money goes. In the queue for bread the next morning a woman in front of you faints from hunger and has to be carried out.
+
+-> occ_hahn
+
+== winter40_sketch
+? !sketchbook : You remember that the sketchbook did not survive the river. There is nothing to sell. You endure, like everyone else.
+? sketchbook : The gallery on the rue de Seine is warm and smells of turpentine and expensive cigars. The owner, a tall Frenchman with a monocle, turns the pages of Lindner's sketchbook slowly, very slowly, and stops at a drawing of a guard on the running track at Colombes.
+? sketchbook : "Lindner," he says. "Ernst Lindner. My God. I thought he was dead." He looks up. "He's very fashionable, you know. Among a certain kind of German officer. The cultivated ones. They hang this sort of thing in their bathrooms where Berlin won't see it. I'll give you four hundred francs for that one. And four thousand for the whole book."
+? sketchbook : You sell him one drawing: a study of three men asleep on straw at Les Milles, their faces turned away. You never forget it. Ten years later you will see it reproduced in an American magazine, in an article about Ernst Lindner, "the lost Expressionist," captioned Sleepers, c. 1939, private collection, and you will put the magazine down and go outside.
+-> [sketchbook] winter40_sold
+-> winter40_endure
+
+== winter40_sold
+@ money+400 food+2 hope-1 set:sold_sketch
+That night there is meat in the flat. Madeleine does not ask where it came from. Later, when the children are asleep, she sits with the sketchbook open on her lap at the place where the page was torn out, and runs her finger along the torn edge.
+
+-> occ_hahn
+
+== winter40_endure
+@ health-2 food-1
+You endure. Everyone does. You queue. You sleep in your clothes. You burn the offcuts of leather and board from the workshop in the kitchen stove, then the shelves, then a chair. You watch your daughter's wrists get thinner. You get a cough in January that does not go away until April.
+
+In February Rivka gives Josette a pair of mittens she has knitted from the unravelled wool of her own winter cardigan, and Josette refuses to take them off even to sleep.
+
+-> occ_hahn
+
+== occ_hahn
+## Doctor Hahn
+In March 1941 a German officer comes into the workshop.
+
+You are at the bench, sewing sections, and the bell over the door rings, and you look up and there is a field-grey uniform, a Sonderführer's insignia, an officer's cap held politely in the hand, spectacles, a long sad clever face. He is about fifty. He is carrying a parcel wrapped in newspaper.
+
+"I'm told you are the best binder in the eleventh arrondissement," he says in careful, perfect French. "A colleague recommended you. You rebound his Montaigne. Exquisite work. I have a Goethe."
+
+He unwraps it on your bench. It is a first edition of the West-Eastern Divan, 1819, in its original boards, crushed at the corners, the spine split. You find that you have picked it up before you can stop yourself, and that you are turning it in your hands, looking at the sewing, and he is watching you with a small smile.
+
+"You know what that is," he says. Then, in German: "You're from Hamburg, aren't you? Those vowels. My mother was from Altona."
+
+? false_papers : "I am from Colmar, Herr Sonderführer," you say. "Alsace." He smiles more widely. "Of course you are," he says. "And I am from Timbuktu. Never mind. It's not my business. Books are my business."
+? registered : "Brandt," he says. "Emil Brandt. Yes. I looked you up. I hope you don't mind. Expatriated in '34. Social Democrat. Interned by the French, poor man. Well. I'm not the Gestapo, Herr Brandt. I'm a librarian."
+? no_papers : You do not answer. He looks at you for a long moment, and you can see him deciding not to ask. "Well," he says. "Never mind. It's not my business. Books are my business."
+
+His name is Doctor Albrecht Hahn. Before the war he was a librarian at the State Library in Berlin. Now he works for an organisation called the Einsatzstab Reichsleiter Rosenberg, which collects books and documents in occupied countries "for research."
+
+-> hahn_offer
+
+== hahn_offer
+He comes back for the Goethe a fortnight later and stands at the bench with it in his hands for a long time, turning the pages, and you see that his eyes are wet.
+
+"Herr Brandt," he says. He calls you that now. "I'll be frank. I have a problem. We have a great many books at our depot. Hundreds of thousands. Libraries from all over Paris, which have been, how shall I say, entrusted to us. Some are in very poor condition. I need someone who understands books. Who can repair, catalogue, sort. Who reads German and French and preferably Hebrew letters as well." He puts the Goethe down. "Three thousand francs a month. A pass for the German canteen. Coal. Nobody will ask questions about your papers. I'll see to that."
+
+Three thousand francs is three times what the workshop makes in a good month. A pass for the German canteen is meat, butter, real coffee. Coal is the difference between your daughter's hands bleeding and not bleeding.
+
+You know, everybody in Paris knows, whose libraries these are. The Rothschilds. The Turgenev Library, the Russian émigrés' library. The Polish Library. The library of the rabbinical seminary. The private libraries of Jewish families who fled in June 1940, emptied out of their flats by men in lorries with lists.
+
+Afterwards, you go to see Lucien.
+
+? resistance : Lucien says, "Take it."
+? !resistance : Lucien listens with his arms crossed. Then he says something you were not expecting. "Take it. Take it, and tell me what they're doing in there. Who comes and goes. What they take, where they send it. Lists. Addresses. The Germans keep lists of everything. I know people who'd want to see them."
+
+* Take the job. For Josette. You will tell yourself it's only books. -> hahn_accept @ set:hahn_job money+300 food+3 hope-1
+* Take the job and pass everything you see to Lucien. -> hahn_spy @ set:hahn_job set:spy set:resistance money+300 food+3
+* Refuse. You will not be a librarian of stolen books. -> hahn_refuse @ set:refused_hahn hope+1
+
+== hahn_accept
+The depot is in a requisitioned building on the avenue d'Iéna, and the basement of a big shop on the rue de la Boétie, and a warehouse by the Gare d'Austerlitz. Wherever you go, there are books. Books in crates, books in piles to the ceiling, books on the floors of rooms that used to be ballrooms, books thrown out of lorries on to the pavement in the rain. Sorting tables. Men in brown overalls with stamps. Women typing catalogue cards. Order and method. Hahn moves among it all like a priest in a cathedral.
+
+Your job is the repair room: crushed spines, torn boards, water damage, mould. You are good at it. Hahn is delighted.
+
+The canteen is warm. You eat sausage and potatoes and drink real coffee among German secretaries and clerks and soldiers, and you speak German to them, and some of them become almost friends: a girl from Leipzig, a fat corporal who was a bookseller in Dresden. Nobody asks you anything. You bring home bread and fat and coal in your bag and Josette's chilblains heal by April.
+
+-> depot
+
+== hahn_spy
+@ hope+1
+The depot is in a requisitioned building on the avenue d'Iéna, and the basement of a big shop on the rue de la Boétie, and a warehouse by the Gare d'Austerlitz. Wherever you go, there are books. Books in crates, books in piles to the ceiling, books on the floors of rooms that used to be ballrooms, books thrown out of lorries on to the pavement in the rain. Sorting tables. Men in brown overalls with stamps. Women typing catalogue cards. Order and method. Hahn moves among it all like a priest in a cathedral.
+
+You are very good at your job. And every evening you write, from memory, in pencil on cigarette paper, what you saw: the names on the crates, the addresses they came from, the lorry numbers, the destinations stencilled on the crates going east: Berlin, Frankfurt, Ratibor. Twice a week you leave the papers inside the cover of a book you have "repaired" for Lucien, and Lucien's apprentice Jeannot collects it from the workshop on a bicycle.
+
+The canteen is warm. You bring home bread and fat and coal. Josette's chilblains heal by April. In the canteen you laugh at the fat corporal's jokes. You find you can do it quite easily. That frightens you more than anything.
+
+-> depot
+
+== depot
+One afternoon in May you are given a crate to sort that has come from a flat on the avenue Foch. A family called Kahn-Morel: the crate is full of children's books. Jules Verne, the Comtesse de Ségur, Babar, schoolbooks, a German grammar, all with the same bookplate, ex libris Daniel Kahn-Morel, in a child's careful handwriting under the printed one.
+
+Inside a Jules Verne, as a bookmark, there is a letter. A child's letter, in pencil, to "Mon cher Grand-Père," about a holiday at Deauville in 1939, about a crab that pinched somebody's toe. It is signed Daniel, age 9.
+
+The crate is to be catalogued, the valuable books kept for the institute in Frankfurt, the rest pulped. The children's books are the rest.
+
+* Slip the Jules Verne with the letter into your coat. Someone might someday come looking for it. -> depot_keep @ set:reinach_book
+* Do your job. Pulp them. They're only books. -> depot_pulp @ hope-1
+
+== depot_keep
+You put it in the inside pocket of your coat, next to Josette's drawing, and walk out past the guard on the door with your heart going like a hammer. He says "Heil Hitler, Herr Brandt, schönen Abend," without looking up from his newspaper.
+
+At home you put the book on the high shelf in the workshop, behind the account books, where it will stay for four years.
+
+-> occ_rafle
+
+== depot_pulp
+The pulping machine is in the basement. It is noisy. The books go in at the top and come out at the bottom as a grey wet porridge that is sold to a paper mill in Nanterre to make new paper, which is used to print, among other things, German army forms and the newspaper Le Matin. You stand and watch Babar go in.
+
+You keep the letter, though. You cannot not keep the letter.
+
+-> occ_rafle
+
+== hahn_refuse
+"I'm sorry, Herr Doktor. I'm a bookbinder. I bind books. I'm not a librarian."
+
+Hahn looks at you for a long time. Then he smiles, sadly.
+
+"You think I don't know what they are?" he says in German, very quietly. "I'm saving them. If I don't catalogue them, the men who come after me will burn them in the courtyard. I've seen it done." He puts on his cap. "Well, I respect you, Herr Brandt. Truly. I'll remember."
+
+You do not know whether that is a kindness or a threat. Neither, perhaps, does he.
+
+He pays for the Goethe, generously, in occupation marks.
+
+@ money+80
+-> occ_rafle
+
+== occ_rafle
+## August 1941
+On the morning of the twentieth of August 1941 you wake at five to the sound of engines. Through the blacked-out window you see buses. Green and cream Paris buses, the ones from the TCRP, parked at the end of the street, ten of them, with their engines running, and French police in their capes everywhere, at every corner, blocking the ends of the rue de la Roquette, the boulevard Voltaire, the rue de Charonne.
+
+It is the whole of the eleventh arrondissement. They close it off like a cork in a bottle. Nobody in, nobody out. Then they go building by building with their lists, the colour-coded lists from last October, looking for Jewish men between eighteen and fifty.
+
+Isaac is forty-one.
+
+He comes down the stairs at a quarter past five in his vest and his trousers with the braces hanging, barefoot, carrying his shoes, white as paper. Upstairs you can hear Rivka crying and the baby screaming.
+
+"They're in the building opposite," he says. "Emil. Emil."
+
+The workshop is downstairs. Behind the big standing press there is a space where you keep the boards, a cupboard with a false back, the size of a coffin, where in Hamburg you would have hidden a man without thinking. They are two doors away. You can hear them on the stairs of number 60.
+
+? pujol_hostile : And Madame Pujol is standing at the window of her lodge, watching you both.
+? !pujol_hostile : Madame Pujol is standing at the window of her lodge. She sees Isaac. She sees you. She looks at you for a long moment, and then she pulls the curtain shut.
+
+* Hide Isaac behind the press. -> rafle_hide
+* You can't. If they find him in your workshop, they take you too, and maybe Madeleine. Tell him to go back up and hope they pass the building by. -> rafle_refuse @ hope-2 set:isaac_drancy
+
+== rafle_hide
+You get him behind the press with the boards in front of him. He is shaking so much that you can hear the boards rattle and you have to put your hand on them and say, very quietly in Yiddish, which is near enough German, "Shh, Isaac, shh." Then you go back to the bench and pick up a needle and a section and begin to sew, and your hands are shaking so much you stab yourself in the thumb, twice, and bleed on to the paper.
+
+Two policemen. A sergeant with a list, a young one behind him. They do not look at you. They go up the stairs, and you hear them on the third floor, banging on the Lewins' door, and Rivka's voice, high and fast, and the sergeant's, bored.
+
+They are up there for ten minutes.
+
+? pujol_hostile : When they come down, the sergeant stops at the door of the lodge and talks to Madame Pujol through the window. You cannot hear what they say. She points. She points at the workshop.
+? pujol_hostile : The sergeant comes in. He walks around the workshop slowly, looking at the presses, the guillotine, the shelves. He stops in front of the standing press. He looks at you. You look at him. He is about fifty, with a grey moustache and a wedding ring, and he looks very tired.
+? pujol_hostile : "What's behind there?" he says. "Boards," you say. "Binder's boards." He looks at you for a long time. Then he says, loudly, to the young one in the doorway, "Nothing here. Boards," and walks out. You will never know why. You will think about him for the rest of your life.
+? !pujol_hostile : When they come down, they walk straight past the workshop door without looking in. The young one is laughing about something. The sergeant ticks the Lewins' name on his list with a pencil: absent.
+
+At ten o'clock the buses leave with four thousand two hundred men from the eleventh arrondissement. They are taken to a half-built housing estate in the northern suburbs, at a place called Drancy, a concrete horseshoe with no windows in its stairwells.
+
+Isaac comes out from behind the press at noon, grey with dust, and sits on the floor of the workshop for an hour, and will not speak. Then he goes upstairs. That night he comes down again with a suit he has made for you. He has had your measurements for a year, he says. He was saving it for a special occasion.
+
+@ set:isaac_hid hope+1
+-> occ_hostages
+
+== rafle_refuse
+"Go back up, Isaac. Please. If they find you here, we're all finished. Go back up and lock the door and don't answer it. Maybe they'll pass."
+
+He looks at you for one second. Just one. Then he nods, and goes back up the stairs in his bare feet, holding his shoes.
+
+They do not pass. At six in the morning, you hear them on the stairs, a sergeant and a young one, and the banging on the Lewins' door, and Rivka's voice, and then Isaac comes down the stairs between them in his shirt and trousers with his shoes on now, and a little suitcase, and as he passes the workshop door he does not look at you.
+
+At ten o'clock the buses leave with four thousand two hundred men from the eleventh arrondissement. They are taken to a half-built housing estate in the northern suburbs, at a place called Drancy.
+
+In November, after three months, the Germans release a few hundred of the sickest men from Drancy, because too many of them are dying of hunger, and it looks bad. Isaac is one of them. He comes home on the Métro in his summer shirt, in the rain. He weighs forty-four kilos. He has dysentery and his teeth are loose. He does not tell anybody what happened inside. He does not have to.
+
+He never speaks of the morning on the stairs. That is worse than if he did.
+
+-> occ_hostages
+
+== occ_hostages
+## Hostages
+The day after the roundup, the twenty-first of August, a young Communist called Pierre Georges, who will later be known as Colonel Fabien, shoots a German naval cadet in the back on the platform of the Barbès-Rochechouart Métro station. The cadet's name is Alfons Moser. He is twenty-one.
+
+The Germans reply with posters.
+
+The posters are yellow, with black borders, in German and French. They go up all over Paris, on walls, on Métro stations, on the columns where they used to advertise the theatre. AVIS. BEKANNTMACHUNG. They give the names of hostages who have been shot in reprisal. Communists, Jews, anybody already in prison. Three. Then ten. Then in October, after an officer is killed in Nantes, forty-eight in a single day, including a boy of seventeen called Guy Môquet, who writes a letter to his mother before they take him to the quarry.
+
+On the poster in September, the third name is Marchal, Pierre, printer, born 1919. Lucien's cousin. They shoot him at the fortress of Mont-Valérien, in the clearing behind the chapel, at dawn.
+
+Lucien comes to the workshop the next evening. He does not drink. He sits on Isaac's stool and he does not drink and you have never seen him not drink.
+
+"It's started now," he says. "It's started properly." He looks at you. "I need people, Emil. People who can do things with paper. You know paper. Tracts. Cards. Stamps. You know how to make a thing look like what it isn't."
+
+? spy : "You already do enough," he adds. "At the depot. But I need more. I need a forger."
+? hahn_job : "And I need a man inside the depot who isn't afraid."
+? false_papers : "You know what a false card looks like. You've got one in your pocket."
+
+* Join him. You will help with tracts and papers. -> hostage_join @ set:resistance set:forger hope+2
+* Refuse. You have a family. Your daughter. You've seen enough camps. -> hostage_refuse @ hope-1
+
+== hostage_join
+"What do you need?"
+
+He tells you. Tracts first, to be left in Métro carriages and letterboxes and under the doors of churches. Then ration cards. Then, later, identity cards, with stamps cut by hand from rubber erasers and blocks of lino, for people who need to stop existing: escaped prisoners, young men avoiding the labour service, Jews, British airmen shot down over Belgium on their way south.
+
+You are very good at stamps. You discover it the first night, cutting the eagle of the Prefecture backwards into a pink eraser with a scalpel by the light of a candle, while Madeleine sleeps. It is like a binder's finishing tool. It is like gold tooling a spine. You hold it to the light and it is perfect, and you feel something you have not felt since 1933. Not happiness. Something harder.
+
+Madeleine finds the eraser in the morning. She looks at it for a long time. Then she puts it back exactly where it was and says nothing, and that night when you come to bed she holds you so tightly that you can't breathe.
+
+-> kurt
+
+== hostage_refuse
+"I can't, Lucien. I can't. I've done my camp. I have Josette."
+
+He nods. He does not argue. He looks old.
+
+"I know," he says. "That's what everybody says. 'I have someone.' It's a good reason." He stands up. "It's the best reason there is. That's the trouble with it."
+
+At the door he turns. "If you change your mind, the dairy. Ask for Jeannot."
+
+That night you lie awake listening to the German patrol in the street, the boots, the laughter, and you think about a printer called Pierre Marchal, born 1919, who was shot in a clearing at dawn for something somebody else did.
+
+-> kurt

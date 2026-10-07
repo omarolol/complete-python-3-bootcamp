@@ -1,0 +1,306 @@
+# PART SIX - The Vel d'Hiv roundup, July 1942
+
+== rumor
+## Part Six — Thursday the Sixteenth
+It comes on Tuesday the fourteenth of July, the national holiday, which the Germans have forbidden anybody to celebrate. A warm grey day. No flags. The tricolour has been banned in the occupied zone, and so the women of the eleventh arrondissement go out walking in red, white and blue dresses, in threes, arm in arm, and the German soldiers don't understand.
+
+That evening you hear it.
+
+? spy : You hear it at the depot. Hahn's secretary, the girl from Leipzig, says it in the canteen to the fat corporal, not lowering her voice, because it never occurs to her that anybody there would care: the French police are going to do the big one on Thursday. Twenty-eight thousand names. Foreign Jews. Stateless. Everybody, this time, she says, women, children, the lot. They've requisitioned the buses and the Vélodrome d'Hiver. Thursday, four in the morning. You go to Lucien on your way home and tell him, and Lucien's face goes white, and he gets on his bicycle.
+? hahn_job & !spy : You hear it at the depot. Hahn's secretary, the girl from Leipzig, says it in the canteen to the fat corporal, not lowering her voice, because it never occurs to her that anybody there would care: the French police are going to do the big one on Thursday. Twenty-eight thousand names. Foreign Jews. Stateless. Everybody, this time, she says, women, children, the lot. They've requisitioned the buses and the Vélodrome d'Hiver. Thursday, four in the morning.
+? kurt_close & !hahn_job : You hear it from Kurt. He comes to the workshop at dusk, in a civilian raincoat that is too big for him, and shuts the door behind him and leans on it. "Thursday," he says. "The French police. Four in the morning. The orderly room has the paperwork, for the trains afterwards. Foreign Jews, stateless Jews. Everybody, Emil. Women. Children. It says children. Your neighbours, the tailor." He is out of breath. "I didn't tell you this. I was never here." And then he is gone.
+? resistance & !hahn_job & !kurt_close : You hear it from Lucien. He comes to the workshop at dusk, out of breath, sweat through his shirt. "Thursday," he says. "Four in the morning. A comrade in the police union. Foreign Jews. Twenty-eight thousand names. Everybody, women, children, this time it's everybody. They've got the buses. I'm going round every Jewish family I know." He is gone before you can answer.
+? !hahn_job & !kurt_close & !resistance : You hear it from Madeleine. She has heard it from the wife of a policeman in her school, who told her at the gate in a whisper, crying: her husband has been ordered to report at three in the morning on Thursday, with a list. Foreign Jews. Everybody. The policeman's wife is crying because the policeman has been sick in the toilet every night this week.
+
+The Lewins are Polish Jews. Foreign. Isaac's and Rivka's names are on the colour-coded index cards at the Prefecture, with their address, which they wrote down themselves in October 1940. Sarah was born in Paris, in the Rothschild hospital, in 1931. She is French. Moïse too. It will not make any difference. You don't know that yet. Nobody does.
+
+-> rumor_2
+
+== rumor_2
+You go up to the third floor. You tell them.
+
+Isaac listens standing in the middle of the kitchen with his tape measure round his neck and his arms crossed. When you have finished, he nods.
+
+"Yes," he says. "I've heard. Everybody's heard. They're saying it in the shops in the rue des Rosiers." He shrugs. "It's like last August. They want the men, for work, in Germany. So I'll go away for a few days. To my cousin in Montreuil. When they come they'll find a woman and children and they'll go away again. They don't take women and children, Emil. What would they want with them? What work can a baby do?"
+
+"Isaac. Everybody. It says everybody."
+
+"Who says?" says Isaac. "A German? A rumour?" He smiles at you, gently, the way you smile at a frightened child. "Emil. This is France. France doesn't arrest babies."
+
+Rivka has been sitting at the table with Moïse on her knee. She has not said anything. Now she looks at you, and you see that she believes you.
+
+Josette is downstairs, nine years old, asleep with a sock rabbit in her fist.
+
+? pierrot : So is Pierrot, in the box room, who still has nightmares about aeroplanes.
+
+If the police find Jews in your flat, it is the end. For you, for Madeleine. Maybe for your children.
+
+* Offer to take the children. Sarah and Moïse can sleep in your flat tomorrow night. -> rumor_children
+* Offer more: hide the whole family in the workshop. Behind the press, in the cellar, anywhere. -> rumor_family @ set:hid_family
+* Say nothing more. You've warned them. It's their decision, and you have your own children. -> rumor_nothing @ hope-2
+
+== rumor_children
+"Give me the children," you say. "Just for the night. Wednesday night. If nothing happens, they come back up in the morning and we'll all laugh about it."
+
+Isaac starts to say something. Rivka speaks first.
+
+"Yes," she says. "Sarah. Take Sarah." She turns to her daughter, who has been sitting on the floor in the corner pretending to read and listening to every word. "Sarah, you'll sleep at Josette's tomorrow. Like a holiday."
+
+Then she looks down at the baby in her lap. Moïse is two and a half. He is chewing the ear of a wooden horse that Isaac carved for him, and he looks up at his mother and says "Mama," and puts the horse in her mouth to share.
+
+? isaac_hid : Rivka shuts her eyes. Then she stands up and puts Moïse in your arms. He is heavy and warm and smells of milk and sleep. "You hid Isaac," she says. "Last year. When they came. You hid him behind the press. I know you. You'll keep him." She is shaking. "If nothing happens, I'll come down for him at six. If nothing happens."
+? isaac_hid : You hold Moïse. He grabs your nose.
+? !isaac_hid : "Not him," Rivka says. "I can't. Not him. He's a baby. He won't sleep without me. He'll scream all night and the whole building will hear, and then they'll come for you too." She is holding him so tightly he squirms. "They don't take babies. Isaac's right. Not babies."
+? !isaac_hid : You think of the August morning last year, when Isaac came down the stairs in his bare feet holding his shoes, and you sent him back up. She remembers too. You can see it.
+
+-> [isaac_hid] rumor_children_both
+-> rumor_children_sarah
+
+== rumor_children_both
+@ set:took_sarah set:took_moise
+On Wednesday night Sarah comes down at nine with her nightdress, her toothbrush and her school satchel, and Rivka comes down at ten with the baby asleep on her shoulder, and puts him on your bed, and kisses him, and kisses Sarah, and goes up again without saying anything, holding the banister.
+
+Sarah gets into bed with Josette. You hear them whispering for an hour. Then they're asleep.
+
+You don't sleep. You and Madeleine sit at the kitchen table in the dark with the blackout up and the window open for air, listening to Paris. At two o'clock it is perfectly quiet. At three o'clock you hear a lorry. At a quarter to four you hear the buses.
+
+-> veldhiv
+
+== rumor_children_sarah
+@ set:took_sarah
+On Wednesday night Sarah comes down at nine with her nightdress, her toothbrush and her school satchel. Rivka brings her. At the door Rivka kisses her eight times, on both cheeks, on the forehead, the eyes, the hands, and Sarah says "Mama, stop, it's only one night," and Rivka laughs, and goes up the stairs again holding the banister.
+
+Sarah gets into bed with Josette. You hear them whispering for an hour. Then they're asleep.
+
+You don't sleep. You and Madeleine sit at the kitchen table in the dark with the blackout up and the window open for air, listening to Paris. At two o'clock it is perfectly quiet. At three o'clock you hear a lorry. At a quarter to four you hear the buses.
+
+-> veldhiv
+
+== rumor_family
+"All of you," you say. "In the workshop. In the cellar under the workshop. There's a trapdoor under the drying rack. It's where the coal was kept. Nobody knows about it except me."
+
+Isaac argues for an hour. He is not a coward and he does not want to hide in a coal cellar like a rat. Rivka doesn't argue. She starts packing a bag before he's finished, and in the end he follows her down the stairs at midnight on Wednesday with a suitcase and a candle and his face set like stone, and the four of them go down through the trapdoor into the black, Isaac, Rivka, Sarah, Moïse with a dummy in his mouth, and you close the trapdoor and drag the drying rack across it, and pile paper on the rack, and go upstairs, and sit at the kitchen table with Madeleine in the dark.
+
+At two o'clock it is perfectly quiet. At three o'clock you hear a lorry. At a quarter to four you hear the buses.
+
+-> veldhiv
+
+== rumor_nothing
+"It's your decision, Isaac," you say. "I'm sorry. I've told you what I heard."
+
+He thanks you. He shakes your hand. He says he'll go to his cousin's in Montreuil tomorrow evening, and Rivka and the children will stay, and everything will be fine.
+
+On the stairs, going down, you hear Rivka's voice behind the door, high and fast in Yiddish, and Isaac's, low.
+
+Wednesday night you don't sleep. You and Madeleine sit at the kitchen table in the dark with the blackout up and the window open for air, listening to Paris. At two o'clock it is perfectly quiet. At three o'clock you hear a lorry. At a quarter to four you hear the buses.
+
+-> veldhiv
+
+== veldhiv
+## The Sixteenth of July 1942
+They come at ten past four. Not Germans. There is not one German in the rue de la Roquette that morning. French policemen, in their capes and their képis, in pairs, a sergeant and a constable, with lists, and French gendarmes in their helmets at the ends of the street, and the green and cream buses of the Paris transport company, with their drivers smoking at the wheel, waiting.
+
+You hear them on the stairs of number 64. The heavy feet. The knock on the third floor. A man's voice, bored, saying "Police. Open up."
+
+-> [hid_family] veldhiv_family
+-> [took_sarah] veldhiv_children
+-> veldhiv_nothing
+
+== veldhiv_family
+They knock on the Lewins' door for a long time. Then they break it open. You hear them walking around upstairs, opening cupboards, the bed being turned over. Then they come down.
+
+? pujol_hostile : At the bottom of the stairs, the sergeant stops at the lodge. Madame Pujol is already standing in her doorway in her dressing gown, her hair in pins. "The Lewins," the sergeant says. "Third floor. Gone. Where?" She does not hesitate. She turns her head and looks at the door of the workshop.
+? !pujol_hostile : At the bottom of the stairs, the sergeant stops at the lodge. Madame Pujol is already standing in her doorway in her dressing gown, her hair in pins. "The Lewins," the sergeant says. "Third floor. Gone. Where?"
+? !pujol_hostile : Madame Pujol looks at him for a long moment. Then she says, quite loudly, in her most disagreeable voice, "Gone to the country last week, the whole tribe of them. To Normandy. Owing me two months' rent, of course. You find them, Sergeant, you tell them Madame Pujol wants her money."
+? !pujol_hostile : The sergeant laughs. He writes something on his list. "Absent," he tells the constable. "Next building."
+
+-> [pujol_hostile] veldhiv_found
+-> veldhiv_saved
+
+== veldhiv_saved
+@ set:sarah_safe set:moise_safe set:parents_safe hope+3
+You stand at the window with Madeleine and watch the buses fill. From number 60 they bring out the Grinbergs, mother and three children, the youngest in pyjamas. From number 58 the old couple from the ground floor, Monsieur and Madame Kaplan, he in his overcoat in July, she with a birdcage with a canary in it, which a constable takes off her and puts on the pavement, and the canary sings and sings on the pavement after the bus has gone. From across the street, a woman with a baby who throws herself at a policeman and has to be dragged. Children. So many children. Children carrying their own little suitcases. Children holding their teddy bears.
+
+The bus doors close. The buses leave.
+
+At noon, when the street is empty, you go down to the workshop and move the drying rack and lift the trapdoor, and Isaac comes up the ladder into the light, black with coal dust, and stands in the workshop, and looks at you.
+
+He does not say anything. Neither do you. Then he puts his arms around you and holds you, and he is shaking, a big man, shaking like a tree in the wind, and Rivka comes up behind him with Moïse, who is asleep, and Sarah, who is not.
+
+Then you go and knock on the door of the lodge.
+
+Madame Pujol opens it a crack. She looks at you. "What?" she says. "What do you want? I didn't do anything. I don't know anything." She shuts the door in your face. Through it she says: "And they still owe me two months' rent."
+
+They do not. They have never been late with the rent in eleven years. You will think about Madame Pujol for the rest of your life, and you will never understand her.
+
+-> veldhiv_stadium
+
+== veldhiv_found
+@ health-3 hope-3 set:sarah_safe set:emil_arrested42
+The sergeant comes into the workshop with two constables and Madame Pujol behind them in her dressing gown. "Under the rack," she says. "There's a coal hole. He thinks I don't know about it. Eleven years I've been in this building."
+
+They drag the rack away. They open the trapdoor. They shine a torch down into the black. "Come up," the sergeant says. "Come up, all of you, it's finished."
+
+Isaac comes up first, with his hands up, black with coal, and then Rivka with Moïse, and the sergeant says "And the girl. There's a girl. Sarah, ten years old. Where's the girl?" and Rivka says "She's with my sister in Lyon," and the sergeant shines his torch down into the coal hole for a long time.
+
+Sarah is down there. You know she is. She is lying flat under the old coal sacks at the back, behind the chimney breast, not breathing. You told her where. You told her, if anything happens, there, under the sacks, and don't come out for anybody, anybody, not even Mama.
+
+The sergeant turns his torch off. "Lyon," he says. "All right."
+
+Then he turns to you.
+
+You don't remember all of it. The constables hit you in the workshop, with batons and boots, while the sergeant watches, and Madeleine screams on the stairs. They take you away in a police van with Isaac and Rivka and Moïse and four other people. At the commissariat they separate you. You are not a Jew. You are a German, of all things, who has been hiding Jews, and nobody quite knows what to do with you.
+
+? hahn_job : At five in the afternoon, Doctor Hahn arrives at the commissariat in a staff car. He does not speak to you. He speaks to the commissaire in an office with the door shut for fifteen minutes. Then you are released. In the car he says, looking straight ahead, "Herr Brandt. I can do this once. Do you understand me? Once."
+? kurt_close & !hahn_job : At five in the afternoon a German lance-corporal with a stick comes into the commissariat with a typed order on Wehrmacht notepaper, stamped, demanding the release of "the German national Brandt" into military custody. The French are glad to be rid of the problem. Outside, in the street, Kurt tears the order into small pieces and puts them in the gutter. "I typed it myself," he says. "I signed it myself. Don't ask."
+? !hahn_job & !kurt_close : They keep you three days. On the third day an inspector releases you without explanation, for lack of a crime anybody can be bothered to charge you with. You walk home with two cracked ribs.
+
+Sarah comes out of the coal hole at midnight on the sixteenth, when Madeleine goes down and calls her in the special whistle you agreed. She has been lying under the sacks for twenty hours. She has wet herself. She doesn't cry. She doesn't speak, either, for eleven days.
+
+-> veldhiv_stadium
+
+== veldhiv_children
+They knock on the Lewins' door for a long time. Then Isaac opens it. You hear his voice. "Sir, I'm a legal person, here are my papers, I have a shop..." He did not go to his cousin's in Montreuil after all. He would not leave Rivka.
+
+Through the floor you hear Rivka's voice, very clear: "My daughter is with my sister in Lyon."
+
+? took_moise : "And the baby?" says the sergeant. A pause. "There's a cot. Where's the baby?" "Dead," Rivka says. "Of diphtheria. In May. The cot is for the next one." You never know how she says it without her voice breaking. The sergeant says nothing for a while. Then you hear him tick the list.
+? !took_moise : You hear Moïse crying. You hear the sergeant say, "Bring the child. A bottle, nappies, a change of clothes. You have five minutes."
+
+Then they come down the stairs. Isaac first, carrying two suitcases. Rivka behind him.
+
+? !took_moise : She has Moïse on her hip, in his sleeping suit, with his wooden horse.
+
+She walks past the door of your flat and does not look at it. She does not look at it because she knows that if she looks at it, Sarah will hear her and come out.
+
+Sarah is standing behind the door. Madeleine is holding her with both arms and a hand over her mouth, and Sarah is fighting her without a sound, kicking, biting Madeleine's hand until it bleeds, and Madeleine does not let go.
+
+At the bottom of the stairs, Rivka stops and turns, and looks up the stairwell, and for one second you think she is going to call out. Then she turns again and walks out through the courtyard into the street and on to the bus.
+
+@ set:sarah_safe hope-2
+-> [took_moise] veldhiv_children_moise
+-> veldhiv_stadium
+
+== veldhiv_children_moise
+@ set:moise_safe
+Moïse sleeps through all of it, in the middle of your bed, on his back with his arms flung out, with his mouth open, the way only very small children sleep. When he wakes up at seven o'clock he says "Mama?" and then, when he sees you, "Mil!" and holds out his arms to be picked up.
+
+He asks for Mama all day. He asks for Mama for a month. Then less. By the end of the year he calls Madeleine Mama, and you have to decide whether to correct him, and you don't.
+
+-> veldhiv_stadium
+
+== veldhiv_nothing
+@ set:all_taken
+They knock on the Lewins' door for a long time. Then Isaac opens it. He did not go to his cousin's in Montreuil after all. He would not leave Rivka. "Sir, I am a legal person," you hear him say, "here are my papers, I have a shop..." "Five minutes," says the sergeant. "Clothes, blankets, food for two days."
+
+Food for two days. You think of Colombes. Two days.
+
+Then they come down the stairs. Isaac first, carrying two suitcases. Rivka with Moïse on her hip, in his sleeping suit, with his wooden horse. And Sarah, in her school pinafore with the yellow star, solidly sewn, carrying her satchel, because she did not know what else to bring, holding her mother's skirt.
+
+Your door is open a crack. You are standing behind it. As they pass, Sarah looks at the crack and sees your eye. She does not say anything. She looks at you, and you look at her.
+
+There are two policemen. The sergeant is in front, the constable behind, on the stairs above. For a moment, at the turn of the stairs, Sarah is half a metre from your door and nobody is looking at her.
+
+* Reach out and pull her inside, now. -> veldhiv_grab
+* Don't move. -> veldhiv_still
+
+== veldhiv_grab
+@ health-2 set:sarah_safe set:grabbed_sarah
+You open the door and pull her in by the arm and shut it, and it is the quickest thing you have ever done in your life, and the loudest, and the constable on the stairs shouts.
+
+He hammers on the door. You hold it shut. Behind you, Madeleine has picked Sarah up and is running with her, through the flat to the back window, which opens on the roof of the workshop, and out across the roof and down into the yard of the dairy behind, and you hold the door shut with your shoulder while the constable kicks it.
+
+Then the sergeant's voice, below: "Leave it! Leave it, Gaston, for God's sake. We have the list. We have the time. One kid. Leave it." A silence. Then the constable says, through the door, very quietly: "Next time, Boche." And you hear his boots going down the stairs.
+
+Afterwards you find you have dislocated your shoulder. Madeleine pushes it back into place on the kitchen table, with Lucien's instructions from a first-aid manual, and you scream into a towel.
+
+Sarah is in the dairy's cold room for a day and a night, among the churns. When Madeleine brings her home, she asks for her mother. Madeleine doesn't know what to say.
+
+-> veldhiv_stadium
+
+== veldhiv_still
+@ hope-3
+You don't move.
+
+She goes past. Down the stairs, holding her mother's skirt, in her pinafore with the yellow star, with her satchel. The constable's boots come after her. Then they are in the courtyard. Then they are in the street. You hear the bus doors close.
+
+Josette has woken. She is standing in her nightdress in the doorway of her room, holding the sock rabbit, and she says, "Papa? Where's Sarah going?"
+
+You don't answer her. You will never be able to answer her.
+
+-> veldhiv_stadium
+
+== veldhiv_stadium
+## The Vélodrome d'Hiver
+Over two days the French police arrest thirteen thousand one hundred and fifty-two people in Paris. They had hoped for twenty-eight thousand, but many were warned and hid. Of those arrested, four thousand one hundred and fifteen are children.
+
+The families with children are taken to the Vélodrome d'Hiver, the winter cycling stadium on the boulevard de Grenelle near the Eiffel Tower, where before the war there were six-day bicycle races and boxing matches and political rallies. They are kept there for five days. Eight thousand people. There is a glass roof, painted blue for the blackout, and July sun on it. There is no food except what the Quakers and the Red Cross are allowed to bring. There are eight toilets, and they are blocked by the first afternoon. There is no water except one hydrant. There are four doctors.
+
+On the eighteenth you go there. You don't know why. You tell Madeleine you are going to work and you take the Métro to Grenelle and walk along the boulevard under the elevated railway, and there it is.
+
+You hear it before you see it. Eight thousand people make a sound, even behind walls. It is not screaming. It is lower than that, a kind of roar, like the sea. And the smell, which reaches you a hundred metres away in the hot street.
+
+There are French gendarmes all round it, in a cordon, keeping order.
+
+-> stadium_2
+
+== stadium_2
+People are standing on the other side of the street, watching. Not many. A few dozen. Some are relatives, you can tell, standing very still with packages in their hands. Some are just curious. A woman with a shopping basket. A boy on a bicycle. A man in a good suit who looks at his watch.
+
+A gendarme is standing by the side entrance, smoking. He is young, with a broad red country face.
+
+? !all_taken & !parents_safe : Isaac and Rivka are in there. Isaac and Rivka and, maybe, Moïse.
+? !all_taken & !parents_safe & moise_safe : Not Moïse. Moïse is at home, asleep on your bed.
+? all_taken : Isaac and Rivka and Moïse and Sarah are in there.
+? parents_safe : The Lewins are not in there. They are at home, in your flat, with the curtains drawn. But the Grinbergs from number 60 are in there. The Kaplans. The woman with the baby.
+
+* Try to bribe the gendarme to carry in a parcel of food and water. -> stadium_bribe @ money-150 food-1
+* Just stand and watch, so that someone has seen it. -> stadium_watch
+
+== stadium_bribe
+@ hope+1
+The young gendarme looks at the money for a long time. Then he takes it and the parcel, without a word, and goes inside, and comes back out after twenty minutes, with the parcel gone. He doesn't look at you. He just puts a folded piece of paper in your hand as he walks past, and goes back to his post.
+
+? parents_safe : It's from Esther Grinberg, from number 60. Two lines in pencil, on the back of a bus ticket. "Monsieur Brandt, thank you, the bread is for the children. Please tell my husband in the Loiret camp that we are here. God will repay you."
+? !parents_safe : It's from Rivka. Two lines in Yiddish, which you can almost read, and one line underneath in French, in large clumsy capitals, for you: "THANK YOU. TELL SARAH TO BE GOOD. MAMA."
+? all_taken : Underneath, in a child's handwriting, in pencil: "Josette, I have the bread, it is very hot in here. Your friend Sarah Lewin."
+
+You keep it. You will keep it for the rest of your life, in a book on a shelf, and you will take it out once a year.
+
+-> stadium_after
+
+== stadium_watch
+You stand on the pavement across the boulevard for three hours.
+
+You see a woman on the roof. You don't understand at first what she is doing up there, on the edge of the glass roof, among the iron girders. Then she jumps. The gendarmes run. People across the street turn away. The woman with the shopping basket says, "My God, my God," and walks off very quickly towards the Métro.
+
+You see a Red Cross nurse come out of the side entrance, sit down on the kerb, put her head between her knees, and vomit into the gutter. Then she wipes her mouth with her handkerchief, stands up, straightens her cap, and goes back in.
+
+You see the buses come, empty, and leave, full, on the fifth day, for the camps in the Loiret, at Pithiviers and Beaune-la-Rolande.
+
+Somebody has to remember it. You stand there so that you can remember it. You don't know if that is courage or cowardice. It feels like both.
+
+-> stadium_after
+
+== stadium_after
+## August 1942
+In August you hear the rest of it from a nurse called Annette Monod, who works for the Red Cross and who has come back from Beaune-la-Rolande, and who sits in the workshop drinking chicory coffee with hands that will not stop shaking.
+
+The families from the Vel d'Hiv were taken to the camps in the Loiret: Pithiviers and Beaune-la-Rolande, wooden barracks in the fields, behind barbed wire. There, in the first days of August, the parents were deported. To the East. To "labour in Poland." Without their children.
+
+"They separated them," she says. "Gendarmes. French gendarmes. With hoses. With rifle butts. The mothers were holding on to them and the gendarmes were tearing their clothes off them to get the children loose. Three thousand children, Monsieur. Three thousand children, left on their own in the camp, the youngest two years old. They didn't know their own names. We tried to write their names on their clothes. They would swap clothes. They would lose their name tags. In the night they cried for their mothers, all of them at once."
+
+Two weeks later, in the second half of August, the children were deported too, from Drancy, in convoys of a thousand, each with a few hundred adults mixed in, so that it would look like families. To the East.
+
+"The Germans in Berlin wanted the children," she says. "Laval offered them. That's what they say. Laval said, take the children too."
+
+? !moise_safe & !parents_safe : Isaac and Rivka Lewin leave Pithiviers on the convoy of the third of August 1942, convoy number 14, for Auschwitz. You will learn the number after the war, from a list. Moïse Lewin, aged two years and eleven months, leaves Drancy on the convoy of the twenty-sixth of August, convoy number 24. He is listed as "Lewin, Moïse, born Paris 1939, without known parents." He still has his wooden horse, Annette thinks. She thinks she remembers a little boy with a wooden horse, but there were so many, and they all had something.
+? moise_safe & !parents_safe : Isaac and Rivka Lewin leave Pithiviers on the convoy of the third of August 1942, convoy number 14, for Auschwitz. You will learn the number after the war, from a list.
+? all_taken : Sarah Lewin, aged ten, born in Paris, a French citizen, leaves Drancy on the convoy of the twenty-sixth of August with her brother. She is listed as looking after him. She has her satchel. The note she wrote to Josette from the Vel d'Hiv is in your pocket.
+
+Annette finishes her coffee.
+
+"I'm a Protestant," she says. "From the Cévennes. My grandmother told me about the Camisards, the dragoons, how they hunted our people in the mountains three hundred years ago. I never believed her, about the cruelty. I thought she exaggerated." She puts the cup down. "If you ever have a child to hide, Monsieur Brandt, a Jewish child, come to me. There are places. In the mountains. There's a village called Le Chambon-sur-Lignon. They've been hiding people there since the dragoons."
+
+@ set:annette
+-> hiding

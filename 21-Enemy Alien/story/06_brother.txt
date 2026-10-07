@@ -1,0 +1,165 @@
+# PART FIVE - Kurt and the star, spring - summer 1942
+
+== kurt
+## Part Five — My Brother
+? hahn_job : It happens in the German canteen, of all places, on a Tuesday in April 1942. You are carrying your tray to your usual table by the window when somebody behind you drops a cup, and says, "Emil?" in a voice you have not heard for nine years, and you turn round.
+? !hahn_job : It happens on the boulevard Saint-Michel, of all places, on a Tuesday in April 1942. You are walking back from delivering a set of rebound encyclopaedias to a lycée, pushing the handcart, and a group of German soldiers are coming the other way, on leave, cameras, laughing, and one of them stops dead in the middle of the pavement so that the others bump into him, and says, "Emil?" in a voice you have not heard for nine years.
+
+It is Kurt.
+
+Your little brother. Thirty-two years old now. He is in the field-grey uniform of an Obergefreiter of infantry, a lance-corporal, with the ribbon of the Iron Cross second class in his buttonhole and another ribbon you do not recognise, and he is thin, much thinner than you remember, and older than thirty-two, and he walks with a stick. He has the same face as your father. You had forgotten that. He has your father's face exactly, and your father has been dead since 1928.
+
+He takes a step towards you and stops, as if he is not sure he is allowed.
+
+The last time you saw him was in May 1933, in your mother's kitchen in Hamburg, the day after the SA brought him back. He was sitting at the table with his hands round a cup of coffee, and you asked him what they had done to him, and he would not say, and you said, "Then come with me. To Paris. Tonight." And he said no. He said, "Somebody has to stay with Mother." And you went, and he stayed.
+
+-> kurt_2
+
+== kurt_2
+You go to a café on the rue Soufflot, near the Panthéon, where there are no other Germans, and sit at a table at the back. He orders schnapps for you both and the waiter brings calvados. Kurt's hands shake when he lifts the glass. He drinks it in one.
+
+He tells you things. Mother died in 1938, of her heart, in her sleep, and he wrote to you, and the letter came back marked "address unknown." He married in 1937, a girl called Hilde from Barmbek, and there is a son, Peter, who is four now, and he shows you a photograph of a fat little boy in a sailor suit on a beach at Travemünde. He was called up in 1939. Poland. France, in 1940, then he was here, in Paris, with the occupation troops, for six months, the best six months of his life. And then the East. Russia. The Ukraine.
+
+He stops.
+
+"I looked for you," he says. "In 1940. When we were here. I went to the Prefecture and asked. They said they had no Brandt, Emil. I thought, he's in England. Or dead. Or in America." He laughs, without any laughter in it. "And here you are. On the boulevard Saint-Michel."
+
+You ask him about the stick. He says, "Frostbite. December. In front of Moscow. They took off four toes. It was forty degrees below zero and we were in summer coats, Emil. Summer coats. The horses froze standing up." He orders another calvados. "That's how I got here. Light duties. Garrison. They gave me Paris, to rest."
+
+Then he looks at you, and you see your father's eyes in his face looking at you, and something in them you do not want to see.
+
+"I have to tell somebody," he says. "Can I tell you? You're the only one I can tell."
+
+-> kurt_confession
+
+== kurt_confession
+He tells you about September in the Ukraine.
+
+He tells it slowly and in order, looking at the tablecloth, as if he is reading it off a list. A town, somewhere west of Kiev; he does not remember the name, or says he doesn't. His company was ordered to provide a cordon. That was the word, cordon. Just to keep order. There was a ravine outside the town, a sandy ravine with birch trees, and men from the SS and from a police battalion. And the Jews of the town were brought there. All of them. Not the men. All of them. Women. Old people. Children. Kurt's company stood in a line along the road with their rifles and kept order while the Jews walked past them towards the ravine, in families, carrying their things, because they had been told they were being resettled.
+
+At the edge of the ravine they had to undress. They had to put their clothes in piles: coats here, shoes there. Then they went down into the ravine in groups of ten and lay down on top of the ones who were already there, and were shot in the back of the neck.
+
+It took two days. The men from the police battalion were given schnapps. Some of them were drunk by noon. There were so many children. There was an old man who was a rabbi, who sang. There was a woman who held up her baby to the soldiers in the cordon, to Kurt's line, as she went past, and said something in Yiddish, which is near enough to German that you can understand it, and what she said was "Take him. Please. He's only a baby. Take him."
+
+"I didn't take him," Kurt says. He says it to the tablecloth. "I didn't take him, Emil. I stood there with my rifle. I kept order."
+
+-> kurt_choice
+
+== kurt_choice
+He is crying now, without any sound. A Wehrmacht lance-corporal, crying in a café in the Latin Quarter with his face in his hands, and the waiter is very carefully looking the other way, and the two old men by the window have got up and left.
+
+"And then you know what I did? I sent Hilde a fur coat. From Kiev. They were giving them out. From the piles. I sent my wife a fur coat in a parcel, Emil. She wrote and said it was the most beautiful thing she'd ever had."
+
+You think about Sarah Lewin. You think about Moïse, who is two years old now and calls you "Mil." You think about the drawing in your breast pocket. You think about the cellar in Hamburg in 1933, and Kurt at nineteen in the back of the lorry with his face against the slats, looking at you, and you running, you running away to Paris and leaving him there.
+
+* Put your hand on his. He is your brother. Whatever he has done, he is your brother. -> kurt_embrace @ set:kurt_close hope+1
+* Get up. Leave. Whatever he was once, he is one of them now. -> kurt_reject @ set:kurt_rejected hope-1
+* Tell him: if he wants forgiveness, he can help you. Then you'll see. -> kurt_bargain @ set:kurt_close set:kurt_helps
+
+== kurt_embrace
+You put your hand on his on the tablecloth, and he grabs it with both of his, hard, as if he is drowning.
+
+You stay in the café until curfew. You talk about Mother. About the cellar on the Grindelallee, about the smell of the Elbe in summer, about the football ground at Rothenbaum. About the plum cake at the bakery on the corner, Schuster's, which still exists, he says. You laugh. You don't know how, but you laugh.
+
+At the door, he says, "I'll come to see you. I won't come in uniform. I'll come in a coat. Nobody will know." He puts his hand on your face, like Mother did. "I'm glad you ran, Emil. You were right to run. I should have run with you."
+
+-> star
+
+== kurt_reject
+You stand up. You put money on the table for the calvados. He looks up at you, with your father's face, wet.
+
+"Emil."
+
+"You stood there," you say. "You held a rifle and you stood there and you let them do it. And now you want me to say it's all right. I can't, Kurt. I'm not God and I'm not your priest. I can't."
+
+You walk out. You walk all the way back to the eleventh arrondissement, across the river and through the Marais, and you do not remember any of it. When you get home, Madeleine takes one look at your face and sends the children to Rivka's.
+
+That night you dream of a ravine with birch trees, and a woman holding up a baby, and the baby has Moïse's face, and you are in the cordon, and you do not take it either.
+
+-> star
+
+== kurt_bargain
+He looks at you as if you have slapped him. Then, slowly, something in his face settles.
+
+"Yes," he says. "Yes. That's fair. That's fair, Emil. Tell me what you need."
+
+You don't know yet. You tell him so. He writes on the back of a beer mat: the address of his unit, a barracks at the École Militaire, and the name of a café on the avenue de la Motte-Picquet where he goes in the evenings.
+
+"Anything," he says. "Papers. Passes. Information. I'm a clerk now, in the orderly room. You'd be surprised what a clerk sees." He holds out his hand, and after a moment you shake it. It is like shaking hands with a stranger who has your father's face.
+
+-> star
+
+== star
+## The Star
+On the seventh of June 1942 every Jew in the occupied zone over the age of six must begin to wear a yellow star.
+
+It is a six-pointed star the size of the palm of a hand, made of yellow cloth with a black border, with the word JUIF in the middle in black letters made to look like Hebrew. It must be sewn on to the left breast of the outer garment, firmly, "solidly sewn," the ordinance says. Each person is issued three. They are distributed at the police stations, in exchange for a coupon from the textile ration card. The Jews of France pay for their own stars with their clothing ration.
+
+Rivka sews them on. You watch her through the open door of the Lewins' flat, sitting at the kitchen table with her mouth full of pins, sewing a yellow star on to Sarah's school pinafore with the tiny, perfect stitches of a professional, so that it will be solidly sewn and nobody can say it isn't. Then on Isaac's jacket. Then on her own coat.
+
+Sarah is ten. She stands in front of the mirror in the hall in her pinafore with the star and looks at herself for a long time.
+
+"Mama," she says. "Will I still be allowed to go to school?"
+
+"Of course."
+
+"Will I still be allowed to go to the square?" The square is the little park at the end of the street, the Square de la Roquette, with a sandpit and a carousel.
+
+Rivka doesn't answer. In July, the eighth ordinance will forbid Jews from all public parks, squares, gardens, cinemas, theatres, museums, libraries, swimming pools, restaurants, cafés, and telephone boxes. In the Métro they will be permitted to ride only in the last carriage. They will be permitted to shop only between three and four in the afternoon, when the shops are empty.
+
+-> star_2
+
+== star_2
+The next morning, Josette comes down to breakfast with a yellow star made of paper pinned to her school smock. She has drawn it with a pencil and coloured it in with her yellow crayon. In the middle she has written, in capitals: JUIVE.
+
+"Sarah has one," she says. "So I have one. Then she won't be the only one in our class."
+
+Madeleine puts down the coffee pot.
+
+You have heard, everybody has heard, that in the first days some Parisians, students mostly, did the same. Wore yellow stars that said ZAZOU, or BOUDDHISTE, or with the name of their province. Wore yellow flowers, yellow handkerchiefs. Some of them were arrested by the French police, and some of them are in Drancy now, with the Jews.
+
+Josette is nine years old.
+
+* Let her wear it. -> star_let @ set:josette_star hope+2
+* Take it off her, gently. Explain why. -> star_forbid
+* Take it off her, and pin it on your own coat instead. If anyone pays for this, it will be you. -> star_emil @ set:emil_star hope+1
+
+== star_let
+You kneel down in front of her and straighten it. "It's a good star," you say. "You drew it very well."
+
+She goes to school wearing it. At ten o'clock the headmistress telephones the girls' school on the rue Keller and asks for Madame Brandt, and Madeleine walks across the arrondissement in the middle of the morning to sit in the headmistress's office with her daughter, who is not crying, who is sitting very straight on her chair with her paper star in her lap.
+
+"I'm not going to report this," the headmistress says. She is a thin grey woman with a crucifix. "I want you to understand that I could. I want you to understand that I'm not going to. But if she does it again, Madame, I won't be able to protect her."
+
+Josette doesn't wear it again. She keeps it. She keeps it in the drawer by her bed with the sock rabbit, and sometimes at night you hear her telling Sarah through the floor that she still has it.
+
+Sarah tells you, years later, that it was the most important thing that anybody did for her in the whole war.
+
+-> rumor
+
+== star_forbid
+You kneel down in front of her and take it off, very gently, unpinning it, and she starts to cry, and you try to explain. Why it is brave and why it is dangerous. Why there are police. Why there are lists. Why sometimes the bravest thing you can do is go to school and sit next to Sarah and be her friend, with no star, every day. She listens. She doesn't understand. She is nine.
+
+"But that's not fair," she says.
+
+"No," you say. "It isn't."
+
+She goes to school without it, and sits next to Sarah, and holds her hand under the desk all day. The other girls don't speak to Sarah now. Some of their mothers have told them not to. Two of them call her names at playtime, and Josette hits one of them, very hard, in the face, and is sent home with a note, and you do not punish her.
+
+-> rumor
+
+== star_emil
+You pin it on your own coat. Josette stares at you. Madeleine says "Emil," in a voice like a warning.
+
+You wear it to work. You wear it on the Métro, in the first carriage, where Jews are not allowed, and stand there with your paper star among the clerks and the workmen and the women going to market, and they look at it and look away, and one old man, a worker in a blue jacket, gets up and offers you his seat. You do not take it.
+
+At the Bastille two French policemen get on.
+
+They take you to the police station on the rue de la Roquette. They keep you there for two days in a cell with a drunk and a pickpocket. On the first night a policeman you don't know comes in and hits you three times in the face with a rolled-up newspaper with something heavy in it, without saying a word, and leaves. On the second day an inspector interviews you and asks if you are a Jew. You say no. He asks you why you were wearing a Jewish star. You say because your daughter's friend has to wear one. He writes it down. He looks at you for a long time and then says, "Get out, you idiot. Go home."
+
+? hahn_job : Later you find out that Doctor Hahn telephoned the police station when you did not come to work. He never mentions it. Nor do you.
+
+Your face is swollen for a week. Sarah sees it, and understands, and does not say anything, but the next day she leaves a drawing on your workbench: a man with a brown moustache and a yellow star, and a little girl with another star, holding hands.
+
+@ health-1 set:sarah_drawing
+-> rumor

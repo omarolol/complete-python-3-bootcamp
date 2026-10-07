@@ -1,0 +1,347 @@
+# PART SEVEN - 1943: hiding, bombs, forced labour, arrest
+
+== hiding
+## Part Seven — The Year of Hiding
+-> [sarah_safe | moise_safe] hiding_child
+-> hiding_alone
+
+== hiding_child
+The child who lives in your flat does not exist.
+
+? sarah_safe : Her name is no longer Sarah Lewin. In the street, if anyone asks, she is Suzanne, a cousin from Alsace whose mother is ill. She has a card.
+? sarah_safe & forger : You made the card yourself, by candlelight, with a stamp cut from an eraser. It is the best work you have ever done.
+? sarah_safe & !forger : Lucien got the card for her, from the same nervous man with the dyed moustache, for three hundred francs you did not have.
+? moise_safe : Moïse is three. He does not need a card. He needs nobody to remember that the Lewins had a baby.
+
+Mostly the child does not go out. You can't risk it: there are too many people in the quarter who knew the Lewins, and Madame Pujol in her lodge, and the informers that every street now has, the ones who write the letters. The Germans in Paris receive three to five thousand anonymous letters of denunciation a day, Lucien says. Most of them are signed "a good Frenchman."
+
+So the child lives inside four rooms. The windows on the street side have the curtains drawn day and night. The child walks in socks. The child learns to be silent when the bell rings, to go into the box room and get under the bed, without being told, without a sound, in less than ten seconds. You practise it, like a fire drill. Josette times it with your watch.
+
+There is no ration card for a child who does not exist. Everybody eats less.
+
+? sarah_safe : Sarah does not ask about her parents. Not once, in the whole of 1943. She does her schoolwork with Josette every evening, from Josette's books, and gets better marks than Josette, and Madeleine marks them, and pins them on the wall. She reads every book in the workshop. She reads the Heine, in German, with a dictionary, and asks you what "Ich weiß nicht, was soll es bedeuten" means, and you tell her: I don't know why I am so sad.
+
+@ food-2
+-> [sarah_safe] hiding_question
+-> sto
+
+== hiding_question
+One evening in March, Sarah looks up from her book and says, "Monsieur Emil. When the war is over, will Mama and Papa come and find me here? Or should I go and find them?"
+
+* "They'll come here. They know where you are." -> hiding_lie
+* "I don't know, Sarah. Nobody knows where they took them. But we will look, together, when it's over." -> hiding_truth
+
+== hiding_lie
+@ hope+1
+She nods, satisfied, and goes back to her book. That night you hear her through the wall, talking to Josette, telling her what she will say to her mother when she comes: that she has learned German, that she has read Victor Hugo, that she has been good.
+
+Madeleine says, "You'll have to tell her one day." You say, "When I know." She says, "You do know, Emil. We all know." You say, "I don't know. Nobody has told me. Nobody has written to us from the East. Nobody knows." You both know you are lying to yourselves too.
+
+-> sto
+
+== hiding_truth
+She looks at you for a long time with her mother's eyes. Then she says, "Yes. That's what I thought." She goes back to her book. She does not cry.
+
+That night, though, she gets into bed with Josette for the first time in months, and you hear them whispering until two in the morning.
+
+The next morning you find, on your workbench, a list in Sarah's best handwriting. "Places to look for Mama and Papa after the war." It has twelve items. The first is "Drancy." The last is "Poland (all of it)."
+
+You put the list in the Heine.
+
+-> sto
+
+== hiding_alone
+The Lewins' flat on the third floor stays empty all autumn. Then, in December, a man from a French office for "Jewish affairs" comes with a locksmith and a removal van, and they empty it: the sewing machine, the beds, the table, the samovar, Moïse's cot, Sarah's school books, everything. It goes to a warehouse in the rue du Faubourg-Saint-Martin. Some of it goes to bombed-out German families in Hamburg. Then the Prefecture lets the flat to a family from Brittany, a railwayman and his wife and three children, who are very nice, and who never ask, and who find a wooden horse behind the radiator in the spring, and give it to Josette.
+
+Josette has stopped talking to you.
+
+Not completely. She says good morning and good night. She says please and thank you. She answers questions. But she does not talk to you, the way she used to, the long stories about the sock rabbit and the girls at school. She doesn't sit on your knee. She is ten years old and she looks at you sometimes with a look you know, because you have seen it in the mirror.
+
+@ hope-2
+* Try to talk to her about it. -> alone_talk
+* Leave her be. She needs time. -> alone_leave
+
+== alone_talk
+You find her in the courtyard, sitting on the edge of the dry fountain, with the wooden horse.
+
+"Josette."
+
+She doesn't look up.
+
+"I think about them every day," you say. "Every day. I think I should have done more. I think I was afraid. I was afraid for you."
+
+She turns the horse round in her hands. Then she says, "I was afraid too, Papa. When they came. I was afraid they would take me." She looks up. "Is that bad?"
+
+"No," you say. "No. It's not bad. Being afraid isn't bad."
+
+"Then what's bad?"
+
+You don't know how to answer her. You sit with her on the fountain until it's dark, and she lets you hold her hand.
+
+@ hope+1
+-> sto
+
+== alone_leave
+You leave her be. You tell yourself it will pass. It does, a little. By the summer she will sit on your knee again sometimes. But something has gone out of her, and it does not come back, and when she is a grown woman with children of her own she will tell her husband, once, late at night, that the worst thing about the war was not the hunger or the bombs, but the morning she found out that her father was an ordinary man.
+
+-> sto
+
+== sto
+## Compulsory Labour
+In February 1943 the Vichy government introduces the Service du Travail Obligatoire. Compulsory labour service. Every young Frenchman born in 1920, 1921 or 1922 must go to work in Germany, in the factories, to replace the German workers who have gone to the Eastern Front.
+
+Jeannot is twenty-one.
+
+Jeannot, Lucien's red-haired apprentice, who used to whistle Charles Trenet so badly, comes to the workshop with his summons in his hand. He is to report to the Gare de l'Est on the fifteenth of March, with a suitcase. He is going to a factory in Hamburg. Blohm and Voss, the shipyard. You know it. You can see its cranes from the end of the street where you were born.
+
+"My mother says I have to go," he says. "She says if I don't go, they'll take my father instead, or stop her ration card. Lucien says go to the maquis. Go up into the hills, with the others. There are hundreds going. Thousands." He turns the summons over in his hands. "I don't even know how to shoot a gun. I'm a printer, Monsieur Emil."
+
+* Make him papers. A new name, an older birth date. Then the maquis. -> sto_forge @ set:jeannot_maquis
+* Hide him in the workshop until Lucien can find him a way to the maquis. -> sto_hide @ set:jeannot_maquis food-1
+* Tell him to go to Germany. It's safer than the hills. They'll feed him. He'll come back. -> sto_go @ set:jeannot_germany
+
+== sto_forge
+? forger : It takes you two nights. You make him a card in the name of Jean Thibault, born 1917, too old for the STO, and a certificate from a doctor in Belleville saying he has a heart murmur, and a ration card. You age the paper in the oven, rub dust into the edges, fold it a hundred times. When you give it to him, he holds it up to the light and laughs.
+? !forger : You have never forged anything, but you have spent your whole life with paper. You go to Lucien, and Lucien goes to the nervous man with the dyed moustache, and between you, in two nights, you make Jeannot into Jean Thibault, born 1917, too old for the STO, with a heart murmur certified by a doctor who does not exist.
+
+"It's better than real," he says.
+
+Three weeks later he is gone. To the south, to the hills of the Limousin, with a cousin of Lucien's, to a camp of young men in the woods who call themselves the maquis, after the scrubland of Corsica where bandits hide. He sends one postcard, of the cathedral at Limoges, with nothing written on it but a drawing of a tree.
+
+@ hope+1
+-> bombing
+
+== sto_hide
+For eleven days Jeannot sleeps on the floor of the workshop, behind the press, where Isaac hid. He reads Lindner's sketchbook from cover to cover. He whistles, very quietly. You tell him to stop whistling. He stops for an hour and starts again.
+
+On the twelfth day a girl from Lucien's network comes for him, a girl of about eighteen in a beret, with a bicycle, and two forged passes. They go south, to the hills of the Limousin, to a camp of young men in the woods who call themselves the maquis. He sends one postcard, of the cathedral at Limoges, with nothing written on it but a drawing of a tree.
+
+-> bombing
+
+== sto_go
+@ hope-1
+He goes. You see him off at the Gare de l'Est on the fifteenth of March, with Lucien, among two thousand other young men with suitcases, and their mothers, and the German band playing on the platform, and the Vichy officials making speeches about the "relief" of French prisoners and the "new Europe." Jeannot leans out of the window as the train pulls out and waves, and shouts something you can't hear.
+
+He writes twice. The food is bad, the work is hard, the city is beautiful, the Alster is like a sea. Then, in August, nothing.
+
+In late July 1943 the Royal Air Force and the American Air Force bomb Hamburg for a week and a half, day and night. Operation Gomorrah. On the night of the twenty-seventh, in the hot dry summer air, the fires join together into one fire, a firestorm, a hurricane of fire two kilometres high that sucks the air out of the streets and the shelters. Forty thousand people die in Hamburg that week. Most of them are civilians. Women, children, old men. Foreign workers in their barracks, who are not allowed into the shelters.
+
+You learn later that the street where you were born, and your mother's flat, and Schuster's bakery with its plum cake, are gone. The whole quarter. It burned for days.
+
+Jeannot does not come back from Hamburg. You never find out exactly how. Lucien does not speak to you for a year.
+
+@ set:jeannot_dead
+-> bombing
+
+== bombing
+## Billancourt
+On Sunday the fourth of April 1943, a spring afternoon, warm, blue sky, you take Josette across Paris to Boulogne-Billancourt to deliver a missal you have rebound for the parish priest of Notre-Dame-de-Boulogne, an old man who pays in eggs from his sister's farm. It is the first sunny Sunday of the year. The racecourse at Longchamp, across the river, is having its spring meeting. The streets are full of people in their best clothes walking down to the Seine.
+
+At a quarter past two, while you are in the priest's kitchen drinking ersatz coffee, the sirens go.
+
+Nobody moves. The sirens go every week. The bombers are always going somewhere else.
+
+Then you hear them. Not like the planes in Madeleine's story, screaming and low. These are high, very high, a deep humming throb that you feel in your teeth, that makes the cups ring on the table, and the old priest says, "Ah. The Americans," and stands up, and takes Josette's hand, and says, "Come, my child, the cellar, quickly now," and halfway down the cellar steps the first bombs hit.
+
+The target is the Renault factory, which makes lorries for the German army. The American bombers are at seven thousand metres. They miss. Most of the bombs miss. They fall on the streets around the factory, on the houses and the shops and the people walking down to the Seine. They fall on the Pont de Sèvres, where a tram is crossing. They fall on the racecourse at Longchamp, on the crowd at the races.
+
+-> bombing_2
+
+== bombing_2
+In the cellar the noise is not a noise. It is a thing that happens to your body. The floor jumps. The walls jump. Dust falls from the ceiling in sheets. The candle goes out. Josette is screaming and you can't hear her, you can only feel her mouth open against your neck. The priest is saying the Our Father very loudly, and you can't hear him either.
+
+It lasts four minutes.
+
+When you come up, the kitchen is still there, and the church is still there, but the street is not. The houses on the other side are gone. Not damaged: gone, turned into slopes of brick and plaster and beams, with smoke coming out of them, and a single wall standing with wallpaper on it, and a picture still hanging on the wallpaper, and a bath hanging out of the second floor by its pipes.
+
+People are coming out of the dust. A woman with no shoes and her dress torn off, walking very slowly down the middle of the street, holding her arms out in front of her as if she is blind. A man sitting on the pavement holding his leg, which is bent the wrong way, saying "It's nothing, it's nothing." A dog. A horse lying in the shafts of a cart with its stomach open.
+
+And from under the nearest slope of bricks, a voice. A child's voice. Very faint. "Maman. Maman."
+
+Josette is holding your coat with both hands. She is white with dust, like a ghost, like a statue.
+
+* Dig. Give Josette to the priest and dig, with your hands, until you get to the child. -> bombing_dig @ health-1
+* Take Josette home. Now. Get her away from this. -> bombing_leave @ hope-2
+
+== bombing_dig
+You give Josette to the priest. You climb on to the slope of rubble and start pulling bricks away with your hands. The bricks are hot. Other men come: a fireman with no hose, two Renault workers in their Sunday suits, a German soldier, a very young one, without his cap, who doesn't say anything, just digs beside you, throwing bricks behind him like a dog.
+
+It takes an hour and a half. Your hands bleed. The voice gets fainter. You talk to her the whole time. "We're coming. We're coming, little one. What's your name?" She says her name is Monique. She is six. She says, "My legs hurt." She says, "Where is my maman?" She says, "I'm cold." Then she stops saying anything.
+
+When you get to her she is lying under a door that has fallen across her at an angle and saved her. She is alive. Her legs are crushed. Her eyes are open. The German soldier lifts her out, very carefully, and carries her down the slope of bricks to the ambulance that has finally come, and the ambulance men put her on a stretcher. Monique. Six.
+
+Her mother is under the same house. They find her the next day.
+
+You will never know if Monique lived. You look for her in the lists in the hospital at Boulogne. There are three hundred and twenty-seven dead in Boulogne-Billancourt that afternoon, and eighty-five of them are children, and more than five hundred wounded. The list of the wounded does not have her name, or does, spelled three different ways.
+
+At the racecourse at Longchamp, eight people are killed who were watching the horses.
+
+The German soldier shakes your hand, at the end, without a word, with his own hand bleeding as much as yours. Then he puts on his cap, which somebody has found for him, and walks away.
+
+@ set:dug_monique
+-> bombing_after
+
+== bombing_leave
+You pick Josette up and run. You run with her away from the voice, down the street through the dust and the smoke and the people coming out of the ruins, past the woman with her arms out, past the horse, towards the Seine and the bridge and the Métro, and behind you the voice gets fainter, and you do not know if it is because you are running away from it or because it has stopped.
+
+You get her home. You put her in the bath. The water turns grey with dust. She does not say anything. She does not say anything for two days. On the third day she asks you, in a perfectly ordinary voice, while you're eating soup, "Papa, was there somebody under the house?"
+
+"I don't know," you say.
+
+"I heard someone."
+
+"I don't know, Josette."
+
+Three hundred and twenty-seven people are dead in Boulogne-Billancourt that afternoon. Eighty-five of them are children.
+
+-> bombing_after
+
+== bombing_after
+The newspapers under German control print photographs of the dead children in rows, laid out on the floor of a school. "Anglo-American terror." "The assassins of Billancourt." The funerals are enormous. Vichy sends ministers. The Germans send wreaths.
+
+And still, when Madeleine's sister in Normandy writes to say that the Americans are bombing the railway yards at Rouen and there are dead in the town, she ends the letter, "May God bless them. May they come soon."
+
+That is the war now. The bombs that kill your children are dropped by the people you are praying for. And you go on praying for them.
+
+-> arrest
+
+== arrest
+## Rue des Saussaies
+They come for you on the eighteenth of November 1943.
+
+? spy | forger : Somebody in Lucien's network has been arrested. A young woman, the girl in the beret who took Jeannot south. She held out for two days, which is what you're supposed to do, two days, to give everybody time. On the third day she gave them a list. Your name is on it. Not your address, she didn't know your address, but she knew "the binder in the eleventh," and the Gestapo knows how to use a telephone directory.
+? !spy & !forger & registered : There is no reason. Or none that you ever learn. Perhaps somebody in an office in Berlin has finally reached the letter B in the list of expatriated Social Democrats whose files were copied at the Prefecture in 1940. Perhaps someone wrote a letter. "A good Frenchman."
+? !spy & !forger & false_papers : It is a control in the Métro, at Châtelet. A German in a leather coat stops everybody coming through the corridor and asks for papers. You give him Émile Brun of Colmar. He reads it, then asks you a question in German about Colmar, the name of the big church, and you answer, perfectly, too perfectly, in a Hamburg accent so thick you could spread it on bread. He laughs. "Colmar," he says. "Of course."
+? !spy & !forger & no_papers : It is a control in the Métro, at Châtelet. A German in a leather coat stops everybody coming through the corridor and asks for papers. You don't have any. You have never had any. Three years you have managed without, and on the eighteenth of November 1943, in the corridor at Châtelet, it stops working.
+
+They take you to the rue des Saussaies, near the Élysée palace. Before the war it was the French Ministry of the Interior. Now it belongs to the German security police, the Sicherheitspolizei and the SD, which everybody in Paris simply calls the Gestapo. On the walls of the cells, prisoners have scratched their names and dates with their fingernails, layers of them, hundreds of them. You add yours on the second night.
+
+-> arrest_2
+
+== arrest_2
+The man who interrogates you is called Stoltenberg. Kriminalsekretär Wilhelm Stoltenberg. He is a little older than you, bald, plump, in a cardigan with leather patches on the elbows, and on his desk there is a photograph of a woman and three daughters in a garden, and a pot of geraniums. He offers you a cigarette. He speaks to you in German. He has an accent you would know anywhere.
+
+"Eimsbüttel," he says, smiling. "I'm from Eimsbüttel, Herr Brandt. Fruchtallee. You're from the Grindelallee, no? We were practically neighbours. Did you know Schuster's, on the corner of the Rutschbahn? The plum cake? Ach. All burned now. The English." He shakes his head. "All burned. My mother's house too. Well. We are both orphans of Hamburg now."
+
+He is pleasant for an hour. He wants to know about Lucien, about the network, the forged papers, the printing press, the names. He is sure you don't want to be involved in this. He is sure you are a decent man who has been led astray by Communists. He has a file in front of him, and the file has your whole life in it, from the Social Democratic Party in 1931 to the poster at Colombes to the red ink. He reads parts of it aloud, fondly, like a family album.
+
+Then he says, "Well, I can see we're going to need to do this the other way," and rings a bell, and two men come in who are not pleasant.
+
+-> arrest_3
+
+== arrest_3
+@ health-2
+You will not, afterwards, describe what happens in the room in the basement. Not to Madeleine. Not to anybody. There is a bathtub. There is cold water. There are the two men, who are French, as it happens, men from the Carlingue, the French gangsters who work for the Gestapo, who talk to each other about football while they do it. There is the moment, many times, when the water closes over your face and you know that this time you will die, and then you don't.
+
+There are your hands. They know you are a bookbinder. They know you need your hands. One of them puts your right hand flat on the edge of the bath and takes out a pair of pliers and asks Stoltenberg in French, "Which fingers, chief?" And Stoltenberg says, kindly, in German, "Herr Brandt, which fingers?"
+
+Between sessions they leave you in the cell. You lie on the floor and look at the names scratched on the wall. There is one near the floor, very small, that says: Here I was not afraid. Jacques. 1942. You don't know if it is a boast or a prayer.
+
+On the third day, Stoltenberg says, "One name, Herr Brandt. Give me one name, and you can go home to your little wife. Lucien Marchal, perhaps? We know about him already. You'd only be confirming."
+
+* Give them Lucien. They already know. You only confirm. You go home to Madeleine. -> arrest_betray @ set:betrayed_lucien hope-4
+* Give them nothing. Nothing. -> arrest_silent @ health-1 hope+2
+* [hope>=3] Give them a false lead: an address that you know has been empty since 1942, and the name of a man you know is dead. -> arrest_false_lead @ health-1
+
+== arrest_betray
+You say, "Lucien Marchal. The rue de Belleville. The print shop behind the dairy." You say it to the floor.
+
+Stoltenberg writes it down, and says, "There. That wasn't so difficult," and pats your shoulder, and goes out. They leave you in the cell for another four days. Then they release you, at dawn, on the pavement in the rue des Saussaies, without your belt or your shoelaces.
+
+You walk all the way to Belleville, holding up your trousers, with your shoes flapping. You run the last part. The print shop is sealed with a paper strip with a German eagle on it. The dairy woman, when she sees you, crosses herself and spits.
+
+They took Lucien on the second day. Two days before you gave them his name. They already had it. They already had everything. They didn't need you to confirm anything at all. They only wanted to see whether you would.
+
+You find this out from the dairy woman, who tells it to you as a kindness, to make you feel better. It does not make you feel better. It makes it worse, every day, for the rest of your life.
+
+@ set:lucien_arrested
+-> arrest_release
+
+== arrest_silent
+You give them nothing.
+
+You don't know where it comes from. Not courage. You are not a brave man; you have always known that. It is something smaller and more stubborn, a binder's thing, the thing that makes you sew every section by hand even when nobody will ever see the sewing. You will not give them Lucien. You lie on the floor of the cell and recite the names of the tools on your workbench, in order, in German and French: bone folder, Falzbein; awl, Ahle; paring knife, Schärfmesser. When they put you back in the bath you recite them in your head.
+
+They break two fingers of your right hand, the same two the SA broke in 1933. Stoltenberg seems to find this very interesting when he reads it in your file.
+
+On the sixth day, he closes the file.
+
+-> [kurt_close] arrest_kurt
+-> [hahn_job & !spy & !emil_arrested42] arrest_hahn
+-> [spy | forger] ending_deported
+-> arrest_fresnes
+
+== arrest_false_lead
+You give them an address in the rue Ramponeau, which you know has been empty since a family was taken from it in July 1942, and the name of a man called Marcel, who you know was shot at Mont-Valérien in 1942. You say Marcel did the papers. You say it slowly, after the bath, as though it is being torn out of you, which it is, very nearly.
+
+They go to the rue Ramponeau. They find nothing, of course, and a concierge who remembers a family who was taken. Stoltenberg is not pleased. You are put back in the bath. But a dead man and an empty flat are not nothing, quite, and Stoltenberg is a busy man with a great many files.
+
+On the fifth day he closes the file.
+
+@ set:false_lead
+-> [kurt_close] arrest_kurt
+-> [hahn_job & !spy & !emil_arrested42] arrest_hahn
+-> arrest_fresnes
+
+== arrest_kurt
+On the morning of the seventh day the door of the cell opens and a German lance-corporal is standing there with a stick and a typed order and a Feldwebel from the military police beside him.
+
+The order, on Wehrmacht notepaper, signed by a major of the Paris garrison, requests the transfer of the prisoner Brandt, Emil, a German national of military age, into military custody, for investigation regarding evasion of military service. It is a better crime than the one you're charged with, and it belongs to the army, and the army and the Gestapo hate each other.
+
+Stoltenberg reads it twice. "Brandt," he says, looking at Kurt. "Brother?"
+
+"Cousin," says Kurt, without blinking.
+
+Stoltenberg looks at him for a long time. Then he laughs and signs the paper. "Hamburg," he says. "We look after our own, eh?"
+
+In the street, Kurt walks you round the corner and stops, and holds you up against a wall while you vomit. "The major's a drunk," he says. "He signs whatever I put in front of him. One day he'll read something." He looks at your hand. "Emil. Your hand."
+
+"I'll learn to sew with my left."
+
+@ set:kurt_saved_emil
+-> arrest_release
+
+== arrest_hahn
+On the morning of the seventh day Doctor Hahn comes to the rue des Saussaies.
+
+You don't see it. You only see the result: the door of the cell opening, a guard saying "Raus," a corridor, a staff car in the courtyard with Hahn sitting in the back of it in his greatcoat, looking straight ahead.
+
+"I told the Kriminalsekretär," he says, as the car moves off, "that you are indispensable to an operation of the highest importance to the Reichsleiter personally. That you are restoring the library of a cathedral, for the Führer's museum in Linz. Which is very nearly true." He looks at your hand. "My God. Your hand."
+
+"It was the right one."
+
+"I'm sorry," he says, and to your surprise he is. "Herr Brandt. I'm sorry. For all of it." He turns and looks out of the window at Paris going past, the Madeleine, the Opera. "We'll lose, you know. The war. Everybody knows it now. They're in Italy. Russia's finished. And afterwards they will say I was a thief. And they'll be right."
+
+@ set:hahn_saved_emil
+-> arrest_release
+
+== arrest_fresnes
+@ health-1 hope-2
+They send you to Fresnes, the great prison south of Paris, where you share a cell built for one man with three other men, for eleven weeks. A communist railwayman from Villeneuve-Saint-Georges, a black-marketeer who weeps all the time, and a schoolboy of seventeen who was caught writing V for victory on walls. At night you can hear the prisoners in the condemned block singing the Marseillaise, and in the mornings, sometimes, the lorry going out to Mont-Valérien.
+
+Madeleine is allowed to send one parcel a fortnight. The guards eat half of it. She sends, in a cake, with the raisins, Josette's drawing, which you thought was lost in the rue des Saussaies. Somebody found it on the floor of the room with the bathtub and sent it to her, with no note. You will never know who.
+
+In February 1944, for no reason that is ever explained, you are released, with the schoolboy, on a morning of sleet, at the gates of Fresnes. You walk all the way home. It takes you six hours.
+
+-> arrest_release
+
+== arrest_release
+## Winter 1944
+@ health+2
+Madeleine opens the door. She looks at you. She looks at your hand.
+
+? !lucien_arrested & !spy & !forger : "Lucien's gone," she says, before you can ask. "South, to the hills. Somebody in his network was arrested and he got out the same night. He came here first, to warn you, but they'd already taken you." She almost smiles. "He said to tell you you're a stubborn Boche and he loves you."
+? !lucien_arrested & spy | !lucien_arrested & forger : "Lucien's gone south," she says, before you can ask. "He got out the day after they took you. The girl in the beret gave the list, but the list was old. He's in the Limousin with Jeannot's people. He said to tell you you're a stubborn Boche and he loves you."
+? lucien_arrested : She doesn't say anything about Lucien. She doesn't have to. She knows, the whole quarter knows, that Lucien Marchal was arrested at his press on the twentieth of November and taken to Fresnes and then to the transit camp at Compiègne, and from there in January, in a cattle wagon, to Germany.
+
+She puts your broken hand against her face and holds it there.
+
+The children are asleep. You go and look at them.
+
+? sarah_safe & moise_safe : Josette, ten. Sarah, twelve. Moïse, four, who has never been outside.
+? sarah_safe & !moise_safe : Josette, ten. Sarah, twelve.
+? !sarah_safe & moise_safe : Josette, ten. Moïse, four, who has never been outside.
+? !sarah_safe & !moise_safe : Josette, ten, who doesn't talk to you the way she used to.
+? pierrot : And Pierrot, seven, who still has nightmares about aeroplanes.
+
+-> south

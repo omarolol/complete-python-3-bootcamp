@@ -1,0 +1,104 @@
+# PART THREE - Escape north, autumn 1940
+
+== escape
+## Part Three — The Line
+The gap in the wire by the stream is a place where a post has rotted and the strands sag to knee height. You go through it at two in the morning on your belly with your bag pushed ahead of you, through mint and wet stones, and when you stand up on the far side there is nobody shouting, nobody shooting, nothing but frogs and the smell of the garrigue and an enormous sky full of stars.
+
+? felix_alive : Felix comes through behind you, holding the violin case above his head like a man fording a river. On the far side he stands up, looks back at the tents, and bows to them, formally, from the waist.
+
+You walk. You walk by night and sleep by day in vineyards, under the low twisted vines heavy with grapes that are nearly ripe, which you eat until your stomach aches. You walk north along the Rhône, along roads still littered with the remains of the June exodus: burned-out cars pushed into ditches, a pram with no wheels, a piano, inexplicably, in a field. You stay away from villages. You speak French with a German accent, and in the south, this summer, people are not fond of Germans or of foreigners in general.
+
+On the fifth night, starving, you come to a farm outside Pont-Saint-Esprit. There are chickens in the yard, a lit window, a dog on a chain that has not yet smelled you.
+
+* Knock on the door and ask for food. -> escape_knock
+* Steal what you can from the henhouse and keep moving. -> escape_steal
+
+== escape_knock
+The woman who opens the door is about seventy, tiny, in black, with a shotgun broken over her arm. She looks at you for a long time in the lamplight.
+
+"Boche," she says.
+
+"Yes, Madame. Of a kind. The kind that the other kind locks up."
+
+She thinks about it. Then she says, "My grandson is a prisoner in Germany. Somewhere in Pomerania. Nobody knows. He is twenty." She opens the door wider. "Let's hope somebody over there gives him soup."
+
+She gives you soup. Bread, a whole cheese, a bottle of thin red wine, and a pair of her dead husband's boots because yours are coming apart, and lets you sleep in the hayloft. At dawn she wakes you with coffee made of roasted barley and tells you the way to the main road north.
+
+"Don't come back," she says. "Next time my son-in-law might be home. He's for Pétain."
+
+@ food+3 hope+2 health+1
+-> line_approach
+
+== escape_steal
+@ food+2 hope-1
+You take four eggs and a hen. The hen makes a noise like the end of the world and the dog goes mad on its chain and a light goes on upstairs, and you run across a field of stubble with the hen under your arm, and a shotgun goes off behind you, very loud, and something hums past your head like a bee.
+
+You wring the hen's neck in a ditch a mile away, with your eyes shut. You have never killed anything bigger than a moth. You cook it over a small fire in a gully, badly, and eat it half raw.
+
+? felix_alive : Felix will not eat it at first. Then he does, all of it, crying. "My mother kept a kosher kitchen," he says. "Forgive me, Mama. You also never had a war."
+
+Afterwards you lie awake thinking about the old farmer, and how in the morning she will count her hens.
+
+-> line_approach
+
+== homeward
+## Part Three — The Line
+With a real release paper in your pocket you can buy a real train ticket, and you do, from Nîmes to Lyon and from Lyon to Moulins, sitting upright in a third-class carriage among peasants and soldiers coming home from a lost war, with your hat over your eyes. A gendarme looks at your paper at Lyon and says "Ah, from the camps," and hands it back without interest. Since June, France has had a million soldiers taken prisoner, and nobody has the energy to be interested in a German.
+
+But the paper is good only in the free zone. At Moulins the train stops. North of the town, across the river Allier, is the demarcation line, and on the bridge there is a German sentry box painted in black, red and white stripes, and German soldiers checking the passes that the German authorities issue, called Ausweis, which you do not have and could never get.
+
+-> line_approach
+
+== line_approach
+## The Demarcation Line
+The demarcation line runs across France like a scar, twelve hundred kilometres long, from the Spanish border to Switzerland, through forests and fields and the middle of villages. On one side is Vichy. On the other side is the German army. There are bridges with sentry boxes and barbed wire. Everywhere else there are patrols with dogs.
+
+? felix_alive : Here, at the edge of it, Felix stops. He sits on a milestone by the road and says that he will not cross.
+
+? felix_alive : "Marseille," he says. "There's an American there, everybody in the camp was talking about him. Fry. Varian Fry. He's getting people out. Visas to America, a ship from Lisbon. Writers, artists, musicians. I'm a musician. Some kind of musician." He looks north, towards the occupied zone, where Hitler is. "I'm not going towards them, Emil. Not even for you. You have someone up there. I have nobody up there." He takes your hand. "Go home to your girl. I'll play at her wedding."
+
+? felix_alive : You embrace on the side of the road. He walks back south with his violin case, a thin figure in a concert suit that is now mostly holes, and does not turn round, and you watch him until he is out of sight.
+
+You are near the village of Saint-Pourçain. In the café, you have been told, if you sit by the back door and buy a drink, a man called Ricou will eventually come and sit beside you. He is a passeur: a smuggler of people across the line. He charges a hundred and fifty francs, and he is said to be honest, which is to say he has not yet been caught selling his clients to the Germans.
+
+There is also the river. Some people just swim it at night.
+
+* Pay the passeur, Ricou. -> line_ricou @ money-150
+* Swim the river at night alone. -> line_swim
+
+== line_ricou
+Ricou turns out to be a boy of about seventeen with an old man's face and a stolen Wehrmacht bicycle. He takes your money and counts it and says, "Tonight. Do what I do. When I lie down, you lie down. When I run, you run. If they shoot, you lie down and stay down and don't scream, and if they catch you, you've never seen me."
+
+At midnight he leads you through a wood, across a field of sugar beet, along a drainage ditch with water up to your knees. Twice he stops and lies flat and you lie flat beside him in the mud, and the second time you hear a German patrol pass on the track ten metres away: two men talking about football in the accent of Saxony, and the jingle of a dog's lead. You can smell their cigarettes. You think, those boys could be from my street. You think, if the dog smells me I am dead.
+
+The dog does not smell you. At three in the morning Ricou points at a road and says, "That's the occupied zone. Congratulations. Welcome to Germany." He turns his bicycle round and is gone.
+
+-> paris_return
+
+== line_swim
+@ health-2
+The Allier in September is low but fast, and very cold, the colour of iron in the moonlight. You strip to your underclothes and tie your clothes and Lindner's sketchbook and the drawing inside your bag wrapped in oilcloth, and you put the bag on your head, and you go in.
+
+It is fifty metres. In the middle the current takes your legs out from under you and you go under and come up and go under, and it is like being in the hands of something huge and indifferent, and you think, absurdly, of the Heine in your workshop with its split spine, and how you never finished it.
+
+You come out half a kilometre downstream on a gravel bank, choking, without the bag.
+
+You find the bag the next morning, caught in the roots of a willow, the oilcloth intact. Everything inside is wet but not ruined: the sketchbook stained at the corners, the drawing a little blurred. PAPA DON'T BE AFRAID. The letters have run into each other.
+
+You have a fever for three days in a barn. Then you walk.
+
+-> paris_return
+
+== paris_return
+## Paris, October 1940
+You walk into Paris on the twenty-third of October 1940 through the Porte d'Italie, on foot, thirteen months after you left it.
+
+It is the silence you notice first. Paris used to be the loudest city you had ever lived in, horns, buses, the iron wheels of carts on cobbles. Now there are no cars. There is no petrol, except for the Germans, and so the boulevards are empty, wide as fields, with bicycles and a few horse-drawn cabs taken out of museums and, now and then, a German staff car going fast with a little flag on the bonnet.
+
+Then the flags. Red, with a white circle and a black hooked cross, hanging from the Senate, from the Chamber of Deputies, from the big hotels on the rue de Rivoli. On every corner there are new signposts painted in yellow, in German: Zum Gross-Paris Kommandantur. Soldatenkino. Wehrmachtsbordell. In the Luxembourg gardens a German band is playing Strauss waltzes to a crowd of soldiers and a handful of Parisians.
+
+The soldiers are everywhere. Young men in field-grey with cameras, on leave, photographing each other in front of Notre-Dame and the Eiffel Tower. They are polite. They hold doors for old women. They pay for things in the shops with occupation marks at an exchange rate that makes everything in Paris cost them almost nothing, and they are buying it all, silk stockings, perfume, butter, shoes, and sending it home to their mothers. You hear their accents everywhere, Bavarian, Swabian, Berliner, Hamburg, your own, and every time it is like a hand on the back of your neck.
+
+On the rue de la Roquette, at number 64, the door of the courtyard is open, as always. You walk in.
+
+-> exode

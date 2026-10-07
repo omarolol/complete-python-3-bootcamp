@@ -1,0 +1,147 @@
+# INTERLUDE - Madeleine's road, June 1940 (told as a flashback)
+
+== exode
+Josette sees you first, from the kitchen window on the first floor. You hear the scream before you see her, and then she is running down the stairs in her socks and across the courtyard, and she hits you so hard at knee height that you both fall over on the cobbles, and she will not let go of you, she will not let go, and you are lying on your back in the courtyard of number 64 with your daughter on top of you, laughing and crying, and above her, in the doorway at the top of the steps, with a dishcloth in her hand, is Madeleine.
+
+She is thinner. Her hair is cut short, like a boy's. There is a scar on her forehead, pink and new, that was not there before.
+
+She does not run. She walks down the steps and across the courtyard very slowly, as though she does not trust it, and kneels down on the cobbles beside you and puts her hand flat on your chest, over your heart, and holds it there.
+
+"Well," she says. "You took your time."
+
+That night, when Josette is finally asleep between you in the bed with the sock rabbit in her fist, you touch the scar on Madeleine's forehead and ask her where it came from.
+
+She is quiet for a long time. Then she tells you about June.
+
+-> exode_1
+
+== exode_1
+## Interlude — Madeleine's Road
+(You are Madeleine Brandt. It is the tenth of June 1940.)
+
+The government has left Paris. Nobody announced it. You only know because the ministries on the left bank are burning their files, and the smoke has been going up all morning, black and white, and pieces of burned paper are drifting down over the eleventh arrondissement like snow. Josette catches one on the landing. It says Ministère de la Guerre and part of a list of names.
+
+Then in the afternoon the sky turns black. Not smoke from files: something bigger. The fuel depots along the Seine have been set on fire, so the Germans can't have them, and a great cloud of oily soot rolls over the whole city, so that at three o'clock in the afternoon it is dark as evening and the pigeons go to roost and the sparrows stop singing, and when you wipe Josette's face the cloth comes away black.
+
+Everybody is leaving. The whole building, the whole street. People are tying mattresses to the roofs of cars, loading prams, wheelbarrows, bicycles, handcarts. The Germans will be in Paris in four days. Everybody remembers the stories from 1914, from Belgium: the burned villages, the raped women, the children with their hands cut off. Nobody knows which stories were true.
+
+Rivka Lewin comes down from the third floor with the baby on her hip and Sarah holding her skirt. "Isaac won't go," she says. "He says somebody has to stay for the shop. He says it's the Germans, not the Cossacks." Her face is white. "I'm going. Are you going?"
+
+Your mother lives in Gien, on the Loire, a hundred and fifty kilometres south. Everybody says the army will hold the Germans on the Loire.
+
+* Go to the Gare d'Austerlitz and try to get a train south. -> exode_train
+* Load the pram and walk south with Rivka and the children. -> exode_walk
+
+== exode_train
+The Gare d'Austerlitz is the end of the world.
+
+There are a hundred thousand people in front of the station. They fill the courtyard, the boulevard, the quays, sitting on suitcases, standing, waiting. Nobody can get in. The gates are locked and behind them soldiers with rifles. Somebody says there will be a train at six. Somebody says the last train went yesterday. A woman has fainted and is lying on her suitcase and nobody can get to her. A man on the railings above the crowd is shouting that the trains are reserved for the government, for the rich, for the Jews, for the Freemasons, depending on what kind of man he is.
+
+You stand there in the black heat for five hours with Josette on your hip and Rivka beside you with Moïse and Sarah. At eleven o'clock at night, a gate opens and the crowd surges, and you are lifted off your feet and carried twenty metres, Josette screaming, and you think: we'll die here, crushed in front of a station, and then the gate closes again.
+
+You go home. At five in the morning, you load the pram.
+
+-> exode_walk
+
+== exode_walk
+You walk out of Paris through the Porte d'Orléans on the eleventh of June with six million other people.
+
+That is the number the historians will give, later. Six to eight million people, a quarter of the population of France, on the roads in June 1940, fleeing from Belgium, from the north, from Paris, south, towards the Loire, towards anywhere. You will not know the number. You will only know the road: the N7 south of Paris, solid with people from one side to the other, moving at the speed of an old woman with a stick.
+
+Every kind of vehicle. Lorries from the Paris bus company. Hearses. Ice-cream carts. Bakers' vans. Taxis with their meters still running. Farm carts pulled by enormous Belgian horses, with grandmothers sitting on top of the furniture. Cars with mattresses tied on top, because people say a mattress will stop a bullet from an aeroplane. Cars out of petrol, pushed by the family, then pushed into the ditch. Soldiers without officers, without rifles, walking south with everybody else, faces grey, not looking at anyone.
+
+You push the pram, which contains Moïse, two suitcases, a bag of bread and a tin of sardines. Rivka carries Josette when she gets tired, and you carry Sarah. In the first day you go twenty kilometres. In the second day, twelve.
+
+The sun is very hot. There is no water. The farmers along the road sell it, at a franc a glass, and then two francs, and then they stop selling it and lock their wells.
+
+-> exode_strafe
+
+== exode_strafe
+On the third day, south of Étampes, the planes come.
+
+There are three of them, coming up the road from the north, very low, and very loud, and you see them because the people a kilometre ahead of you begin to run into the fields on both sides of the road like a wave breaking. You have time to think: they're not ours. And then the sound arrives: the scream of the engines and then the guns, a sound like canvas being torn very fast, very loud.
+
+You throw yourself into the ditch with Josette under you. You see Rivka falling with Moïse. You see Sarah standing in the road, alone, frozen, with her mouth open, and the bullets coming up the road towards her in two lines of little spurts of dust, and a man in a straw hat throws himself at her and knocks her into the ditch on the other side of the road, and the lines of dust go over the place where she was.
+
+The planes go up the road and turn and come back.
+
+Then they are gone, and in the silence afterwards a horse is screaming, and somebody is calling a name over and over.
+
+-> exode_after
+
+== exode_after
+@ hope-2
+Sarah is alive, under the man in the straw hat. Rivka is alive, with Moïse, in the ditch. Josette is alive, under you. You have a cut on your forehead where your head hit a stone, and you don't feel it for an hour.
+
+Twelve people are dead in your stretch of road. You count them later because you cannot stop yourself. A soldier. An old couple in a cart, with their horse. Two boys on bicycles. A girl of about fifteen who is lying on her face in the road holding a canary in a cage, and the canary still alive.
+
+And a young woman in a yellow dress, lying on her back in the middle of the road, with her arms out. Beside her is a little boy of about four, sitting in the dust in short trousers, pulling at her sleeve. "Maman. Maman. Get up, Maman." He is not crying. He is cross with her. "Maman, get up, we have to go."
+
+Nobody knows her. People go past. They have their own dead and their own children and the Germans are coming. The little boy looks up at you.
+
+"Are you a maman?" he says. "Can you make her get up?"
+
+He says his name is Pierrot. He doesn't know his surname. He knows that he lives "in the house with the blue door" in a town that might be Lille or might be somewhere else.
+
+* Take Pierrot with you. -> exode_pierrot @ set:pierrot food-1
+* Take him to the Red Cross post in the next village, where there are nuns who are collecting lost children. -> exode_nuns
+
+== exode_pierrot
+@ hope+1
+You pick him up. He lets you. He puts his arms round your neck and says, very reasonably, "When Maman gets up, she'll come and find us," and you say yes, and Rivka looks at you over his head and says nothing.
+
+Before you go, you take the young woman's handbag from beside her. Inside are a few francs, a lipstick, a ration card in the name of Lucie Maréchal, born 1916, and a photograph of her laughing on a beach with a man in a bathing costume and a baby. You put the bag in the pram.
+
+You will look for Pierrot's family for two years through the Red Cross, through the mairie in Lille, through the newspapers. You will not find them. Pierrot Maréchal will grow up in your flat on the rue de la Roquette, in the little room that used to be the box room, and he will have nightmares about aeroplanes until he is twelve years old.
+
+-> exode_loire
+
+== exode_nuns
+The nuns at the next village have turned the school into a shelter. There are forty lost children there already, sitting on the floor, eating bread and jam, and a nun in a white wimple writing names on cards and pinning them to their jerseys. She writes PIERROT, LILLE?, YELLOW DRESS, ÉTAMPES ROAD, 13 JUNE, and pins it on him, and he does not cry, and he does not let go of your hand until she prises his fingers off.
+
+"We'll find his people," the nun says. "The Red Cross has lists."
+
+In the years afterwards, the Red Cross will put tens of thousands of lost children back with their families. You will never know whether Pierrot was one of them.
+
+You still dream about him. In the dream he says, Are you a maman? And you say, No.
+
+-> exode_loire
+
+== exode_loire
+On the sixteenth of June you reach the Loire at Gien.
+
+Gien is burning. The bridge over the river has been bombed and the old town on the north bank, the beautiful old town with its castle and its earthenware factory, is on fire, house after house, and the refugees are crossing the river over what is left of the bridge, single file, under the smoke. You get across. You do not remember how. You find your mother's house on the south bank, in the rue des Bateliers, and it is standing, and your mother is in the doorway in her apron, with a broom, sweeping glass from the step, and she drops the broom.
+
+Two days later the Germans arrive.
+
+They come down the road in motorcycles with sidecars, and then lorries, and then horse-drawn wagons, lots of horses, which surprises everybody. They are very young and very dusty and very polite. One of them, a boy with spectacles, gives Josette a bar of chocolate. Josette looks at you before she takes it. You nod. You do not know what else to do. The boy with spectacles says, in careful French, "War finish. Soon go home. All go home," and smiles at you, and you see that he means it.
+
+On the seventeenth, on your mother's radio, Marshal Pétain says that it is with a heavy heart that he tells the French people that they must stop fighting.
+
+-> exode_home
+
+== exode_home
+In July you walk home, with everybody else, in the other direction. The Germans have put up signs in French on the roads telling refugees to return to their homes. There are German field kitchens at the crossroads, handing out soup. There are German soldiers directing traffic. There are photographers from the German propaganda companies taking pictures of German soldiers handing out soup to French children.
+
+In Paris, the building is still standing. The windows are still there. Isaac Lewin is standing in the courtyard when you come in, in his shirtsleeves, with a tape measure round his neck, as if he had never moved, and when he sees Rivka and the children he sits down on the edge of the fountain and puts his face in his hands, and you take the children upstairs so that they don't have to see their father cry.
+
+? pujol_hostile : Madame Pujol stayed through everything, in her lodge. She watches you come in with your pram and says, "So, you ran. Like the rest of them. While your Boche husband's friends were marching up the Champs-Élysées." You do not answer her.
+? !pujol_hostile : Madame Pujol stayed through everything, in her lodge. When she sees you come in, she comes out with a jug of milk. Real milk, from God knows where. "For the children," she says gruffly, and goes back inside.
+
+-> reunion
+
+== reunion
+(You are Emil Brandt again. It is October 1940.)
+
+"And then," Madeleine says, in the dark, "I waited. For you. For a letter. For anything. I went to the Prefecture every week. They said you were in the free zone and nothing could be done. I went to the Red Cross. They had you on a list for Les Milles, and then on a list for Bayonne, and then nowhere at all. I thought you were dead, Emil. I thought you were dead and that nobody would ever tell me."
+
+? pierrot : On the other side of the thin wall, in the box room, a small boy cries out in his sleep, and Madeleine gets up without thinking, and goes to him. You hear her murmuring. When she comes back she says, "That's Pierrot. He's ours now. I hope you don't mind. I couldn't ask you."
+
+You hold her. You tell her about the train, the dust, the dead. You tell her about Lindner. You show her the sketchbook, by the light of a match, page after page.
+
+? felix_alive : You tell her about Felix, walking south towards Marseille with his violin.
+? felix_dead : You tell her about Felix, and about your straw by the window, and she listens without saying anything and holds your hand harder.
+
+Outside, at midnight, a German patrol goes by in the rue de la Roquette, boots on cobbles, someone laughing. Curfew. In the occupied zone, the clocks have been set forward to Berlin time.
+
+-> occupation
