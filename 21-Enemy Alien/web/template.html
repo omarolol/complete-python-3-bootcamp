@@ -1,0 +1,365 @@
+<title>Enemy Alien</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;1,6..72,400&display=swap">
+<style>
+/* Layout: one narrow reading column, like a page of a rebound book. Chapter
+   headings are rubber stamps (Emil cuts them by hand); the stats are a ration
+   card whose coupons are torn off as the war goes on. */
+:root {
+  --paper: #e9ecef;        /* cool grey paper, the colour of an identity card */
+  --sheet: #f6f7f8;
+  --ink: #1b2230;
+  --ink-soft: #4a5468;
+  --rule: #c5cbd5;
+  --blackout: #2d4682;     /* the blue paper over the windows */
+  --stamp: #a3352b;        /* Prefecture red ink */
+  --coupon: #fbfaf5;
+  --font-body: "Newsreader", "Iowan Old Style", Georgia, serif;
+  --font-doc: "Courier Prime", "Courier New", ui-monospace, monospace;
+  --step-0: 1.125rem;
+  --step--1: 0.875rem;
+  --step--2: 0.75rem;
+  --step-1: 1.4rem;
+  --step-2: 2.4rem;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --paper: #0f1420; --sheet: #161d2c; --ink: #dde1e9; --ink-soft: #9aa4b8;
+    --rule: #2c3549; --blackout: #91a8de; --stamp: #e07a6c; --coupon: #1d2536;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --paper: #0f1420; --sheet: #161d2c; --ink: #dde1e9; --ink-soft: #9aa4b8;
+  --rule: #2c3549; --blackout: #91a8de; --stamp: #e07a6c; --coupon: #1d2536;
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: var(--step-0);
+  line-height: 1.62;
+  padding-inline: 16px;
+  padding-block: 0 4rem;
+  -webkit-text-size-adjust: 100%;
+  overflow-x: clip;
+}
+main { max-width: 36rem; margin: 0 auto; display: grid; gap: 1.5rem; }
+
+.topbar {
+  position: sticky; top: env(safe-area-inset-top, 0px); z-index: 2;
+  background: var(--paper);
+  border-bottom: 1px solid var(--rule);
+  padding-block: 0.6rem;
+  display: flex; align-items: center; justify-content: space-between; gap: 1rem;
+}
+.topbar .name { font-family: var(--font-doc); font-weight: 700; letter-spacing: 0.18em; font-size: var(--step--1); text-transform: uppercase; white-space: nowrap; }
+.topbar .where { font-family: var(--font-doc); font-size: var(--step--2); color: var(--ink-soft); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; min-width: 0; }
+.linkbtn {
+  font-family: var(--font-doc); font-size: var(--step--2); letter-spacing: 0.08em; text-transform: uppercase;
+  background: none; border: 1px solid var(--rule); color: var(--ink-soft);
+  padding: 0.35rem 0.6rem; cursor: pointer; flex: none;
+}
+.linkbtn:hover { color: var(--ink); border-color: var(--ink-soft); }
+
+/* Title screen */
+.cover { padding-block: 3rem 1rem; display: grid; gap: 1.25rem; }
+.cover h1 {
+  font-family: var(--font-doc); font-weight: 700; font-size: clamp(2.2rem, 11vw, 3.6rem);
+  letter-spacing: 0.06em; line-height: 1; margin: 0; text-transform: uppercase;
+}
+.cover .sub { font-style: italic; color: var(--ink-soft); margin: 0; }
+.card-id {
+  background: var(--sheet); border: 1px solid var(--rule); padding: 1rem 1.1rem;
+  font-family: var(--font-doc); font-size: var(--step--1); line-height: 1.5; display: grid; gap: 0.2rem;
+}
+.card-id .row { display: flex; gap: 0.75rem; }
+.card-id .k { color: var(--ink-soft); width: 7.5rem; flex: none; }
+.card-id .redink { color: var(--stamp); font-weight: 700; letter-spacing: 0.1em; }
+.note { font-size: var(--step--1); color: var(--ink-soft); border-left: 3px solid var(--stamp); padding-left: 0.9rem; margin: 0; }
+
+/* Story text */
+.stamp {
+  justify-self: start;
+  font-family: var(--font-doc); font-weight: 700; text-transform: uppercase; letter-spacing: 0.14em;
+  font-size: var(--step--1); line-height: 1.3; color: var(--stamp);
+  border: 3px double var(--stamp); padding: 0.5rem 0.8rem; transform: rotate(-1.6deg);
+  max-width: calc(100% - 1.5rem); text-wrap: balance; margin-top: 1rem;
+}
+.stamp.part { font-size: var(--step-1); border-width: 4px; }
+@media (prefers-reduced-motion: no-preference) {
+  .stamp { animation: thump 0.35s ease-out both; }
+  @keyframes thump { from { transform: rotate(-1.6deg) scale(1.15); opacity: 0.4; } to { transform: rotate(-1.6deg) scale(1); opacity: 1; } }
+}
+.prose { display: grid; gap: 1rem; min-width: 0; }
+.prose p { margin: 0; hyphens: auto; }
+.prose p.aside { font-style: italic; color: var(--ink-soft); font-size: var(--step--1); }
+.prose p.shout { font-family: var(--font-doc); font-weight: 700; letter-spacing: 0.06em; }
+
+/* Ration card */
+.ration {
+  background: var(--sheet); border: 1px solid var(--rule); padding: 0.8rem 0.9rem 0.9rem;
+  display: grid; gap: 0.45rem; font-family: var(--font-doc); font-size: var(--step--2);
+}
+.ration .head { display: flex; justify-content: space-between; gap: 1rem; color: var(--ink-soft); letter-spacing: 0.12em; text-transform: uppercase; }
+.ration .francs { white-space: nowrap; font-variant-numeric: tabular-nums; color: var(--ink); font-weight: 700; letter-spacing: 0.04em; }
+.stat { display: grid; grid-template-columns: 4.2rem 1fr; align-items: center; gap: 0.6rem; }
+.stat .lbl { text-transform: uppercase; letter-spacing: 0.1em; color: var(--ink-soft); }
+.coupons { display: grid; grid-template-columns: repeat(10, 1fr); gap: 3px; }
+.coupons span { height: 1.05rem; border: 1px dashed var(--ink-soft); background: var(--coupon); }
+.coupons span.on { background: var(--blackout); border-style: solid; border-color: var(--blackout); }
+.coupons.low span.on { background: var(--stamp); border-color: var(--stamp); }
+
+/* Choices */
+.choices { display: grid; gap: 0.6rem; }
+.choice {
+  font: inherit; font-size: var(--step-0); line-height: 1.45; text-align: left; color: var(--ink);
+  background: var(--sheet); border: 1px solid var(--rule); border-left: 4px solid var(--blackout);
+  padding: 0.85rem 1rem; cursor: pointer; width: 100%;
+}
+.choice:hover { border-color: var(--blackout); }
+.choice:focus-visible, .linkbtn:focus-visible, .primary:focus-visible { outline: 3px solid var(--stamp); outline-offset: 2px; }
+.primary {
+  font-family: var(--font-doc); font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; font-size: var(--step--1);
+  background: var(--blackout); color: var(--sheet); border: none; padding: 0.9rem 1.2rem; cursor: pointer; justify-self: start;
+}
+.primary.ghost { background: none; color: var(--blackout); border: 1px solid var(--blackout); }
+.btnrow { display: flex; flex-wrap: wrap; gap: 0.75rem; }
+
+.theend { font-family: var(--font-doc); font-weight: 700; letter-spacing: 0.4em; text-align: center; border-block: 1px solid var(--rule); padding-block: 0.8rem; }
+.afterword { font-size: var(--step--1); color: var(--ink-soft); display: grid; gap: 0.8rem; }
+.afterword p { margin: 0; }
+.confirm { background: var(--sheet); border: 1px solid var(--stamp); padding: 1rem; display: grid; gap: 0.8rem; font-size: var(--step--1); }
+</style>
+
+<main id="app" aria-live="polite"></main>
+
+<script type="application/json" id="story">/*STORY_JSON*/</script>
+<script>
+(function () {
+  "use strict";
+  const DATA = JSON.parse(document.getElementById("story").textContent);
+  const S = DATA.scenes;
+  const START = DATA.start, DEATH = DATA.death, AFTER = DATA.afterword;
+  const MAX = DATA.max;
+  const KEY = "enemy-alien-save-v1";
+  const app = document.getElementById("app");
+
+  let state = null;
+  let pendingNotes = [];
+  let confirmRestart = false;
+
+  function fresh() {
+    return { scene: START, stats: Object.assign({}, DATA.stats), flags: [], entered: false, chapter: null };
+  }
+  function store(s) { try { if (s) localStorage.setItem(KEY, JSON.stringify(s)); else localStorage.removeItem(KEY); } catch (e) {} }
+  function loadSaved() {
+    try { const s = JSON.parse(localStorage.getItem(KEY) || "null"); return s && S[s.scene] ? s : null; } catch (e) { return null; }
+  }
+
+  function check(cond) {
+    if (!cond) return true;
+    return cond.some(group => group.every(t => {
+      if (t[0] === "flag") return state.flags.includes(t[1]) !== t[2];
+      const v = state.stats[t[1]], n = t[3];
+      return { ">=": v >= n, "<=": v <= n, ">": v > n, "<": v < n, "=": v === n }[t[2]];
+    }));
+  }
+  function apply(effects) {
+    for (const e of effects) {
+      if (e[0] === "set") { if (!state.flags.includes(e[1])) state.flags.push(e[1]); }
+      else if (e[0] === "unset") state.flags = state.flags.filter(f => f !== e[1]);
+      else {
+        let v = state.stats[e[1]];
+        v = e[2] === "+" ? v + e[3] : e[2] === "-" ? v - e[3] : e[3];
+        state.stats[e[1]] = Math.max(0, Math.min(MAX[e[1]], v));
+      }
+    }
+  }
+  function enter(scene) {
+    const notes = [];
+    state.entered = true;
+    if (scene.chapter) {
+      state.chapter = scene.chapter;
+      if (scene.chapter.startsWith("Part")) {
+        const st = state.stats;
+        if (st.food > 0) {
+          st.food -= 1;
+          if (st.food >= 4 && st.health < 10) { st.health += 1; notes.push("You have eaten well enough to mend a little."); }
+        } else {
+          st.health = Math.max(0, st.health - 2);
+          notes.push("Months of hunger have worn you down.");
+        }
+      }
+    }
+    apply(scene.effects);
+    return notes;
+  }
+
+  function el(tag, cls, text) {
+    const n = document.createElement(tag);
+    if (cls) n.className = cls;
+    if (text != null) n.textContent = text;
+    return n;
+  }
+
+  function topbar(where) {
+    const bar = el("div", "topbar");
+    bar.appendChild(el("span", "name", "Enemy Alien"));
+    const w = el("span", "where", where || "");
+    bar.appendChild(w);
+    if (state) {
+      const b = el("button", "linkbtn", "Restart");
+      b.type = "button"; b.id = "restart";
+      b.onclick = () => { confirmRestart = true; render(); };
+      bar.appendChild(b);
+    }
+    return bar;
+  }
+
+  function rationCard() {
+    const card = el("section", "ration");
+    card.setAttribute("aria-label", "Your condition");
+    const head = el("div", "head");
+    head.appendChild(el("span", null, "Carte d'alimentation"));
+    head.appendChild(el("span", "francs", state.stats.money + " F"));
+    card.appendChild(head);
+    for (const [key, label] of [["health", "Health"], ["food", "Food"], ["hope", "Hope"]]) {
+      const v = state.stats[key];
+      const row = el("div", "stat");
+      row.appendChild(el("span", "lbl", label));
+      const c = el("div", "coupons" + (v <= 2 ? " low" : ""));
+      c.setAttribute("role", "img");
+      c.setAttribute("aria-label", label + " " + v + " of 10");
+      for (let i = 0; i < 10; i++) c.appendChild(el("span", i < v ? "on" : ""));
+      row.appendChild(c);
+      card.appendChild(row);
+    }
+    return card;
+  }
+
+  function cover() {
+    app.replaceChildren();
+    app.appendChild(topbar("Paris, 1939–1945"));
+    const c = el("section", "cover");
+    c.appendChild(el("h1", null, "Enemy Alien"));
+    c.appendChild(el("p", "sub", "An interactive story of a German civilian in Paris during the Second World War."));
+    const id = el("div", "card-id");
+    for (const [k, v, red] of [
+      ["Nom", "BRANDT, Emil"], ["Né le", "1905, Hambourg"], ["Profession", "Relieur (bookbinder)"],
+      ["Nationalité", "Apatride (stateless)"], ["Domicile", "64 rue de la Roquette, Paris XIe"], ["Observations", "SUSPECT", true]]) {
+      const r = el("div", "row");
+      r.appendChild(el("span", "k", k));
+      r.appendChild(el("span", red ? "redink" : null, v));
+      id.appendChild(r);
+    }
+    c.appendChild(id);
+    c.appendChild(el("p", "note", DATA.note));
+    const row = el("div", "btnrow");
+    const saved = loadSaved();
+    if (saved) {
+      const cont = el("button", "primary", "Continue");
+      cont.type = "button"; cont.id = "continue";
+      cont.onclick = () => { state = saved; pendingNotes = []; render(); };
+      row.appendChild(cont);
+    }
+    const begin = el("button", saved ? "primary ghost" : "primary", saved ? "New game" : "Begin");
+    begin.type = "button"; begin.id = "begin";
+    begin.onclick = () => { state = fresh(); render(); };
+    row.appendChild(begin);
+    c.appendChild(row);
+    c.appendChild(el("p", "aside", "About 44,000 words. Your progress is saved in this browser, and you can leave and come back at any time."));
+    app.appendChild(c);
+  }
+
+  function go(target, effects) {
+    if (effects) apply(effects);
+    state.scene = target;
+    state.entered = false;
+    render();
+    window.scrollTo(0, 0);
+  }
+
+  function render() {
+    if (!state) return cover();
+    let scene = S[state.scene];
+    if (!state.entered) { pendingNotes = enter(scene); if (!scene.end) store(state); }
+    const dying = state.stats.health <= 0 && !scene.end && state.scene !== DEATH;
+
+    app.replaceChildren();
+    app.appendChild(topbar(state.chapter || ""));
+
+    if (confirmRestart) {
+      const box = el("div", "confirm");
+      box.appendChild(el("p", null, "Start again from September 1939? Your current game will be lost."));
+      const row = el("div", "btnrow");
+      const yes = el("button", "primary", "Start over"); yes.type = "button";
+      yes.onclick = () => { confirmRestart = false; store(null); state = fresh(); render(); window.scrollTo(0, 0); };
+      const no = el("button", "primary ghost", "Keep playing"); no.type = "button";
+      no.onclick = () => { confirmRestart = false; render(); };
+      row.append(yes, no); box.appendChild(row);
+      app.appendChild(box);
+    }
+
+    if (scene.chapter) app.appendChild(el("h2", "stamp" + (scene.chapter.startsWith("Part") || scene.chapter.startsWith("Epilogue") || scene.chapter.startsWith("Ending") || scene.chapter.startsWith("Interlude") ? " part" : ""), scene.chapter));
+
+    const prose = el("div", "prose");
+    for (const n of pendingNotes) prose.appendChild(el("p", "aside", n));
+    for (const [cond, text] of scene.paragraphs) {
+      if (!check(cond)) continue;
+      const shout = /^[A-Z][A-Z .,'’!-]+$/.test(text) && text.length < 60;
+      const aside = /^\(.*\)$/.test(text);
+      prose.appendChild(el("p", shout ? "shout" : aside ? "aside" : null, text));
+    }
+    app.appendChild(prose);
+
+    if (scene.end) {
+      store(null);
+      app.appendChild(el("div", "theend", "THE END"));
+      const aw = el("div", "afterword");
+      for (const [, text] of (S[AFTER] ? S[AFTER].paragraphs : [])) aw.appendChild(el("p", null, text));
+      app.appendChild(aw);
+      const again = el("button", "primary", "Play again"); again.type = "button"; again.id = "again";
+      again.onclick = () => { state = fresh(); render(); window.scrollTo(0, 0); };
+      app.appendChild(again);
+      return;
+    }
+
+    app.appendChild(rationCard());
+    const box = el("div", "choices");
+    if (dying) {
+      const b = el("button", "primary", "Continue"); b.type = "button"; b.id = "next";
+      b.onclick = () => go(DEATH);
+      box.appendChild(b);
+    } else {
+      const gotos = scene.gotos.filter(g => check(g[0]));
+      if (gotos.length) {
+        const b = el("button", "primary", "Continue"); b.type = "button"; b.id = "next";
+        b.onclick = () => go(gotos[0][1]);
+        box.appendChild(b);
+      } else {
+        scene.choices.filter(c => check(c[0])).forEach((c, i) => {
+          const b = el("button", "choice", c[1]); b.type = "button"; b.id = "choice-" + i;
+          b.onclick = () => go(c[2], c[3]);
+          box.appendChild(b);
+        });
+      }
+    }
+    app.appendChild(box);
+  }
+
+  function start(data) {
+    if (data && data.state && S[data.state.scene]) state = data.state;
+    render();
+  }
+  if (window.claude && window.claude.hot && window.claude.hot.snapshot) {
+    try { window.claude.hot.snapshot(() => ({ state: state })); } catch (e) {}
+  }
+  const hot = window.claude && window.claude.hot;
+  if (hot && hot.ready) hot.ready(start); else start(hot && hot.data ? hot.data : {});
+})();
+</script>

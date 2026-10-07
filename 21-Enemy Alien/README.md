@@ -22,7 +22,17 @@ and what you did, plus five early endings.
 > of Jewish families and the massacre of civilians. The characters are fictional but the
 > events are historical.
 
-## Play
+## Play on a phone or in a browser
+
+Open `web/enemy_alien.html` in any browser. It's a single self-contained page with the
+whole story, and it saves your progress in the browser. If you edit the story files,
+rebuild it with:
+
+```bash
+python build_web.py
+```
+
+## Play in a terminal
 
 Only the Python standard library is needed (Python 3.8+).
 
